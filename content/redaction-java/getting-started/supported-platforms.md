@@ -10,7 +10,7 @@ hideChildren: False
 ---
 ## Overview
 
-GroupDocs.Redaction for Java does not require any external software or third party tool to be installed. Just follow one of the way as described in [Installation](Supported%2BPlatforms.html) section.  
+GroupDocs.Redaction for Java does not require any external software or third party tool to be installed. Just follow one of the way as described in [Installation]({{< ref "redaction-java/getting-started/supported-platforms.md" >}}) section.
 
 ## Supported Operating Systems
 

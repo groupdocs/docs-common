@@ -19,7 +19,10 @@ There are the following improvements in this release:Extend SaveOptions to con
 
 ## Full List of Issues Covering all Changes in this Release
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd"><p>Key</p></td><td class="confluenceTd"><p>Summary</p></td><td class="confluenceTd"><p>Category</p></td></tr><tr><td class="confluenceTd"><p>REDACTIONNET-166</p></td><td class="confluenceTd"><p>Extend SaveOptions to control conversion to PDF</p></td><td class="confluenceTd"><p>Improvement</p></td></tr><tr><td colspan="1" class="confluenceTd">REDACTIONNET-175</td><td colspan="1" class="confluenceTd">Implement method to retrieve credit consumption info</td><td colspan="1" class="confluenceTd">Improvement</td></tr></tbody></table>
+| Key | Summary | Category |
+| --- | --- | --- |
+| REDACTIONNET-166 | Extend SaveOptions to control conversion to PDF | Improvement |
+| REDACTIONNET-175 | Implement method to retrieve credit consumption info | Improvement |
 
 ## Public API and Backward Incompatible Changes
 

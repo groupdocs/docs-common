@@ -8,9 +8,9 @@ keywords:
 productName: GroupDocs.Redaction for .NET
 hideChildren: False
 ---
-GroupDocs.Redaction supports an effective set of document redaction features. It allows to apply redactions for [text](Redaction%2Bbasics.html), [metadata](Redaction%2Bbasics.html), [annotations](Redaction%2Bbasics.html), [images](Redaction%2Bbasics.html).
+GroupDocs.Redaction supports an effective set of document redaction features. It allows to apply redactions for [text](Text%2Bredactions.html), [metadata](Metadata%2Bredactions.html), [annotations](Annotation%2Bredactions.html), [images]({{< ref "redaction-net/developer-guide/basic-usage/image-redactions.md" >}}).
 
-Wide range document formats is supported: PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX and others. See full list of supported formats at [supported document formats](Redaction%2Bbasics.html) article
+Wide range document formats is supported: PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX and others. See full list of supported formats at [supported document formats]({{< ref "redaction-net/getting-started/supported-document-formats.md" >}}) article
 
 ## Redaction types
 
@@ -18,10 +18,10 @@ GroupDocs.Redaction comes with the following redaction types:
 
 | Type | Description | Classes |
 | --- | --- | --- |
-| [Text](Redaction%2Bbasics.html) | Replaces or hides with color block a portion of text within document body | [ExactPhraseRedaction](https://apireference.groupdocs.com/net/redaction/groupdocs.redaction.redactions/exactphraseredaction), [RegexRedaction](https://apireference.groupdocs.com/net/redaction/groupdocs.redaction.redactions/regexredaction) |
-| [Metadata](Redaction%2Bbasics.html) | Replace metadata values with empty ones or redacts metadata texts | [EraseMetadataRedaction](https://apireference.groupdocs.com/net/redaction/groupdocs.redaction.redactions/erasemetadataredaction), [MetadataSearchRedaction](https://apireference.groupdocs.com/net/redaction/groupdocs.redaction.redactions/metadatasearchredaction) |
-| [Annotations](Redaction%2Bbasics.html) | Deletes annotations from document or redacts its texts | [DeleteAnnotationRedaction](https://apireference.groupdocs.com/net/redaction/groupdocs.redaction.redactions/deleteannotationredaction), [AnnotationRedaction](https://apireference.groupdocs.com/net/redaction/groupdocs.redaction.redactions/annotationredaction) |
-| [Images](Redaction%2Bbasics.html) | Replaces specific area of an image with a colored box | [ImageAreaRedaction](https://apireference.groupdocs.com/net/redaction/groupdocs.redaction.redactions/imagearearedaction) |
+| [Text]({{< ref "redaction-net/developer-guide/basic-usage/redaction-basics.md" >}}) | Replaces or hides with color block a portion of text within document body | [ExactPhraseRedaction](https://apireference.groupdocs.com/net/redaction/groupdocs.redaction.redactions/exactphraseredaction), [RegexRedaction](https://apireference.groupdocs.com/net/redaction/groupdocs.redaction.redactions/regexredaction) |
+| [Metadata]({{< ref "redaction-net/developer-guide/basic-usage/redaction-basics.md" >}}) | Replace metadata values with empty ones or redacts metadata texts | [EraseMetadataRedaction](https://apireference.groupdocs.com/net/redaction/groupdocs.redaction.redactions/erasemetadataredaction), [MetadataSearchRedaction](https://apireference.groupdocs.com/net/redaction/groupdocs.redaction.redactions/metadatasearchredaction) |
+| [Annotations]({{< ref "redaction-net/developer-guide/basic-usage/redaction-basics.md" >}}) | Deletes annotations from document or redacts its texts | [DeleteAnnotationRedaction](https://apireference.groupdocs.com/net/redaction/groupdocs.redaction.redactions/deleteannotationredaction), [AnnotationRedaction](https://apireference.groupdocs.com/net/redaction/groupdocs.redaction.redactions/annotationredaction) |
+| [Images]({{< ref "redaction-net/developer-guide/basic-usage/redaction-basics.md" >}}) | Replaces specific area of an image with a colored box | [ImageAreaRedaction](https://apireference.groupdocs.com/net/redaction/groupdocs.redaction.redactions/imagearearedaction) |
 
 ## Apply redaction
 
@@ -73,7 +73,7 @@ if (summary.Status != RedactionStatus.Applied)
 
 ## Apply multiple redactions
 
-You can apply as much redactions as you need in a single call to [Redactor.Apply](https://apireference.groupdocs.com/net/redaction/groupdocs.redaction.redactor/apply/methods/1) method, since its overload accepts an array of redactions and redaction policy. In this case, redactions will be applied in the same order as they appear in the array. As an alternative to specifying redaction sets in your code, you can create an XML file with redaction policy, as described [here](Redaction%2Bbasics.html).
+You can apply as much redactions as you need in a single call to [Redactor.Apply](https://apireference.groupdocs.com/net/redaction/groupdocs.redaction.redactor/apply/methods/1) method, since its overload accepts an array of redactions and redaction policy. In this case, redactions will be applied in the same order as they appear in the array. As an alternative to specifying redaction sets in your code, you can create an XML file with redaction policy, as described [here]({{< ref "redaction-net/developer-guide/basic-usage/redaction-basics.md" >}}).
 
 **C#**
 
@@ -104,7 +104,7 @@ using (Redactor redactor = new Redactor("sample.docx"))
 
 ### Advanced usage topics
 
-To learn more about document redaction features, please refer to the [advanced usage section](Redaction%2Bbasics.html).
+To learn more about document redaction features, please refer to the [advanced usage section]({{< ref "redaction-net/developer-guide/advanced-usage/_index.md" >}}).
 
 ### GitHub examples
 

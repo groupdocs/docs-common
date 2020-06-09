@@ -18,7 +18,9 @@ There are the following improvements in this release:
 
 ## Full List of Issues Covering all Changes in this Release
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd"><p>Key</p></td><td class="confluenceTd"><p>Summary</p></td><td class="confluenceTd"><p>Category</p></td></tr><tr><td class="confluenceTd"><p>REDACTIONJAVA-61</p></td><td class="confluenceTd"><p>Implement standard logging interface</p></td><td class="confluenceTd"><p>Improvement</p></td></tr></tbody></table>
+| Key | Summary | Category |
+| --- | --- | --- |
+| REDACTIONJAVA-61 | Implement standard logging interface | Improvement |
 
 # Public API and Backward Incompatible Changes
 

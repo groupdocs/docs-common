@@ -8,7 +8,7 @@ keywords:
 productName: GroupDocs.Redaction for .NET
 hideChildren: False
 ---
-GroupDocs.Redaction allows to remove sensitive or private data from your XLS, XLSX, ODS spreadsheet document formats and others. See full list at [supported document formats](https://wiki.lisbon.dynabic.com/display/redaction/Supported+Document+Formats) article.
+GroupDocs.Redaction allows to remove sensitive or private data from your XLS, XLSX, ODS spreadsheet document formats and others. See full list at [supported document formats]({{< ref "redaction-net/getting-started/supported-document-formats.md" >}}) article.
 
 ## Filter by spreadsheet and column
 
@@ -42,7 +42,7 @@ using (Redactor redactor = new Redactor("D:\\Sales in September.xslx"))
 
 ### Advanced usage topics
 
-To learn more about document redaction features, please refer to the [advanced usage section](Spreadsheet%2Bredactions.html).
+To learn more about document redaction features, please refer to the [advanced usage section]({{< ref "redaction-net/developer-guide/advanced-usage/_index.md" >}}).
 
 ### GitHub examples
 

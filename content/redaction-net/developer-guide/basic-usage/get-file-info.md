@@ -40,7 +40,7 @@ using (Redactor redactor = new Redactor(File.OpenRead("source.docx"))
 
 ### Advanced usage topics
 
-To learn more about document redaction features, please refer to the [advanced usage section](Get%2Bfile%2Binfo.html).
+To learn more about document redaction features, please refer to the [advanced usage section]({{< ref "redaction-net/developer-guide/advanced-usage/_index.md" >}}).
 
 ### GitHub examples
 

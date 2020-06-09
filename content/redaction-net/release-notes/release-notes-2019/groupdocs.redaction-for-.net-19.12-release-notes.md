@@ -19,7 +19,10 @@ There are the following improvements in this release:
 
 ## Full List of Issues Covering all Changes in this Release
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd"><p>Key</p></td><td class="confluenceTd"><p>Summary</p></td><td class="confluenceTd"><p>Category</p></td></tr><tr><td colspan="1" class="confluenceTd"><p>REDACTIONNET-234</p></td><td colspan="1" class="confluenceTd">Provide implementation for .NET Standard 2.0</td><td colspan="1" class="confluenceTd">Improvement</td></tr><tr><td class="confluenceTd"><p>REDACTIONNET-235</p></td><td class="confluenceTd"><p>Implement standard logging interface</p></td><td class="confluenceTd"><p>Improvement</p></td></tr></tbody></table>
+| Key | Summary | Category |
+| --- | --- | --- |
+| REDACTIONNET-234 | Provide implementation for .NET Standard 2.0 | Improvement |
+| REDACTIONNET-235 | Implement standard logging interface | Improvement |
 
 ## Public API and Backward Incompatible Changes
 

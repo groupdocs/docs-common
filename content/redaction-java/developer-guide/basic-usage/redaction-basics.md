@@ -14,10 +14,10 @@ GroupDocs.Redaction comes with the following redaction types:
 
 | Type | Description | Classes |
 | --- | --- | --- |
-| [Text](Redaction%2BBasics.html) | Replaces or hides with color block a portion of text within document body | *ExactPhraseRedaction*, *RegexRedaction* |
-| [Metadata](Redaction%2BBasics.html) | Replace metadata values with empty ones or redacts metadata texts | *EraseMetadataRedaction*, *MetadataSearchRedaction* |
-| [Annotations](Redaction%2BBasics.html) | Deletes annotations from document or redacts its texts | *DeleteAnnotationRedaction*, *AnnotationRedaction* |
-| [Images](Redaction%2BBasics.html) | Replaces specific area of an image with a colored box | *ImageAreaRedaction* |
+| [Text]({{< ref "redaction-java/developer-guide/basic-usage/redaction-basics.md" >}}) | Replaces or hides with color block a portion of text within document body | *ExactPhraseRedaction*, *RegexRedaction* |
+| [Metadata]({{< ref "redaction-java/developer-guide/basic-usage/redaction-basics.md" >}}) | Replace metadata values with empty ones or redacts metadata texts | *EraseMetadataRedaction*, *MetadataSearchRedaction* |
+| [Annotations]({{< ref "redaction-java/developer-guide/basic-usage/redaction-basics.md" >}}) | Deletes annotations from document or redacts its texts | *DeleteAnnotationRedaction*, *AnnotationRedaction* |
+| [Images]({{< ref "redaction-java/developer-guide/basic-usage/redaction-basics.md" >}}) | Replaces specific area of an image with a colored box | *ImageAreaRedaction* |
 
 ### Apply redaction
 
@@ -65,7 +65,7 @@ if (result.getStatus() != RedactionStatus.Failed)
 
 ### Apply multiple redactions
 
-You can apply as much redactions as you need in a single call to *Redactor.Apply()* method, since its overload accepts an array of redactions and redaction policy. In this case, redactions will be applied in the same order as they appear in the array. As an alternative to specifying redaction sets in your code, you can create an XML file with redaction policy, as described [here](Redaction%2BBasics.html).
+You can apply as much redactions as you need in a single call to *Redactor.Apply()* method, since its overload accepts an array of redactions and redaction policy. In this case, redactions will be applied in the same order as they appear in the array. As an alternative to specifying redaction sets in your code, you can create an XML file with redaction policy, as described [here]({{< ref "redaction-java/developer-guide/basic-usage/redaction-basics.md" >}}).
 
 **Java**
 

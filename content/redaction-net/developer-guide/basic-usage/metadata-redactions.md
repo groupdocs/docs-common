@@ -8,7 +8,7 @@ keywords:
 productName: GroupDocs.Redaction for .NET
 hideChildren: False
 ---
-With GroupDocs.Redaction API you can apply metadata redactions for documents of different formats like PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX and others. See full list at [supported document formats](https://wiki.lisbon.dynabic.com/display/redaction/Supported+Document+Formats) article.
+With GroupDocs.Redaction API you can apply metadata redactions for documents of different formats like PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX and others. See full list at [supported document formats]({{< ref "redaction-net/getting-started/supported-document-formats.md" >}}) article.
 
 GroupDocs.Redactions provides a flexible API that allows to replace or clear metadata using filters or search by regular expression.
 
@@ -106,7 +106,7 @@ All metadata redactions apply to each metadata item separately, and even if meta
 
 ### Advanced usage topics
 
-To learn more about document redaction features, please refer to the [advanced usage section](Metadata%2Bredactions.html).
+To learn more about document redaction features, please refer to the [advanced usage section]({{< ref "redaction-net/developer-guide/advanced-usage/_index.md" >}}).
 
 ### GitHub examples
 

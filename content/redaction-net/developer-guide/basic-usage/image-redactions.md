@@ -8,7 +8,7 @@ keywords:
 productName: GroupDocs.Redaction for .NET
 hideChildren: False
 ---
-GroupDocs.Redactions prodives a set of features to remove sensitive data from images of various formats like JPG, PNG, TIFF and others. See full list at [supported document formats](https://wiki.lisbon.dynabic.com/display/redaction/Supported+Document+Formats) article
+GroupDocs.Redactions prodives a set of features to remove sensitive data from images of various formats like JPG, PNG, TIFF and others. See full list at [supported document formats]({{< ref "redaction-net/getting-started/supported-document-formats.md" >}}) article
 
 Although GroupDocs.Redaction does not support OCR at this moment, so you cannot extract text from an image, search it for data and redact sensitive data within the image. You can put a colored box over a given area, such as header, footer, or an area, where customer's data are expected to appear.
 
@@ -57,7 +57,7 @@ If the redaction cannot be applied to this type of files, e.g. BMP image, [Redac
 
 ### Advanced usage topics
 
-To learn more about document redaction features, please refer to the [advanced usage section](Image%2Bredactions.html).
+To learn more about document redaction features, please refer to the [advanced usage section]({{< ref "redaction-net/developer-guide/advanced-usage/_index.md" >}}).
 
 ### GitHub examples
 

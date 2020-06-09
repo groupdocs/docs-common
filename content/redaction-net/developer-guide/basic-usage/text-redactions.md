@@ -10,7 +10,7 @@ hideChildren: False
 ---
 GroupDocs.Redaction allows to easily redact sensitive or private data from your documents. The most popular redaction case is to remove a text from a document.
 
-With GroupDocs.Redaction API you can apply text redactions using exact phrase or [regular expression](https://docs.microsoft.com/en-us/dotnet/standard/base-types/regular-expressions) for documents of different formats like PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX and others. See full list at [supported document formats](https://wiki.lisbon.dynabic.com/display/redaction/Supported+Document+Formats) article.
+With GroupDocs.Redaction API you can apply text redactions using exact phrase or [regular expression](https://docs.microsoft.com/en-us/dotnet/standard/base-types/regular-expressions) for documents of different formats like PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX and others. See full list at [supported document formats]({{< ref "redaction-net/getting-started/supported-document-formats.md" >}}) article.
 
 ## Use exact phrase redaction
 
@@ -68,7 +68,7 @@ using (Redactor redactor = new Redactor(@"sample.docx"))
 
 ### Advanced usage topics
 
-To learn more about document redaction features, please refer to the [advanced usage section](Text%2Bredactions.html).
+To learn more about document redaction features, please refer to the [advanced usage section]({{< ref "redaction-net/developer-guide/advanced-usage/_index.md" >}}).
 
 ### GitHub examples
 

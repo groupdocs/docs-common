@@ -19,7 +19,7 @@ Please choose one from the following list:
 
 *   Open Visual Studio and go to **File** -> **New **\->** Project**.
 *   Select appropriate project type - Console App, ASP.NET Web Application etc.
-*   Install **GroupDocs.Redaction for .NET **from Nuget or official GroupDocs website following this [guide](How%2Bto%2BRun%2BExamples.html).
+*   Install **GroupDocs.Redaction for .NET **from Nuget or official GroupDocs website following this [guide]({{< ref "redaction-net/getting-started/how-to-run-examples.md" >}}).
 *   Code your first application with **GroupDocs.Redaction for .NET **like this
     
     ```csharp

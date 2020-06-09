@@ -19,7 +19,9 @@ There are the following improvements in this release:
 
 ## Full List of Issues Covering all Changes in this Release
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd"><p>Key</p></td><td class="confluenceTd"><p>Summary</p></td><td class="confluenceTd"><p>Category</p></td></tr><tr><td class="confluenceTd"><p>REDACTIONNET-236</p></td><td class="confluenceTd"><p>Implement metadata redaction for raster images</p></td><td class="confluenceTd"><p><span>Improvement</span></p></td></tr></tbody></table>
+| Key | Summary | Category |
+| --- | --- | --- |
+| REDACTIONNET-236 | Implement metadata redaction for raster images | Improvement |
 
 ## Public API and Backward Incompatible Changes
 

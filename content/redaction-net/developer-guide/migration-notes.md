@@ -63,4 +63,4 @@ using (Redactor redactor = new Redactor(@"Documents/Doc/sample.docx"))
 }
 ```
 
-For more code examples and specific use cases please refer to our [Developer Guide](https://wiki.lisbon.dynabic.com/display/redaction/Developer+Guide) documentation or [GitHub](https://github.com/groupdocs-redaction/GroupDocs.Redaction-for-.NET) samples and showcases.
+For more code examples and specific use cases please refer to our [Developer Guide]({{< ref "redaction-net/developer-guide/_index.md" >}}) documentation or [GitHub](https://github.com/groupdocs-redaction/GroupDocs.Redaction-for-.NET) samples and showcases.

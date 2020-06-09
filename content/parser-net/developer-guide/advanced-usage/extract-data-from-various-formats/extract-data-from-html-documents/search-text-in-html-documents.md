@@ -8,7 +8,7 @@ keywords:
 productName: GroupDocs.Parser for .NET
 hideChildren: False
 ---
-To search a keyword in HTML documents [Search(String)](https://apireference.groupdocs.com/net/parser/groupdocs.parser/parser/methods/search) method is used. This method returns the collection of [SearchResult](https://apireference.groupdocs.com/net/parser/groupdocs.parser.data/searchresult) objects. For details, see [Search Text](https://wiki.lisbon.dynabic.com/display/parser/Search+Text).
+To search a keyword in HTML documents [Search(String)](https://apireference.groupdocs.com/net/parser/groupdocs.parser/parser/methods/search) method is used. This method returns the collection of [SearchResult](https://apireference.groupdocs.com/net/parser/groupdocs.parser.data/searchresult) objects. For details, see [Search Text]({{< ref "parser-net/developer-guide/advanced-usage/working-with-text/search-text.md" >}}).
 
 Here are the steps to search a keyword in HTML document:
 

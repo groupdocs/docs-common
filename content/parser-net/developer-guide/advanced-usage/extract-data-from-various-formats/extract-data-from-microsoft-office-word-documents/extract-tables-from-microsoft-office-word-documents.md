@@ -8,7 +8,7 @@ keywords:
 productName: GroupDocs.Parser for .NET
 hideChildren: False
 ---
-To extract tables from Microsoft Office Word document [GetStructure](https://apireference.groupdocs.com/net/parser/groupdocs.parser/parser/methods/getstructure) method is used. This method returns XML representation of the document. Tables are represented by "table" tag. For more details, see [Extract tables from Microsoft Office Word documents](Extract%2Btables%2Bfrom%2BMicrosoft%2BOffice%2BWord%2Bdocuments.html).
+To extract tables from Microsoft Office Word document [GetStructure](https://apireference.groupdocs.com/net/parser/groupdocs.parser/parser/methods/getstructure) method is used. This method returns XML representation of the document. Tables are represented by "table" tag. For more details, see [Extract tables from Microsoft Office Word documents]({{< ref "parser-net/developer-guide/advanced-usage/extract-data-from-various-formats/extract-data-from-microsoft-office-word-documents/extract-tables-from-microsoft-office-word-documents.md" >}}).
 
 {{< alert style="warning" >}}GetStructure method returns null value if text structure extraction isn't supported for the document. For example, text structure extraction isn't supported for TXT files. Therefore, for TXT file GetStructure method returns null. If Microsoft Office Word document has no text, GetStructuremethod returns an empty XmlReader object.{{< /alert >}}
 

@@ -18,7 +18,13 @@ There are the following features in this release:
 
 ## Full List of Issues Covering all Changes in this Release
 
-<table class="confluenceTable"><tbody><tr><td colspan="1" class="confluenceTd">PARSERNET-65</td><td colspan="1" class="confluenceTd">Implement API to extract images from documents</td><td colspan="1" class="confluenceTd">New feature</td></tr><tr><td colspan="1" class="confluenceTd">PARSERNET-69</td><td colspan="1" class="confluenceTd">Implement the ability to extract images from PDF</td><td colspan="1" class="confluenceTd">New feature</td></tr><tr><td colspan="1" class="confluenceTd">PARSERNET-71</td><td colspan="1" class="confluenceTd">Implement the ability to extract images from spreadsheets</td><td colspan="1" class="confluenceTd">New feature</td></tr><tr><td colspan="1" class="confluenceTd">PARSERNET-72</td><td colspan="1" class="confluenceTd">Implement the ability to extract images from text documents</td><td colspan="1" class="confluenceTd">New feature</td></tr><tr><td colspan="1" class="confluenceTd">PARSERNET-74</td><td colspan="1" class="confluenceTd">Implement the ability to extract images from presentations</td><td colspan="1" class="confluenceTd">New feature</td></tr></tbody></table>
+| Key | Summary | Issue Type |
+| --- | --- | --- |
+| PARSERNET-65 | Implement API to extract images from documents | New feature |
+| PARSERNET-69 | Implement the ability to extract images from PDF | New feature |
+| PARSERNET-71 | Implement the ability to extract images from spreadsheets | New feature |
+| PARSERNET-72 | Implement the ability to extract images from text documents | New feature |
+| PARSERNET-74 | Implement the ability to extract images from presentations | New feature |
 
 ## Public API and Backward Incompatible Changes
 

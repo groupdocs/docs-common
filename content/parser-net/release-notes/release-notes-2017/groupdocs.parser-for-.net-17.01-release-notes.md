@@ -20,7 +20,13 @@ There are following features in this release:
 
 ## All Changes
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd"><p>TEXTNET-338</p></td><td class="confluenceTd"><p>Implement the ability to search a text</p></td><td class="confluenceTd"><p>New Feature</p></td></tr><tr><td class="confluenceTd"><p>TEXTNET-339</p></td><td class="confluenceTd"><p>Implement the ability to extract highlight</p></td><td class="confluenceTd"><p>New Feature</p></td></tr><tr><td class="confluenceTd"><p>TEXTNET-252</p></td><td class="confluenceTd"><p>Implement the support for ZIP containers</p></td><td class="confluenceTd"><p>New Feature</p></td></tr><tr><td class="confluenceTd"><p>TEXTNET-496</p></td><td class="confluenceTd"><p>Implement the ability to open password-protected OneNote sections</p></td><td class="confluenceTd"><p>New Feature</p></td></tr><tr><td class="confluenceTd"><p>TEXTNET-504</p></td><td class="confluenceTd"><p>Add enum property to set extraction mode</p></td><td class="confluenceTd"><p>Enhancement</p></td></tr></tbody></table>
+| Key | Summary | Issue Type |
+| --- | --- | --- |
+| TEXTNET-338 | Implement the ability to search a text | New Feature |
+| TEXTNET-339 | Implement the ability to extract highlight | New Feature |
+| TEXTNET-252 | Implement the support for ZIP containers | New Feature |
+| TEXTNET-496 | Implement the ability to open password-protected OneNote sections | New Feature |
+| TEXTNET-504 | Add enum property to set extraction mode | Enhancement |
 
 ## Public API and Backward Incompatible Changes
 

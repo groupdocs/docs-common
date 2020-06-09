@@ -29,7 +29,7 @@ Only the first 5 pages (slides, sheets)
 \+ Evaluation marks |
 | **Formatted text and text structure extraction  
 ** | Only 20 rows for **spreadsheets**  
-Only the first 1600 symbols [2](https://wiki.lisbon.dynabic.com/display/parser/Product+Trial+Limits#ProductTrialLimits-F02)  
+Only the first 1600 symbols  
 Only the first 5 pages (slides, sheets)  
 \+ Evaluation marks |
 | **Metada****ta extraction** | Only 5 properties per file |

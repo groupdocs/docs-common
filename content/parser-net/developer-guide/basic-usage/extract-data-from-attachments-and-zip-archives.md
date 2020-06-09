@@ -84,7 +84,7 @@ using (Parser parser = new Parser(filePath))
 
 ### Advanced usage topics
 
-To learn more how to work with attachments and ZIP archives, please refer the [advanced help section](Working%2Bwith%2BZIP%2Barchives%2Band%2Battachments.html).
+To learn more how to work with attachments and ZIP archives, please refer the [advanced help section]({{< ref "parser-net/developer-guide/advanced-usage/working-with-zip-archives-and-attachments/_index.md" >}}).
 
 ### GitHub examples
 

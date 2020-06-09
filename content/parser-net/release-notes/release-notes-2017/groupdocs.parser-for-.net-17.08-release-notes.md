@@ -18,7 +18,9 @@ There are the following features in this release:
 
 ## All Changes
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd">TEXTNET-653</td><td class="confluenceTd">Implement the support for CHM files</td><td class="confluenceTd">New feature</td></tr></tbody></table>
+| Key | Summary | Issue Type |
+| --- | --- | --- |
+| TEXTNET-653 | Implement the support for CHM files | New feature |
 
 ## Public API and Backward Incompatible Changes
 

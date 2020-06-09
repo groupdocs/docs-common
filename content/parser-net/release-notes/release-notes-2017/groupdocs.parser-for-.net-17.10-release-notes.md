@@ -22,7 +22,13 @@ There are the following features and enhancements in this release:
 
 ## All Changes
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd"><p>TEXTNET-578</p></td><td class="confluenceTd"><p>Remove obsolete members (v1703)</p></td><td class="confluenceTd"><p>Enhancement</p></td></tr><tr><td class="confluenceTd"><p>TEXTNET-753</p></td><td class="confluenceTd"><p>Implement additional properties for container entities</p></td><td class="confluenceTd"><p>Enhancement</p></td></tr><tr><td class="confluenceTd"><p>TEXTNET-755</p></td><td class="confluenceTd"><p>Update parameters keys for PersonalStorageContainer</p></td><td class="confluenceTd"><p>Enhancement</p></td></tr><tr><td class="confluenceTd"><p>TEXTNET-775</p></td><td class="confluenceTd"><p>Improve the performance of PDF text extractor</p></td><td class="confluenceTd"><p>Enhancement</p></td></tr><tr><td class="confluenceTd"><p>TEXTNET-550</p></td><td class="confluenceTd"><p>Implement the ability to extract a text from POP3 and IMAP&nbsp;mail servers</p></td><td class="confluenceTd"><p>New Feature</p></td></tr></tbody></table>
+| Key | Summary | Issue Type |
+| --- | --- | --- |
+| TEXTNET-578 | Remove obsolete members (v1703) | Enhancement |
+| TEXTNET-753 | Implement additional properties for container entities | Enhancement |
+| TEXTNET-755 | Update parameters keys for PersonalStorageContainer | Enhancement |
+| TEXTNET-775 | Improve the performance of PDF text extractor | Enhancement |
+| TEXTNET-550 | Implement the ability to extract a text from POP3 and IMAP mail servers | New Feature |
 
 ## Public API and Backward Incompatible Changes
 

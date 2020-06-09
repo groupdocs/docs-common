@@ -8,7 +8,7 @@ keywords:
 productName: GroupDocs.Parser for .NET
 hideChildren: False
 ---
-To extract data from PDF documents [ParseForm](https://apireference.groupdocs.com/net/parser/groupdocs.parser/parser/methods/parseform) and [ParseByTemplate](https://apireference.groupdocs.com/net/parser/groupdocs.parser/parser/methods/parsebytemplate) methods are used. Both methods return [DocumentData](https://apireference.groupdocs.com/net/parser/groupdocs.parser.data/documentdata) object. For details, see [Working With Extracted Data](https://wiki.lisbon.dynabic.com/display/parser/Working+With+Data+Extracted+By+Template).
+To extract data from PDF documents [ParseForm](https://apireference.groupdocs.com/net/parser/groupdocs.parser/parser/methods/parseform) and [ParseByTemplate](https://apireference.groupdocs.com/net/parser/groupdocs.parser/parser/methods/parsebytemplate) methods are used. Both methods return [DocumentData](https://apireference.groupdocs.com/net/parser/groupdocs.parser.data/documentdata) object. For details, see [Working With Extracted Data]({{< ref "parser-net/developer-guide/advanced-usage/working-with-data-extracted-by-template.md" >}}).
 
 Here are the steps to extract data from PDF Form:
 
@@ -71,7 +71,7 @@ public class PreliminaryRecord
 }
 ```
 
-[ParseByTemplate](https://apireference.groupdocs.com/net/parser/groupdocs.parser/parser/methods/parsebytemplate) method is used to parse PDF document by a user-generated template. For details about templates, see [Working With Templates](https://wiki.lisbon.dynabic.com/display/parser/Working+With+Templates).
+[ParseByTemplate](https://apireference.groupdocs.com/net/parser/groupdocs.parser/parser/methods/parsebytemplate) method is used to parse PDF document by a user-generated template. For details about templates, see [Working With Templates]({{< ref "parser-net/developer-guide/advanced-usage/working-with-templates.md" >}}).
 
 Here are the steps to parse data from PDF document by the user-generated template:
 

@@ -24,7 +24,7 @@ Follow these steps to reference GroupDocs.Parser using Package Manager GUI:
 *   Select Browse tab and type "GroupDocs.Parser" in the search text box.
 *   Click the Install button to install the latest version of the API into your project as shown in the following screenshot.
 
-![](https://wiki.lisbon.dynabic.com/download/attachments/29427569/nuget.png?version=1&modificationDate=1566135839000&api=v2)
+![](parser-net/images/development-environment-installation-and-configuration.png)
 
 #### Using Package Manager Console
 
@@ -35,9 +35,9 @@ You can follow the steps below to reference GroupDocs.Parser for .NET using the 
 *   Type the command "Install-Package GroupDocs.Parser" and press enter to install the latest release into your application.
 *   After successful installation, GroupDocs.Parser will be referenced in your application.
 
-![](https://wiki.lisbon.dynabic.com/download/attachments/29427569/nuget-console-menu.png?version=1&modificationDate=1566136116000&api=v2)
+![](parser-net/images/development-environment-installation-and-configuration_1.png)
 
-![](https://wiki.lisbon.dynabic.com/download/attachments/29427569/nuget-console.png?version=1&modificationDate=1566136131000&api=v2)
+![](parser-net/images/development-environment-installation-and-configuration_2.png)
 
 ## Install from official GroupDocs website
 

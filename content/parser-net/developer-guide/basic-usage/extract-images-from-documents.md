@@ -8,9 +8,9 @@ keywords:
 productName: GroupDocs.Parser for .NET
 hideChildren: False
 ---
-GroupDocs.Parser allows to extract images from PDF, Emails, Ebooks, Microsoft Office: Word (DOC, DOCX), PowerPoint (PPT, PPTX), Excel (XLS, XLSX), LibreOffice formats and many others (see full list at [supported document formats](Supported%2BDocument%2BFormats.html) article).
+GroupDocs.Parser allows to extract images from PDF, Emails, Ebooks, Microsoft Office: Word (DOC, DOCX), PowerPoint (PPT, PPTX), Excel (XLS, XLSX), LibreOffice formats and many others (see full list at [supported document formats]({{< ref "parser-net/getting-started/supported-document-formats.md" >}}) article).
 
-GroupDocs.Parser's allows to easily implement simple and complex image extraction cases at the same time (see more at [advanced help section](Working%2Bwith%2Bimages.html)).
+GroupDocs.Parser's allows to easily implement simple and complex image extraction cases at the same time (see more at [advanced help section]({{< ref "parser-net/developer-guide/advanced-usage/working-with-images/_index.md" >}})).
 
 In this article you can see how to extract images from any supported format without additional settings.
 
@@ -71,7 +71,7 @@ using (Parser parser = new Parser(filePath))
 
 ### Advanced usage topics
 
-To learn more about image extraction feature, please refer the [advanced help section](Working%2Bwith%2Bimages.html).
+To learn more about image extraction feature, please refer the [advanced help section]({{< ref "parser-net/developer-guide/advanced-usage/working-with-images/_index.md" >}}).
 
 ### GitHub examples
 

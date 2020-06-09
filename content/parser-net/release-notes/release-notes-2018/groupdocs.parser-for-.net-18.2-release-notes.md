@@ -21,7 +21,12 @@ There are the following features and enhancements in this release:
 
 ## Full List of Issues Covering all Changes in this Release
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd">TEXTNET-843</td><td class="confluenceTd">Implement the support for raw text extraction from Markdown documents</td><td class="confluenceTd">New feature</td></tr><tr><td class="confluenceTd">TEXTNET-844</td><td class="confluenceTd">Implement the support for formatted text extraction from Markdown documents</td><td class="confluenceTd">New feature</td></tr><tr><td class="confluenceTd">TEXTNET-845</td><td class="confluenceTd">Implement the support for structured text extraction from Markdown documents</td><td class="confluenceTd">New feature</td></tr><tr><td class="confluenceTd">TEXTNET-873</td><td class="confluenceTd">Improve the memory consuming while extracting a text from ost (pst) files</td><td class="confluenceTd">Enhancement</td></tr></tbody></table>
+| Key | Summary | Issue Type |
+| --- | --- | --- |
+| TEXTNET-843 | Implement the support for raw text extraction from Markdown documents | New feature |
+| TEXTNET-844 | Implement the support for formatted text extraction from Markdown documents | New feature |
+| TEXTNET-845 | Implement the support for structured text extraction from Markdown documents | New feature |
+| TEXTNET-873 | Improve the memory consuming while extracting a text from ost (pst) files | Enhancement |
 
 ## Public API and Backward Incompatible Changes
 

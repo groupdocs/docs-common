@@ -19,7 +19,7 @@ Please choose one from the following list:
 
 *   Open Visual Studio and go to **File** -> **New** \-> **Project**;
 *   Select appropriate project type - Console App, ASP.NET Web Application etc;
-*   Install **GroupDocs.Parser for .NET **from Nuget or official GroupDocs website following this [guide](https://wiki.lisbon.dynabic.com/display/parser/Installation);
+*   Install **GroupDocs.Parser for .NET **from Nuget or official GroupDocs website following this [guide]({{< ref "parser-net/getting-started/development-environment-installation-and-configuration.md" >}});
 *   Code your first application with **GroupDocs.Parser for .NET** like this:
     
     ```csharp
@@ -44,10 +44,10 @@ Please choose one from the following list:
 The complete examples package of **GroupDocs.Parser** is hosted on [GitHub](https://github.com/groupdocs-parser/GroupDocs.Parser-for-.NET/). You can either download the ZIP file from [here](https://github.com/groupdocs-parser/GroupDocs.Parser-for-.NET/archive/master.zip) or clone the repository of GitHub using your favorite git client.  
 In case you download the ZIP file, extract the folders on your local disk. The extracted files and folders will look like following image:
 
-![](https://wiki.lisbon.dynabic.com/download/attachments/29427584/examples-folder.png?version=1&modificationDate=1569344924000&api=v2)  
+![](parser-net/images/how-to-run-examples.png)
 
 In extracted files and folders, you can find CSharp solution file. The project is created in **Microsoft Visual Studio 2019**. The **Resources **folder contains all the sample document and image files used in the examples.  
 To run the examples, open the solution file in Visual Studio and build the project. To add missing references of **GroupDocs.Parser** see [Development Environment, Installation and Configuration]({{< ref "parser-net/getting-started/development-environment-installation-and-configuration.md" >}}). All the functions are called from **RunExamples.cs**.
 Un-comment the function you want to run and comment the rest.
 
-![](https://wiki.lisbon.dynabic.com/download/attachments/29427584/examples-vs.png?version=1&modificationDate=1569344949000&api=v2)
+![](parser-net/images/how-to-run-examples_1.png)

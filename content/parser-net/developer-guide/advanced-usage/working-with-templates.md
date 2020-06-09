@@ -45,7 +45,18 @@ TemplateField templateField = new TemplateField(
 
 It is recommended to define a rectangular area above (below) the center of the line that is below (above) the selected area, in order to avoid the excessive extraction of the text. For example:
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd"><p><img class="confluence-embedded-image confluence-external-resource" src="https://wiki.lisbon.dynabic.com/download/attachments/29427726/fixed-one.png?version=1&amp;modificationDate=1566126598000&amp;api=v2" data-image-src="https://wiki.lisbon.dynabic.com/download/attachments/29427726/fixed-one.png?version=1&amp;modificationDate=1566126598000&amp;api=v2">&nbsp;</p></td><td class="confluenceTd"><p>Extracts only one line:</p><p><br class="atl-forced-newline">67890</p></td></tr><tr><td class="confluenceTd"><p>&nbsp;<img class="confluence-embedded-image confluence-external-resource" src="https://wiki.lisbon.dynabic.com/download/attachments/29427726/fixed-two.png?version=1&amp;modificationDate=1566126598000&amp;api=v2" data-image-src="https://wiki.lisbon.dynabic.com/download/attachments/29427726/fixed-two.png?version=1&amp;modificationDate=1566126598000&amp;api=v2"></p></td><td class="confluenceTd"><p>Extracts two lines:</p><p><br class="atl-forced-newline">4321 First Street<br class="atl-forced-newline">Anytown, State ZIP</p></td></tr><tr><td class="confluenceTd"><p>&nbsp;<img class="confluence-embedded-image confluence-external-resource" src="https://wiki.lisbon.dynabic.com/download/attachments/29427726/fixed-four.png?version=1&amp;modificationDate=1566126598000&amp;api=v2" data-image-src="https://wiki.lisbon.dynabic.com/download/attachments/29427726/fixed-four.png?version=1&amp;modificationDate=1566126598000&amp;api=v2"></p></td><td class="confluenceTd"><p>Extracts four lines:</p><p><br class="atl-forced-newline">Company Name<br class="atl-forced-newline">4321 First Street<br class="atl-forced-newline">Anytown, State ZIP<br class="atl-forced-newline">Date: 06/02/2019</p></td></tr></tbody></table>
+| Template definition | Result |
+| --- | --- |
+| ![](parser-net/images/working-with-templates.png)) | Extracts only one line
+67890 |
+|  ![](parser-net/images/working-with-templates_1.png)) | Extracts two lines
+4321 First Street  
+Anytown, State ZIP |
+| ![](parser-net/images/working-with-templates_2.png)) | Extracts four lines
+Company Name  
+4321 First Street  
+Anytown, State ZIP  
+Date: 06/02/2019 |
 
 ### TemplateRegexPosition
 
@@ -87,7 +98,9 @@ TemplateField invoiceNumber = new TemplateField(
 
 ```
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd"><img class="confluence-embedded-image confluence-external-resource" src="https://wiki.lisbon.dynabic.com/download/attachments/29427726/linked-%20simple.png?version=1&amp;modificationDate=1566126598000&amp;api=v2" data-image-src="https://wiki.lisbon.dynabic.com/download/attachments/29427726/linked-%20simple.png?version=1&amp;modificationDate=1566126598000&amp;api=v2"></td><td class="confluenceTd"><p>Extracts a text on the right of "Invoice Number" field:</p><p>INV-3337</p></td></tr></tbody></table>
+| Template definition | Result |
+| --- | --- |
+| ![](parser-net/images/working-with-templates_3.png)) | Extracts a text on the right of "Invoice Number" field:INV-3337 
 
 To simplify the setting of the size of template field [AutoScale](https://apireference.groupdocs.com/net/parser/groupdocs.parser.templates/templatelinkedposition/properties/autoscale) property is used. The size of template field is scaled according to the related field if [AutoScale](https://apireference.groupdocs.com/net/parser/groupdocs.parser.templates/templatelinkedposition/properties/autoscale) is set to *true*. This is useful when the font size is not known in advance, but the proportions of the size of the value (the ratio of height to width) are approximately known:
 
@@ -101,7 +114,9 @@ TemplateField invoiceNumber = new TemplateField(
 
 ```
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd"><img class="confluence-embedded-image confluence-external-resource" src="https://wiki.lisbon.dynabic.com/download/attachments/29427726/linked-%20scaled.png?version=1&amp;modificationDate=1566126598000&amp;api=v2" data-image-src="https://wiki.lisbon.dynabic.com/download/attachments/29427726/linked-%20scaled.png?version=1&amp;modificationDate=1566126598000&amp;api=v2"></td><td class="confluenceTd"><p>Extracts a text on the right of "Invoice Number" field:</p><p>INV-3337</p></td></tr></tbody></table>
+| Template definition | Result |
+| --- | --- |
+| ![](parser-net/images/working-with-templates_4.png)) | Extracts a text on the right of "Invoice Number" field:INV-3337 
 
 The field value can be extracted from either side of the related field. The side of the value extraction is set by [Edges](https://apireference.groupdocs.com/net/parser/groupdocs.parser.templates/templatelinkedposition/properties/edges) property. The size of rectangular area is set by [SearchArea](https://apireference.groupdocs.com/net/parser/groupdocs.parser.templates/templatelinkedposition/properties/searcharea) property. The position of rectangular area depends on the side of the value extraction:
 
@@ -131,7 +146,11 @@ TemplateField addressField = new TemplateField(
 
 ```
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd"><img class="confluence-embedded-image confluence-external-resource" src="https://wiki.lisbon.dynabic.com/download/attachments/29427726/linked%20-%20cascade.png?version=1&amp;modificationDate=1566126598000&amp;api=v2" data-image-src="https://wiki.lisbon.dynabic.com/download/attachments/29427726/linked%20-%20cascade.png?version=1&amp;modificationDate=1566126598000&amp;api=v2"></td><td class="confluenceTd"><p>The extraction is processed in the following way:</p><p>Extracts data of "From" regex field (green)<br>Extracts data of "FromCompany" related field (yellow)<br>Extracts data of "FromAddress" related field (red)</p></td></tr></tbody></table>
+| Template definition | Result |
+| --- | --- |
+| ![](parser-net/images/working-with-templates_5.png)) | The extraction is processed in the following way:Extracts data of "From" regex field (green
+Extracts data of "FromCompany" related field (yellow)  
+Extracts data of "FromAddress" related field (red) |
 
 A value of the field depends on the related field. The field is always empty if the related field doesn't have a value. If the field has a value then it has a link to the related field.
 
@@ -245,7 +264,7 @@ If the table position depends on the other object of the page, a user can define
 
 This example shows the template which is used to parse the following invoice:
 
-![](https://wiki.lisbon.dynabic.com/download/attachments/29427726/invoice.jpg?version=1&modificationDate=1566126725000&api=v2)
+![](parser-net/images/working-with-templates_6.jpg)
 
 ```csharp
 // Create detector parameters for "Details" table

@@ -20,7 +20,11 @@ There are the following new features in this release:
 
 ## Full List of Issues Covering all Changes in this Release
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd">TEXTNET-546</td><td class="confluenceTd">Implement the ability to extract a formatted text from chm files</td><td class="confluenceTd">New feature</td></tr><tr><td class="confluenceTd">TEXTNET-883</td><td class="confluenceTd">Implement the ability to extract a text from chm documents by pages</td><td class="confluenceTd">New feature</td></tr><tr><td class="confluenceTd">TEXTNET-884</td><td class="confluenceTd">Implement the ability to extract topics from chm documents</td><td class="confluenceTd">New feature</td></tr></tbody></table>
+| Key | Summary | Issue Type |
+| --- | --- | --- |
+| TEXTNET-546 | Implement the ability to extract a formatted text from chm files | New feature |
+| TEXTNET-883 | Implement the ability to extract a text from chm documents by pages | New feature |
+| TEXTNET-884 | Implement the ability to extract topics from chm documents | New feature |
 
 ## Public API and Backward Incompatible Changes
 

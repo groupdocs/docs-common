@@ -21,7 +21,14 @@ The following features have been introduced in this release:
 
 ## All Changes
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd"><p>TEXTNET-509</p></td><td class="confluenceTd"><p>Implement the ability to detect ZIP files</p></td><td class="confluenceTd"><p>New feature</p></td></tr><tr><td class="confluenceTd"><p>TEXTNET-510</p></td><td class="confluenceTd"><p>Implement the ability to extract metadata from EPUB files</p></td><td class="confluenceTd"><p>New feature</p></td></tr><tr><td class="confluenceTd"><p>TEXTNET-534</p></td><td class="confluenceTd"><p>Implement the ability to extract highlights from EPUB files</p></td><td class="confluenceTd"><p>New feature</p></td></tr><tr><td class="confluenceTd"><p>TEXTNET-535</p></td><td class="confluenceTd"><p>Implement the ability to search a text in EPUB files</p></td><td class="confluenceTd"><p>New feature</p></td></tr><tr><td class="confluenceTd"><p>TEXTNET-561</p></td><td class="confluenceTd"><p>Implement the ability to detect EPUB files</p></td><td class="confluenceTd"><p>New feature</p></td></tr><tr><td class="confluenceTd"><p>TEXTNET-574</p></td><td class="confluenceTd"><p>Implement Extractor class</p></td><td class="confluenceTd"><p>Enhancement</p></td></tr></tbody></table>
+| Key | Summary | Issue Type |
+| --- | --- | --- |
+| TEXTNET-509 | Implement the ability to detect ZIP files | New feature |
+| TEXTNET-510 | Implement the ability to extract metadata from EPUB files | New feature |
+| TEXTNET-534 | Implement the ability to extract highlights from EPUB files | New feature |
+| TEXTNET-535 | Implement the ability to search a text in EPUB files | New feature |
+| TEXTNET-561 | Implement the ability to detect EPUB files | New feature |
+| TEXTNET-574 | Implement Extractor class | Enhancement |
 
 ## Public API and Backward Incompatible Changes
 

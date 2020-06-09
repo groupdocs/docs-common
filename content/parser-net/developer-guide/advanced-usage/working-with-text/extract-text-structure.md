@@ -17,7 +17,7 @@ XmlReader GetStructure();
 
 This method returns XML representation of a document. A document has the following structure:
 
-![](https://wiki.lisbon.dynabic.com/download/attachments/29427384/general.png?version=1&modificationDate=1584289636000&api=v2)
+![](attachments/85231722/88342768.png)
 
 | Tag | Description |
 | --- | --- |
@@ -57,7 +57,7 @@ Tags have the following relations:
 
 The **p** and **li** tags can contain **hyperlink, strong, em** tags and the value that represents a text:
 
-![](https://wiki.lisbon.dynabic.com/download/thumbnails/29427384/p.png?version=1&modificationDate=1584289782000&api=v2)![](https://wiki.lisbon.dynabic.com/download/thumbnails/29427384/li.png?version=1&modificationDate=1584289787000&api=v2)
+![](attachments/85231722/88342769.png)![](attachments/85231722/88342770.png)
 
 | Tag | Description |
 | --- | --- |
@@ -77,11 +77,11 @@ Word processing documents have a more complex table cell and paragraph can conta
 
 A table cell can contain any number of paragraphs, lists and tables:
 
-![](https://wiki.lisbon.dynabic.com/download/attachments/29427384/td-word.png?version=1&modificationDate=1584290120000&api=v2)
+![](attachments/85231722/88342775.png)
 
 A shape can contain a single hyperlink (empty tag) for the entire shape and any number of paragraphs, lists or tables:
 
-![](https://wiki.lisbon.dynabic.com/download/attachments/29427384/shape-word.png?version=1&modificationDate=1584290222000&api=v2)
+![](attachments/85231722/88342772.png)
 
 ### Presentations
 
@@ -89,17 +89,17 @@ Presentations have a more complex table cell and section can contain any number 
 
 A table cell can contain any number of paragraphs or lists:
 
-![](https://wiki.lisbon.dynabic.com/download/thumbnails/29427384/td-presentation.png?version=1&modificationDate=1584291684000&api=v2)
+![](attachments/85231722/88342774.png)
 
 A shape can contain a single hyperlink (empty tag) for the entire shape and any number of paragraphs or lists:
 
-![](https://wiki.lisbon.dynabic.com/download/attachments/29427384/shape-presentation.png?version=1&modificationDate=1584291705000&api=v2)
+![](attachments/85231722/88342771.png)
 
 ### Spreadsheets
 
 Spreadsheets have the following document structure:
 
-![](https://wiki.lisbon.dynabic.com/download/attachments/29427384/spreadsheet.png?version=1&modificationDate=1584291392000&api=v2)
+![](attachments/85231722/88342773.png)
 
 It's more simple than others. A section can contain any number of shapes and only one table. A shape can contain a single hyperlink (empty tag) for the entire shape and any numbers of paragraphs.
 
@@ -149,7 +149,7 @@ using (Parser parser = new Parser(filePath))
 
 The following document:
 
-![](https://wiki.lisbon.dynabic.com/download/attachments/29427384/lorem2.png?version=1&modificationDate=1584292589000&api=v2)
+![](attachments/85231722/88342776.png)
 
 has the following text structure:
 

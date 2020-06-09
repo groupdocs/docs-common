@@ -14,19 +14,19 @@ To extract table of contents from Microsoft Office Word document `**[getToc](htt
 
 `**[getToc](https://apireference.groupdocs.com/java/parser/com.groupdocs.parser/Parser#getToc())**()` method returns a collection of `[TocItem](https://apireference.groupdocs.com/java/parser/com.groupdocs.parser.data/TocItem "class in com.groupdocs.parser.data")` objects. `**[extractText](https://apireference.groupdocs.com/java/parser/com.groupdocs.parser.data/TocItem#extractText())**()` method returns a text from the chapter to which table of contents item refers (without sub-chapters). For example, "Heading 1.2" from the page
 
-![](https://wiki.lisbon.dynabic.com/download/attachments/30478637/Page1.png?version=1&modificationDate=1580313818000&api=v2)
+![](parser-java/images/extract-table-of-contents-from-microsoft-office-word-documents.png)
 
 returns the following text:
 
-![](https://wiki.lisbon.dynabic.com/download/attachments/30478637/Heading12.png?version=1&modificationDate=1580313827000&api=v2)
+![](parser-java/images/extract-table-of-contents-from-microsoft-office-word-documents_1.png)
 
 "Heading 2" from the page:
 
-![](https://wiki.lisbon.dynabic.com/download/attachments/30478637/Page2.png?version=1&modificationDate=1580313823000&api=v2)
+![](parser-java/images/extract-table-of-contents-from-microsoft-office-word-documents_2.png)
 
 returns the following text:
 
-![](https://wiki.lisbon.dynabic.com/download/attachments/30478637/Heading2.png?version=1&modificationDate=1580313830000&api=v2)
+![](parser-java/images/extract-table-of-contents-from-microsoft-office-word-documents_3.png)
 
 {{< alert style="warning" >}}java.lang.UnsupportedOperationException is thrown if getPageIndex() is null.{{< /alert >}}
 

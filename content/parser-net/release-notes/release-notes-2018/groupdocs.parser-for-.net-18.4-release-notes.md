@@ -21,7 +21,12 @@ There are the following features and enhancements in this release:
 
 ## Full List of Issues Covering all Changes in this Release
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd">TEXTNET-911</td><td class="confluenceTd">Remove obsolete members (version 18.4)</td><td class="confluenceTd">Enhancement</td></tr><tr><td class="confluenceTd">TEXTNET-915</td><td class="confluenceTd">Improve the public API</td><td class="confluenceTd">Enhancement</td></tr><tr><td class="confluenceTd">TEXTNET-910</td><td class="confluenceTd">Implement the ability to extract topics from EPUB documents</td><td class="confluenceTd">New feature</td></tr><tr><td class="confluenceTd">TEXTNET-929</td><td class="confluenceTd">Implement the media type detector for .one files</td><td class="confluenceTd">New feature</td></tr></tbody></table>
+| Key | Summary | Issue Type |
+| --- | --- | --- |
+| TEXTNET-911 | Remove obsolete members (version 18.4) | Enhancement |
+| TEXTNET-915 | Improve the public API | Enhancement |
+| TEXTNET-910 | Implement the ability to extract topics from EPUB documents | New feature |
+| TEXTNET-929 | Implement the media type detector for .one files | New feature |
 
 ## Public API and Backward Incompatible Changes
 

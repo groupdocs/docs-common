@@ -20,7 +20,11 @@ There are the following features in this release:
 
 ## All Changes
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd">TEXTNET-524</td><td class="confluenceTd">Remove IsRawMode obsolete property from PdfTextExtractor, CellsTextExtractor and SlidesTextExtractor classes</td><td colspan="1" class="confluenceTd">&nbsp;</td><td class="confluenceTd">Enhancement</td></tr><tr><td class="confluenceTd">TEXTNET-541</td><td class="confluenceTd">Implement the ability to extract a formatted text from FictionBook (fb2) documents</td><td colspan="1" class="confluenceTd">&nbsp;</td><td class="confluenceTd">New feature</td></tr><tr><td class="confluenceTd">TEXTNET-547</td><td class="confluenceTd">Implement the ability to extract formatted highlights</td><td colspan="1" class="confluenceTd">&nbsp;</td><td class="confluenceTd">New feature</td></tr></tbody></table>
+| Key | Summary | Issue Type |
+| --- | --- | --- |
+| TEXTNET-524 | Remove IsRawMode obsolete property from PdfTextExtractor, CellsTextExtractor and SlidesTextExtractor classes | Enhancement |
+| TEXTNET-541 | Implement the ability to extract a formatted text from FictionBook (fb2) documents | New feature |
+| TEXTNET-547 | Implement the ability to extract formatted highlights | New feature |
 
 ## Public API and Backward Incompatible Changes
 

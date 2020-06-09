@@ -8,7 +8,7 @@ keywords: Document parsing
 productName: GroupDocs.Parser for .NET
 hideChildren: False
 ---
-GroupDocs.Parser provides Document Parser feature that allows you to extract data from documents of various formats including PDF, Microsoft Word, Excel, LibreOffice formats etc. (see [full supported list](Parse%2Bdata%2Bfrom%2Bdocuments.html)).
+GroupDocs.Parser provides Document Parser feature that allows you to extract data from documents of various formats including PDF, Microsoft Word, Excel, LibreOffice formats etc. (see [full supported list]({{< ref "parser-net/developer-guide/basic-usage/parse-data-from-documents.md" >}})).
 
 With Document Parsing feature you can easily solve business automation tasks with the data extracted from your documents.
 
@@ -114,8 +114,8 @@ private static Template GetTemplate()
 
 To learn more about template building and working with extracted data please refer the following guides:
 
-*   [Working with templates](Working%2Bwith%2Btemplates.html)
-*   [Working With Extracted Data](Working%2Bwith%2Bdata%2Bextracted%2Bby%2Btemplate.html)
+*   [Working with templates]({{< ref "parser-net/developer-guide/advanced-usage/working-with-templates.md" >}})
+*   [Working With Extracted Data]({{< ref "parser-net/developer-guide/advanced-usage/working-with-data-extracted-by-template.md" >}})
 
 ### GitHub examples
 

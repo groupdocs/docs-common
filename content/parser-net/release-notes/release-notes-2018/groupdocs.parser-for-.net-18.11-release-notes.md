@@ -21,7 +21,12 @@ There are the following features in this release:
 
 ## Full List of Issues Covering all Changes in this Release
 
-<table class="confluenceTable"><tbody><tr><td colspan="1" class="confluenceTd">PARSERNET-1077</td><td colspan="1" class="confluenceTd">Implement the ability to retrieve the information of supported extractors for a document</td><td colspan="1" class="confluenceTd">New feature</td></tr><tr><td colspan="1" class="confluenceTd">PARSERNET-1075</td><td colspan="1" class="confluenceTd">Implement IFastTextExtractor interface</td><td colspan="1" class="confluenceTd">Enhancement</td></tr><tr><td colspan="1" class="confluenceTd">PARSERNET-1076</td><td colspan="1" class="confluenceTd">Implement IDocumentContentExtractor interface</td><td colspan="1" class="confluenceTd">Enhancement</td></tr><tr><td colspan="1" class="confluenceTd">PARSERNET-1069</td><td colspan="1" class="confluenceTd">Improve text area extraction for PDF documents</td><td colspan="1" class="confluenceTd">Enhancement</td></tr></tbody></table>
+| Key | Summary | Issue Type |
+| --- | --- | --- |
+| PARSERNET-1077 | Implement the ability to retrieve the information of supported extractors for a document | New feature |
+| PARSERNET-1075 | Implement IFastTextExtractor interface | Enhancement |
+| PARSERNET-1076 | Implement IDocumentContentExtractor interface | Enhancement |
+| PARSERNET-1069 | Improve text area extraction for PDF documents | Enhancement |
 
 ## Public API and Backward Incompatible Changes
 

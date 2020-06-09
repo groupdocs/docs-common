@@ -21,7 +21,12 @@ There are the following features in this release:
 
 ## All Changes
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd">TEXTNET-628</td><td class="confluenceTd">Implement the ability to extract a text from pdf portfolios</td><td class="confluenceTd">New feature</td></tr><tr><td class="confluenceTd">TEXTNET-648</td><td class="confluenceTd">Implement IContainer interface support for email text extractors</td><td class="confluenceTd">New feature</td></tr><tr><td class="confluenceTd">TEXTNET-650</td><td class="confluenceTd">Implement the support for DOT files</td><td class="confluenceTd">New feature</td></tr><tr><td colspan="1" class="confluenceTd">TEXTNET-666</td><td colspan="1" class="confluenceTd">Implement IPageTextExtractor interface</td><td colspan="1" class="confluenceTd">New feature</td></tr></tbody></table>
+| Key | Summary | Issue Type |
+| --- | --- | --- |
+| TEXTNET-628 | Implement the ability to extract a text from pdf portfolios | New feature |
+| TEXTNET-648 | Implement IContainer interface support for email text extractors | New feature |
+| TEXTNET-650 | Implement the support for DOT files | New feature |
+| TEXTNET-666 | Implement IPageTextExtractor interface | New feature |
 
 ## Public API and Backward Incompatible Changes
 

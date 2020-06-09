@@ -12,7 +12,13 @@ GroupDocs.Parser provides the functionality to extract data from emails. Both em
 
 The following table provides the list of supported formats:
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd"><a href="https://wiki.fileformat.com/email/eml/" rel="nofollow" class="external-link">EML</a></td><td class="confluenceTd">E-Mail Message</td></tr><tr><td class="confluenceTd"><a href="https://wiki.fileformat.com/email/emlx/" rel="nofollow" class="external-link">EMLX</a></td><td class="confluenceTd">Apple Mail Message</td></tr><tr><td class="confluenceTd"><a href="https://wiki.fileformat.com/email/msg/" rel="nofollow" class="external-link">MSG</a></td><td class="confluenceTd">Microsoft Outlook Mail Message</td></tr><tr><td class="confluenceTd"><a href="https://wiki.fileformat.com/email/pst/" rel="nofollow" class="external-link">PST</a></td><td class="confluenceTd">Microsoft Outlook Personal Information Store File</td></tr><tr><td class="confluenceTd"><a href="https://wiki.fileformat.com/email/ost/" rel="nofollow" class="external-link">OST</a></td><td class="confluenceTd">Microsoft Outlook Offline Data File</td></tr></tbody></table>
+| Format | Description |
+| --- | --- |
+| [EML](https://wiki.fileformat.com/email/eml/) | E-Mail Message |
+| [EMLX](https://wiki.fileformat.com/email/emlx/) | Apple Mail Message |
+| [MSG](https://wiki.fileformat.com/email/msg/) | Microsoft Outlook Mail Message |
+| [PST](https://wiki.fileformat.com/email/pst/) | Microsoft Outlook Personal Information Store File |
+| [OST](https://wiki.fileformat.com/email/ost/) | Microsoft Outlook Offline Data File |
 
 The following examples demonstrate how to extract data from emails:
 

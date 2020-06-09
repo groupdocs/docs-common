@@ -8,9 +8,9 @@ keywords:
 productName: GroupDocs.Parser for .NET
 hideChildren: False
 ---
-GroupDocs.Parser allows to extract text from PDF, Emails, Ebooks, Microsoft Office formats: Word (DOC, DOCX), PowerPoint (PPT, PPTX), Excel (XLS, XLSX), LibreOffice formats and many others (see full list at [supported document formats](Supported%2BDocument%2BFormats.html) article).
+GroupDocs.Parser allows to extract text from PDF, Emails, Ebooks, Microsoft Office formats: Word (DOC, DOCX), PowerPoint (PPT, PPTX), Excel (XLS, XLSX), LibreOffice formats and many others (see full list at [supported document formats]({{< ref "parser-net/getting-started/supported-document-formats.md" >}}) article).
 
-GroupDocs.Parser's text extractor is easy to use and powerful at the same time (to resolve complex scenarios see [advanced usage section](Working%2Bwith%2Btext.html)).
+GroupDocs.Parser's text extractor is easy to use and powerful at the same time (to resolve complex scenarios see [advanced usage section]({{< ref "parser-net/developer-guide/advanced-usage/working-with-text/_index.md" >}})).
 
 This article demonstrates how to implement the simplest scenario - extract text from any supported format without additional settings.
 
@@ -54,7 +54,7 @@ using(Parser parser = new Parser(filePath))
 
 ### Advanced usage topics
 
-To learn more about text extraction features, please refer the [advanced usage section](Working%2Bwith%2Btext.html).
+To learn more about text extraction features, please refer the [advanced usage section]({{< ref "parser-net/developer-guide/advanced-usage/working-with-text/_index.md" >}}).
 
 ### GitHub examples
 

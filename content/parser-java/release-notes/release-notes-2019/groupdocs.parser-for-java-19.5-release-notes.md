@@ -171,7 +171,15 @@ There are the following features in this release:
     
     It is recommended to define a rectangular area above (below) the center of the line that is below (above) the selected area, in order to avoid the excessive extraction of the text. For example:
     
-    <table class="confluenceTable"><tbody><tr><td class="confluenceTd"><img class="confluence-embedded-image" src="attachments/84967629/85098553.png" data-image-src="attachments/84967629/85098553.png"></td><td class="confluenceTd"><p>Extracts only one line:</p><p>67890</p></td></tr><tr><td class="confluenceTd"><img class="confluence-embedded-image" src="attachments/84967629/85098554.png" data-image-src="attachments/84967629/85098554.png"></td><td class="confluenceTd"><p>Extracts two lines:</p><p>4321 First Street<br>Anytown, State ZIP</p></td></tr><tr><td class="confluenceTd"><img class="confluence-embedded-image" src="attachments/84967629/85098555.png" data-image-src="attachments/84967629/85098555.png"></td><td class="confluenceTd"><p>Extracts four lines:</p><p>Company Name<br>4321 First Street<br>Anytown, State ZIP<br>Date: 06/02/2019</p></td></tr></tbody></table>
+    | Template definition | Result |
+    | --- | --- |
+| ![](parser-java/images/groupdocs-parser-for-java-19-5-release-notes.png)) | Extracts only one line:67890 
+| ![](parser-java/images/groupdocs-parser-for-java-19-5-release-notes_1.png)) | Extracts two lines:4321 First Stree
+    Anytown, State ZIP |
+| ![](parser-java/images/groupdocs-parser-for-java-19-5-release-notes_2.png)) | Extracts four lines:Company Nam
+    4321 First Street  
+    Anytown, State ZIP  
+    Date: 06/02/2019 |
     
     ###### Regular expression field
     
@@ -204,7 +212,9 @@ There are the following features in this release:
     TemplateField invoiceNumber = new TemplateField("InvoiceNumber", TemplateFieldPosition.createRelated("invoice", TemplateFieldRelatedPositionType.Right, new Size(100, 15), false));
     ```
     
-    <table class="confluenceTable"><tbody><tr><td class="confluenceTd"><img class="confluence-embedded-image" src="attachments/84967629/85098558.png" data-image-src="attachments/84967629/85098558.png"></td><td class="confluenceTd"><p>Extracts a text on the right of "Invoice Number" field:</p><p>INV-3337</p></td></tr></tbody></table>
+    | Template definition | Result |
+    | --- | --- |
+| ![](parser-java/images/groupdocs-parser-for-java-19-5-release-notes_3.png)) | Extracts a text on the right of "Invoice Number" field:INV-3337 
     
     To simplify the setting of the size of template field CanScaleSearchAreaSize property is used. The size of template field is scaled according to the related field if CanScaleSearchAreaSize is set to true.This is useful when the font size is not known in advance, but the proportions of the size of the value (the ratio of height to width) are approximately known:
     
@@ -214,7 +224,9 @@ There are the following features in this release:
     TemplateField invoiceNumber = new TemplateField("InvoiceNumber", TemplateFieldPosition.createRelated("invoice", TemplateFieldRelatedPositionType.Right, new Size(100, 15), true));
     ```
     
-    <table class="confluenceTable"><tbody><tr><td class="confluenceTd"><img class="confluence-embedded-image" src="attachments/84967629/85098557.png" data-image-src="attachments/84967629/85098557.png">&nbsp;</td><td class="confluenceTd"><p>Extracts a text on the right of "Invoice Number" field:</p><p>INV-3337</p></td></tr></tbody></table>
+    | Template definition | Result |
+    | --- | --- |
+| ![](parser-java/images/groupdocs-parser-for-java-19-5-release-notes_4.png))  | Extracts a text on the right of "Invoice Number" field:INV-3337 
     
     The field value can be extracted from either side of the related field. The side of value extraction is set by TemplateFieldRelatedPositionType enumeration. The size of rectangular area is set by SearchAreaSize property. The position of rectangular area depends on the side of value extraction:
     
@@ -234,7 +246,14 @@ There are the following features in this release:
     TemplateField addressField = new TemplateField("FromAddress", 0, TemplateFieldPosition.createRelated("FromCompany", TemplateFieldRelatedPositionType.Bottom, new Size(100, 30), false));
     ```
     
-    <table class="confluenceTable"><tbody><tr><td class="confluenceTd"><img class="confluence-embedded-image" src="attachments/84967629/85098559.png" data-image-src="attachments/84967629/85098559.png"></td><td class="confluenceTd"><p>The extraction is processed in the following way:</p><ol><li>Extracts data of "From" regex field (green)</li><li>Extracts data of "FromCompany" related field (yellow)</li><li>Extracts data of "FromAddress" related field (red)</li></ol></td></tr></tbody></table>
+    | Template definition | Result |
+    | --- | --- |
+| ![](parser-java/images/groupdocs-parser-for-java-19-5-release-notes_5.png)) | The extraction is processed in the following way
+    1.  Extracts data of "From" regex field (green)
+    2.  Extracts data of "FromCompany" related field (yellow)
+    3.  Extracts data of "FromAddress" related field (red)
+    
+     |
     
     A value of the field depends on the related field. The field is always empty If the related field doesn't have a value. If the field has a value then it has a link to the related field.
     
@@ -388,7 +407,7 @@ There are the following features in this release:
     
     This example shows the template which is used to parse the following invoice:
     
-![](parser-java/images/groupdocs-parser-for-java-19-5-release-notes.jpg)
+![](parser-java/images/groupdocs-parser-for-java-19-5-release-notes_6.jpg)
     
     ```csharp
     // Create a collection of template fields
@@ -687,7 +706,7 @@ There are the following features in this release:
     }
     ```
     
-![](parser-java/images/groupdocs-parser-for-java-19-5-release-notes_1.png)
+![](parser-java/images/groupdocs-parser-for-java-19-5-release-notes_7.png)
     
     For more accurate table detection a user can set a rectangular area that bounds the table:
     
@@ -723,7 +742,7 @@ There are the following features in this release:
     }
     ```
     
-![](parser-java/images/groupdocs-parser-for-java-19-5-release-notes_2.png)
+![](parser-java/images/groupdocs-parser-for-java-19-5-release-notes_8.png)
     
 4.  ### Remove obsolete members (version 18.7)
     
@@ -782,8 +801,18 @@ There are the following features in this release:
     
     #### **Spreadsheet**
     
-    <table class="confluenceTable"><tbody><tr><td class="confluenceTd"><p>XLT</p></td><td class="confluenceTd"><p>Microsoft Excel Template</p></td></tr><tr><td class="confluenceTd"><p>XLTX</p></td><td class="confluenceTd"><p>Office Open XML Spreadsheet Template</p></td></tr><tr><td class="confluenceTd"><p>XLTM</p></td><td class="confluenceTd"><p>Office Open XML Spreadsheet Template&nbsp;<span class="confluence-link">(Macro-enabled)</span></p></td></tr><tr><td class="confluenceTd"><p>OTS</p></td><td class="confluenceTd"><p>Open Document Spreadsheet Template</p></td></tr><tr><td class="confluenceTd"><p>XLA</p></td><td class="confluenceTd"><p>Excel Add-In File</p></td></tr><tr><td class="confluenceTd"><p>XLAM</p></td><td class="confluenceTd"><p>Excel Open XML Macro-Enabled Add-In</p></td></tr></tbody></table>
+    | Format | Description |
+    | --- | --- |
+    | XLT | Microsoft Excel Template |
+    | XLTX | Office Open XML Spreadsheet Template |
+    | XLTM | Office Open XML Spreadsheet Template (Macro-enabled) |
+    | OTS | Open Document Spreadsheet Template |
+    | XLA | Excel Add-In File |
+    | XLAM | Excel Open XML Macro-Enabled Add-In |
     
     #### **Presentations**
     
-    <table class="confluenceTable"><tbody><tr><td class="confluenceTd"><p>POT</p></td><td class="confluenceTd"><p>PowerPoint Template</p></td></tr><tr><td class="confluenceTd"><p>OTP</p></td><td class="confluenceTd"><p>Open Document Presentation Template</p></td></tr></tbody></table>
+    | Format | Description |
+    | --- | --- |
+    | POT | PowerPoint Template |
+    | OTP | Open Document Presentation Template |

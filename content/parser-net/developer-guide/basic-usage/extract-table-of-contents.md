@@ -26,7 +26,7 @@ IEnumerable<TocItem> GetToc()
 | [Depth](https://apireference.groupdocs.com/net/parser/groupdocs.parser.data/tocitem/properties/depth) | The depth level. |
 | [PageIndex](https://apireference.groupdocs.com/net/parser/groupdocs.parser.data/tocitem/properties/pageindex) | The page index. |
 | [Text](https://apireference.groupdocs.com/net/parser/groupdocs.parser.data/tocitem/properties/text) | The text. |
-| TextReader [GetText()](https://apireference.groupdocs.com/net/parser/groupdocs.parser.data/tocitem/methods/gettext) | Extract a text from the document to which [TocItem](https://apireference.groupdocs.com/net/parser/groupdocs.parser.data/tocitem) object refers. For detail, see [Extract table of contents](Extract%2Btable%2Bof%2Bcontents.html) |
+| TextReader [GetText()](https://apireference.groupdocs.com/net/parser/groupdocs.parser.data/tocitem/methods/gettext) | Extract a text from the document to which [TocItem](https://apireference.groupdocs.com/net/parser/groupdocs.parser.data/tocitem) object refers. For detail, see [Extract table of contents]({{< ref "parser-net/developer-guide/basic-usage/extract-table-of-contents.md" >}}) |
 
 Here are the steps to extract extract table of contents from the document:
 
@@ -79,7 +79,7 @@ using (Parser parser = new Parser(filePath))
 
 ### Advanced usage topics
 
-To learn more about document data extraction features and get familiar how to extract text, images, forms and more, please refer to the [advanced usage section](Advanced%2Busage.html).
+To learn more about document data extraction features and get familiar how to extract text, images, forms and more, please refer to the [advanced usage section]({{< ref "parser-net/developer-guide/advanced-usage/_index.md" >}}).
 
 ### GitHub examples
 

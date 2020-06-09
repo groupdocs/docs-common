@@ -35,7 +35,7 @@ using(Parser parser = new Parser(filePath))
 
 ```
 
-GroupDocs.Parser also allows to extract a text from emails as HTML, Markdown and formatted plain text. For more details, see [Extract Formatted Text](https://wiki.lisbon.dynabic.com/display/parser/Text+Extractor+-+Extract+Formatted+Text+from+a+Document).
+GroupDocs.Parser also allows to extract a text from emails as HTML, Markdown and formatted plain text. For more details, see [Extract Formatted Text]({{< ref "parser-net/developer-guide/advanced-usage/working-with-text/working-with-formatted-text/extract-formatted-text-from-document.md" >}}).
 
 Here are the steps to extract a text from an email as HTML:
 

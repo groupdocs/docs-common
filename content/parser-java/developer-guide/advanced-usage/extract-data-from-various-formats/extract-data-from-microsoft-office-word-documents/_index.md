@@ -12,7 +12,18 @@ GroupDocs.Parser provides the functionality to extract data from Microsoft Offic
 
 The following table provides the list of supported formats:
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd"><a class="external-link" href="https://wiki.fileformat.com/word-processing/doc/" rel="nofollow">DOC</a></td><td class="confluenceTd">Microsoft Office Word Document</td></tr><tr><td class="confluenceTd"><a class="external-link" href="https://wiki.fileformat.com/word-processing/dot/" rel="nofollow">DOT</a></td><td class="confluenceTd">Microsoft Office Word Document Template</td></tr><tr><td class="confluenceTd"><a class="external-link" href="https://wiki.fileformat.com/word-processing/docx/" rel="nofollow">DOCX</a></td><td class="confluenceTd">Microsoft Office Open XML Document</td></tr><tr><td class="confluenceTd"><a class="external-link" href="https://wiki.fileformat.com/word-processing/docm/" rel="nofollow">DOCM</a></td><td class="confluenceTd">Microsoft Office Open XML Macro-Enabled Document</td></tr><tr><td class="confluenceTd"><a class="external-link" href="https://wiki.fileformat.com/word-processing/dotx/" rel="nofollow">DOTX</a></td><td class="confluenceTd">Microsoft Office Open XML Document Template</td></tr><tr><td class="confluenceTd"><a class="external-link" href="https://wiki.fileformat.com/word-processing/dotm/" rel="nofollow">DOTM</a></td><td class="confluenceTd">Microsoft Office Open XML Document Macro-Enabled Template</td></tr><tr><td class="confluenceTd"><a class="external-link" href="https://wiki.fileformat.com/word-processing/txt/" rel="nofollow">TXT</a></td><td class="confluenceTd">Plain text</td></tr><tr><td class="confluenceTd"><a class="external-link" href="https://wiki.fileformat.com/word-processing/odt/" rel="nofollow">ODT</a></td><td class="confluenceTd">Open Document Text</td></tr><tr><td class="confluenceTd"><a class="external-link" href="https://wiki.fileformat.com/word-processing/ott/" rel="nofollow">OTT</a></td><td class="confluenceTd">Open Document Text Template</td></tr><tr><td class="confluenceTd"><a class="external-link" href="https://wiki.fileformat.com/word-processing/rtf/" rel="nofollow">RTF</a></td><td class="confluenceTd">Rich Text Format</td></tr></tbody></table>
+| Format | Description |
+| --- | --- |
+| [DOC](https://wiki.fileformat.com/word-processing/doc/) | Microsoft Office Word Document |
+| [DOT](https://wiki.fileformat.com/word-processing/dot/) | Microsoft Office Word Document Template |
+| [DOCX](https://wiki.fileformat.com/word-processing/docx/) | Microsoft Office Open XML Document |
+| [DOCM](https://wiki.fileformat.com/word-processing/docm/) | Microsoft Office Open XML Macro-Enabled Document |
+| [DOTX](https://wiki.fileformat.com/word-processing/dotx/) | Microsoft Office Open XML Document Template |
+| [DOTM](https://wiki.fileformat.com/word-processing/dotm/) | Microsoft Office Open XML Document Macro-Enabled Template |
+| [TXT](https://wiki.fileformat.com/word-processing/txt/) | Plain text |
+| [ODT](https://wiki.fileformat.com/word-processing/odt/) | Open Document Text |
+| [OTT](https://wiki.fileformat.com/word-processing/ott/) | Open Document Text Template |
+| [RTF](https://wiki.fileformat.com/word-processing/rtf/) | Rich Text Format |
 
 The following examples demonstrate how to extract data from Microsoft Office Word documents:
 

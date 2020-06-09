@@ -21,7 +21,14 @@ There are the following features in this release:
 
 ## All Changes
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd"><p>TEXTNET-525</p></td><td class="confluenceTd"><p>Implement the ability to extract a text from EPUB files</p></td><td class="confluenceTd"><p>New feature</p></td></tr><tr><td class="confluenceTd"><p>TEXTNET-340</p></td><td class="confluenceTd"><p>Implement the ability to search a text with a regular expression</p></td><td class="confluenceTd"><p>New feature</p></td></tr><tr><td class="confluenceTd"><p>TEXTNET-492</p></td><td class="confluenceTd"><p>Implement the ability to search the whole word</p></td><td class="confluenceTd"><p>New feature</p></td></tr><tr><td class="confluenceTd"><p>TEXTNET-494</p></td><td class="confluenceTd"><p>Implement the ability to extract a highlight to line's start (end)</p></td><td class="confluenceTd"><p>New feature</p></td></tr><tr><td class="confluenceTd"><p>TEXTNET-495</p></td><td class="confluenceTd"><p>Implement the ability to extract a highlight with the limited words count</p></td><td class="confluenceTd"><p>New feature</p></td></tr><tr><td class="confluenceTd"><p>TEXTNET-528</p></td><td class="confluenceTd"><p>Implement the ability to use all highlight extraction modes with search functionality</p></td><td class="confluenceTd"><p>Enhancement</p></td></tr></tbody></table>
+| Key | Summary | Issue Type |
+| --- | --- | --- |
+| TEXTNET-525 | Implement the ability to extract a text from EPUB files | New feature |
+| TEXTNET-340 | Implement the ability to search a text with a regular expression | New feature |
+| TEXTNET-492 | Implement the ability to search the whole word | New feature |
+| TEXTNET-494 | Implement the ability to extract a highlight to line's start (end) | New feature |
+| TEXTNET-495 | Implement the ability to extract a highlight with the limited words count | New feature |
+| TEXTNET-528 | Implement the ability to use all highlight extraction modes with search functionality | Enhancement |
 
 ## Public API and Backward Incompatible Changes
 

@@ -8,7 +8,7 @@ keywords:
 productName: GroupDocs.Parser for .NET
 hideChildren: False
 ---
-GroupDocs.Parser provides the functionality to extract a text by an item of table of contents. This feature is supported for Word Processing, PDF, ePUB and CHM documents (for more details, see [Extract text by table of contents item](Extract%2Btext%2Bby%2Btable%2Bof%2Bcontents%2Bitem.html)).
+GroupDocs.Parser provides the functionality to extract a text by an item of table of contents. This feature is supported for Word Processing, PDF, ePUB and CHM documents (for more details, see [Extract text by table of contents item]({{< ref "parser-net/developer-guide/advanced-usage/working-with-text/extract-text-by-table-of-contents-item.md" >}})).
 
 Text is extracted by [TocItem.GetText](https://apireference.groupdocs.com/net/parser/groupdocs.parser.data/tocitem/methods/gettext) method:
 
@@ -26,19 +26,19 @@ using (TextReader reader = tocItem.GetText())
 
 This method returns a text from the chapter to which table of contents item refers (without sub-chapters). For example, "Heading 1.2" from the page
 
-![](https://wiki.lisbon.dynabic.com/download/attachments/30478637/Page1.png?version=1&modificationDate=1580313818000&api=v2)
+![](parser-net/images/extract-text-by-table-of-contents-item.png)
 
 returns the following text:
 
-![](https://wiki.lisbon.dynabic.com/download/attachments/30478637/Heading12.png?version=1&modificationDate=1580313827000&api=v2)
+![](parser-net/images/extract-text-by-table-of-contents-item_1.png)
 
 "Heading 2" from the page:
 
-![](https://wiki.lisbon.dynabic.com/download/attachments/30478637/Page2.png?version=1&modificationDate=1580313823000&api=v2)
+![](parser-net/images/extract-text-by-table-of-contents-item_2.png)
 
 returns the following text:
 
-![](https://wiki.lisbon.dynabic.com/download/attachments/30478637/Heading2.png?version=1&modificationDate=1580313830000&api=v2)
+![](parser-net/images/extract-text-by-table-of-contents-item_3.png)
 
 {{< alert style="warning" >}}InvalidOperationException is thrown if tocItem.PageIndex is null.{{< /alert >}}
 

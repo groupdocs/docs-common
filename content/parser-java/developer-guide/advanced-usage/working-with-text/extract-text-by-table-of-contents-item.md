@@ -8,7 +8,7 @@ keywords:
 productName: GroupDocs.Parser for Java
 hideChildren: False
 ---
-GroupDocs.Parser provides the functionality to extract a text by an item of table of contents. This feature is supported for Word Processing, PDF, ePUB and CHM documents (for more details, see [Supported Document Formats](https://wiki.lisbon.dynabic.com/pages/viewpage.action?pageId=30050812)).
+GroupDocs.Parser provides the functionality to extract a text by an item of table of contents. This feature is supported for Word Processing, PDF, ePUB and CHM documents (for more details, see [Supported Document Formats]({{< ref "parser-java/getting-started/supported-document-formats.md" >}})).
 
 Text is extracted by `**[extractText](https://apireference.groupdocs.com/java/parser/com.groupdocs.parser.data/TocItem#extractText())**()`  method:
 
@@ -24,19 +24,19 @@ try(TextReader reader = tocItem.extractText()) {
 
 This method returns a text from the chapter to which table of contents item refers (without sub-chapters). For example, "Heading 1.2" from the page
 
-![](https://wiki.lisbon.dynabic.com/download/attachments/30478637/Page1.png?version=1&modificationDate=1580313818000&api=v2)
+![](parser-java/images/extract-text-by-table-of-contents-item.png)
 
 returns the following text:
 
-![](https://wiki.lisbon.dynabic.com/download/attachments/30478637/Heading12.png?version=1&modificationDate=1580313827000&api=v2)
+![](parser-java/images/extract-text-by-table-of-contents-item_1.png)
 
 "Heading 2" from the page:
 
-![](https://wiki.lisbon.dynabic.com/download/attachments/30478637/Page2.png?version=1&modificationDate=1580313823000&api=v2)
+![](parser-java/images/extract-text-by-table-of-contents-item_2.png)
 
 returns the following text:
 
-![](https://wiki.lisbon.dynabic.com/download/attachments/30478637/Heading2.png?version=1&modificationDate=1580313830000&api=v2)
+![](parser-java/images/extract-text-by-table-of-contents-item_3.png)
 
 {{< alert style="warning" >}}java.lang.UnsupportedOperationException is thrown if getPageIndex() is null.{{< /alert >}}
 

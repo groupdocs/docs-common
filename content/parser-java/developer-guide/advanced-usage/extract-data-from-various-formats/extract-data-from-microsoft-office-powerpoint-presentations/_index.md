@@ -12,7 +12,19 @@ GroupDocs.Parser provides the functionality to extract data from Microsoft Offic
 
 The following table provides the list of supported formats:
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd"><a class="external-link" href="https://wiki.fileformat.com/presentation/ppt/" rel="nofollow">PPT</a></td><td class="confluenceTd">Microsoft Office PowerPoint Presentation</td></tr><tr><td class="confluenceTd"><a class="external-link" href="https://wiki.fileformat.com/presentation/pps/" rel="nofollow">PPS</a></td><td class="confluenceTd">Microsoft Office PowerPoint Slideshow</td></tr><tr><td class="confluenceTd"><a class="external-link" href="https://wiki.fileformat.com/presentation/pot/" rel="nofollow">POT</a></td><td class="confluenceTd">Microsoft Office PowerPoint Template</td></tr><tr><td class="confluenceTd"><a class="external-link" href="https://wiki.fileformat.com/presentation/pptx/" rel="nofollow">PPTX</a></td><td class="confluenceTd">Microsoft Office Open XML Presentation</td></tr><tr><td class="confluenceTd"><a class="external-link" href="https://wiki.fileformat.com/presentation/pptm/" rel="nofollow">PPTM</a></td><td class="confluenceTd">Microsoft Office Open XML Macro-Enabled Presentation</td></tr><tr><td class="confluenceTd"><a class="external-link" href="https://wiki.fileformat.com/presentation/potx/" rel="nofollow">POTX</a></td><td class="confluenceTd">Microsoft Office Open XML Presentation Template</td></tr><tr><td class="confluenceTd"><a class="external-link" href="https://wiki.fileformat.com/presentation/potm/" rel="nofollow">POTM</a></td><td class="confluenceTd">Microsoft Office Open XML Macro-Enabled Presentation Template</td></tr><tr><td class="confluenceTd"><a class="external-link" href="https://wiki.fileformat.com/presentation/ppsx/" rel="nofollow">PPSX</a></td><td class="confluenceTd">Microsoft Office Open XML Presentation Slideshow</td></tr><tr><td class="confluenceTd"><a class="external-link" href="https://wiki.fileformat.com/presentation/ppsm/" rel="nofollow">PPSM</a></td><td class="confluenceTd">Microsoft Office Open XML Macro-Enabled Presentation Slideshow</td></tr><tr><td class="confluenceTd"><a class="external-link" href="https://wiki.fileformat.com/presentation/odp/" rel="nofollow">ODP</a></td><td class="confluenceTd">Open Document Presentation</td></tr><tr><td class="confluenceTd"><a class="external-link" href="https://wiki.fileformat.com/presentation/otp/" rel="nofollow">OTP</a></td><td class="confluenceTd">Open Document Presentation Template</td></tr></tbody></table>
+| Format | Description |
+| --- | --- |
+| [PPT](https://wiki.fileformat.com/presentation/ppt/) | Microsoft Office PowerPoint Presentation |
+| [PPS](https://wiki.fileformat.com/presentation/pps/) | Microsoft Office PowerPoint Slideshow |
+| [POT](https://wiki.fileformat.com/presentation/pot/) | Microsoft Office PowerPoint Template |
+| [PPTX](https://wiki.fileformat.com/presentation/pptx/) | Microsoft Office Open XML Presentation |
+| [PPTM](https://wiki.fileformat.com/presentation/pptm/) | Microsoft Office Open XML Macro-Enabled Presentation |
+| [POTX](https://wiki.fileformat.com/presentation/potx/) | Microsoft Office Open XML Presentation Template |
+| [POTM](https://wiki.fileformat.com/presentation/potm/) | Microsoft Office Open XML Macro-Enabled Presentation Template |
+| [PPSX](https://wiki.fileformat.com/presentation/ppsx/) | Microsoft Office Open XML Presentation Slideshow |
+| [PPSM](https://wiki.fileformat.com/presentation/ppsm/) | Microsoft Office Open XML Macro-Enabled Presentation Slideshow |
+| [ODP](https://wiki.fileformat.com/presentation/odp/) | Open Document Presentation |
+| [OTP](https://wiki.fileformat.com/presentation/otp/) | Open Document Presentation Template |
 
 The following examples demonstrate how to extract data from Microsoft Office PowerPoint presentations:
 

@@ -26,7 +26,7 @@ Iterable<TocItem> getToc()
 | `**[getDepth](https://apireference.groupdocs.com/java/parser/com.groupdocs.parser.data/TocItem#getDepth())**()` | The depth level. |
 | `**[getPageIndex](https://apireference.groupdocs.com/java/parser/com.groupdocs.parser.data/TocItem#getPageIndex())**()` | The page index. |
 | `**[getText](https://apireference.groupdocs.com/java/parser/com.groupdocs.parser.data/TocItem#getText())**()` | The text. |
-| `**[extractText](https://apireference.groupdocs.com/java/parser/com.groupdocs.parser.data/TocItem#extractText())**()` | Extracts a text from the document to which TocItem object refers. For detail, see [Extract Text By Table of Contents Item](https://wiki.lisbon.dynabic.com/display/parser/Extract+Text+By+Table+of+Contents+Item) |
+| `**[extractText](https://apireference.groupdocs.com/java/parser/com.groupdocs.parser.data/TocItem#extractText())**()` | Extracts a text from the document to which TocItem object refers. For detail, see [Extract Text By Table of Contents Item]({{< ref "parser-java/developer-guide/advanced-usage/working-with-text/extract-text-by-table-of-contents-item.md" >}}) |
 
 Here are the steps to extract extract table of contents from the document:
 
@@ -72,7 +72,7 @@ try (Parser parser = new Parser(Constants.SampleChm)) {
 
 ### Advanced usage topics
 
-To learn more about document data extraction features and get familiar how to extract text, images, forms and more, please refer to the [advanced usage section](Advanced%2BUsage.html).
+To learn more about document data extraction features and get familiar how to extract text, images, forms and more, please refer to the [advanced usage section]({{< ref "parser-java/developer-guide/advanced-usage/_index.md" >}}).
 
 ### GitHub examples
 
@@ -87,4 +87,4 @@ You may easily run the code above and see the feature in action in our GitHub e
 
 Along with full featured Java library we provide simple, but powerful free Apps.
 
-You are welcome to extract data from PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX, Emails and more with our free online [Free Online Document Parser App](https://wiki.lisbon.dynabic.com/pages/viewpage.action?pageId=30050825).
+You are welcome to extract data from PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX, Emails and more with our free online [Free Online Document Parser App](https://products.groupdocs.app/parser).

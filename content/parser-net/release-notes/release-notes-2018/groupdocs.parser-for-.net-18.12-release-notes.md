@@ -20,7 +20,11 @@ There are the following features in this release:
 
 ## Full List of Issues Covering all Changes in this Release
 
-<table class="confluenceTable"><tbody><tr><td colspan="1" class="confluenceTd">PARSERNET-1016</td><td colspan="1" class="confluenceTd">Implement the ability to extract tables from PDFs</td><td colspan="1" class="confluenceTd">New feature</td></tr><tr><td colspan="1" class="confluenceTd">PARSERNET-1097</td><td colspan="1" class="confluenceTd">Implement the support for text and presentation templates</td><td colspan="1" class="confluenceTd">New feature</td></tr><tr><td colspan="1" class="confluenceTd">PARSERNET-1092</td><td colspan="1" class="confluenceTd">Implement the ability to detect the type of password-protected Office Open XML documents</td><td colspan="1" class="confluenceTd">Enhancement</td></tr></tbody></table>
+| Key | Summary | Issue Type |
+| --- | --- | --- |
+| PARSERNET-1016 | Implement the ability to extract tables from PDFs | New feature |
+| PARSERNET-1097 | Implement the support for text and presentation templates | New feature |
+| PARSERNET-1092 | Implement the ability to detect the type of password-protected Office Open XML documents | Enhancement |
 
 ## Public API and Backward Incompatible Changes
 

@@ -18,7 +18,13 @@ There are the following features in this release:
 
 ## All Changes
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd"><p>TEXTNET-341</p></td><td class="confluenceTd"><p>Implement the architecture to read a structured text</p></td><td class="confluenceTd"><p>New feature</p></td></tr><tr><td class="confluenceTd"><p>TEXTNET-342</p></td><td class="confluenceTd"><p>Implement the ability to read a structured text from spreadsheets</p></td><td class="confluenceTd"><p>New feature</p></td></tr><tr><td class="confluenceTd"><p>TEXTNET-343</p></td><td class="confluenceTd"><p>Implement the ability to read a structured text from text documents</p></td><td class="confluenceTd"><p>New feature</p></td></tr><tr><td class="confluenceTd"><p>TEXTNET-344</p></td><td class="confluenceTd"><p>Implement the ability to read a structured text from presentations</p></td><td class="confluenceTd"><p>New feature</p></td></tr><tr><td class="confluenceTd"><p>TEXTNET-345</p></td><td class="confluenceTd"><p>Implement the ability to read a structured text from emails</p></td><td class="confluenceTd"><p>New feature</p></td></tr></tbody></table>
+| Key | Summary | Issue Type |
+| --- | --- | --- |
+| TEXTNET-341 | Implement the architecture to read a structured text | New feature |
+| TEXTNET-342 | Implement the ability to read a structured text from spreadsheets | New feature |
+| TEXTNET-343 | Implement the ability to read a structured text from text documents | New feature |
+| TEXTNET-344 | Implement the ability to read a structured text from presentations | New feature |
+| TEXTNET-345 | Implement the ability to read a structured text from emails | New feature |
 
 ## Public API and Backward Incompatible Changes
 

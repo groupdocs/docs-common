@@ -24,7 +24,15 @@ There are the following features in this release:
 
 ## Full List of Issues Covering all Changes in this Release
 
-<table class="confluenceTable"><tbody><tr><td colspan="1" class="confluenceTd">PARSERNET-555</td><td colspan="1" class="confluenceTd">Implement the ability to extract a text from databases</td><td colspan="1" class="confluenceTd">New feature</td></tr><tr><td colspan="1" class="confluenceTd">PARSERNET-975</td><td colspan="1" class="confluenceTd">Implement the ability to extract data from the form fields of PDFs</td><td colspan="1" class="confluenceTd">New feature</td></tr><tr><td colspan="1" class="confluenceTd"><p>PARSERNET-1024</p></td><td colspan="1" class="confluenceTd"><p>Implement the ability to request a password for protected documents</p></td><td colspan="1" class="confluenceTd"><p>New feature</p></td></tr><tr><td class="confluenceTd"><p>PARSERNET-978</p></td><td class="confluenceTd"><p class="item-summary">Implement the support for text analysis API for text documents</p></td><td class="confluenceTd"><p>New feature</p></td></tr><tr><td class="confluenceTd"><p>PARSERNET-979</p></td><td class="confluenceTd">Implement the support for text analysis API for spreadsheets</td><td class="confluenceTd"><p>New feature</p></td></tr><tr><td class="confluenceTd"><p>PARSERNET-980</p></td><td class="confluenceTd">Implement the support for text analysis API for presentations</td><td class="confluenceTd"><p>New feature</p></td></tr><tr><td colspan="1" class="confluenceTd">PARSERJAVA-31</td><td colspan="1" class="confluenceTd">Metered licensing security has been improved and now supports Java version 8u101 or above</td><td colspan="1" class="confluenceTd">Breaking change</td></tr></tbody></table>
+| Key | Summary | Issue Type |
+| --- | --- | --- |
+| PARSERNET-555 | Implement the ability to extract a text from databases | New feature |
+| PARSERNET-975 | Implement the ability to extract data from the form fields of PDFs | New feature |
+| PARSERNET-1024 | Implement the ability to request a password for protected documents | New feature |
+| PARSERNET-978 | Implement the support for text analysis API for text documents | New feature |
+| PARSERNET-979 | Implement the support for text analysis API for spreadsheets | New feature |
+| PARSERNET-980 | Implement the support for text analysis API for presentations | New feature |
+| PARSERJAVA-31 | Metered licensing security has been improved and now supports Java version 8u101 or above | Breaking change |
 
 ## Public API and Backward Incompatible Changes
 

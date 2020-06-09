@@ -19,7 +19,10 @@ There are the following features in this release:
 
 ## Full List of Issues Covering all Changes in this Release
 
-<table class="confluenceTable"><tbody><tr><td colspan="1" class="confluenceTd">PARSERNET-555</td><td colspan="1" class="confluenceTd">Implement the ability to extract a text from databases</td><td colspan="1" class="confluenceTd">New feature</td></tr><tr><td colspan="1" class="confluenceTd">PARSERNET-975</td><td colspan="1" class="confluenceTd">Implement the ability to extract data from the form fields of PDFs</td><td colspan="1" class="confluenceTd">New feature</td></tr></tbody></table>
+| Key | Summary | Issue Type |
+| --- | --- | --- |
+| PARSERNET-555 | Implement the ability to extract a text from databases | New feature |
+| PARSERNET-975 | Implement the ability to extract data from the form fields of PDFs | New feature |
 
 ## Public API and Backward Incompatible Changes
 

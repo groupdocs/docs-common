@@ -65,7 +65,7 @@ using (Parser parser = new Parser(filePath))
 
 ### Advanced usage topics
 
-To learn more about text extraction features, please refer the [advanced help section](Working%2Bwith%2Bformatted%2Btext.html).
+To learn more about text extraction features, please refer the [advanced help section]({{< ref "parser-net/developer-guide/advanced-usage/working-with-text/working-with-formatted-text/_index.md" >}}).
 
 ### GitHub examples
 

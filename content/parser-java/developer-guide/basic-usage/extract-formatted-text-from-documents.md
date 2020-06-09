@@ -70,7 +70,7 @@ try (Parser parser = new Parser(Constants.SampleDocx)) {
 
 ### Advanced usage topics
 
-To learn more about document data extraction features and get familiar how to extract text, images, forms and more, please refer to the [advanced usage section](Advanced%2BUsage.html).
+To learn more about document data extraction features and get familiar how to extract text, images, forms and more, please refer to the [advanced usage section]({{< ref "parser-java/developer-guide/advanced-usage/_index.md" >}}).
 
 ### GitHub examples
 

@@ -26,15 +26,23 @@ using (Parser parser = new Parser(filePath))
 
 The following HTML tags are supported by the API:
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd"><p>&lt;p&gt;</p></td><td class="confluenceTd"><p>Paragraph is surrounded by &lt;p&gt; tag</p></td></tr><tr><td class="confluenceTd"><p>&lt;a&gt;</p></td><td class="confluenceTd"><p>Hyperlinks</p></td></tr><tr><td class="confluenceTd"><p>&lt;b&gt;</p></td><td class="confluenceTd"><p>Text with Bold font is surrounded by &lt;b&gt; tag</p></td></tr><tr><td class="confluenceTd"><p>&lt;i&gt;</p></td><td class="confluenceTd"><p>Text with Italic font is surrounded by &lt;i&gt; tag</p></td></tr><tr><td class="confluenceTd"><p>&lt;h1&gt; - &lt;h6&gt;</p></td><td class="confluenceTd"><p>If the heading has 'Heading X' style, it's surrounded by &lt;hx&gt; tag</p></td></tr><tr><td class="confluenceTd"><p>&lt;ol&gt;/&lt;ul&gt;</p></td><td class="confluenceTd"><p>Numbering and bullets lists</p></td></tr><tr><td class="confluenceTd"><p>&lt;table&gt;</p></td><td class="confluenceTd"><p>Tables</p></td></tr></tbody></table>
+| Tag | Description |
+| --- | --- |
+| <p> | Paragraph is surrounded by <p> tag |
+| <a> | Hyperlinks |
+| <b> | Text with Bold font is surrounded by <b> tag |
+| <i> | Text with Italic font is surrounded by <i> tag |
+| <h1> - <h6> | If the heading has 'Heading X' style, it's surrounded by <hx> tag |
+| <ol>/<ul> | Numbering and bullets lists |
+| <table> | Tables |
 
 The following Microsoft Word document is used as input document:
 
-![](https://wiki.lisbon.dynabic.com/download/attachments/29428138/lorem_docx.png?version=1&modificationDate=1566841720000&api=v2)
+![](parser-net/images/html.png)
 
 The following HTML document is extracted using the example above:
 
-![](https://wiki.lisbon.dynabic.com/download/attachments/29428138/lorem_html.png?version=1&modificationDate=1566841720000&api=v2)
+![](parser-net/images/html_1.png)
 
 ## More resources
 

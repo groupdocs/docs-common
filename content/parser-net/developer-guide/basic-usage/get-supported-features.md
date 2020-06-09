@@ -87,7 +87,7 @@ Some operations may consume significant time. So it's not optimal to call the me
 
 ### Advanced usage topics
 
-To learn more about document data extraction features and get familiar how to extract text, images, forms and more, please refer to the [advanced usage section](Advanced%2Busage.html).
+To learn more about document data extraction features and get familiar how to extract text, images, forms and more, please refer to the [advanced usage section]({{< ref "parser-net/developer-guide/advanced-usage/_index.md" >}}).
 
 ### GitHub examples
 

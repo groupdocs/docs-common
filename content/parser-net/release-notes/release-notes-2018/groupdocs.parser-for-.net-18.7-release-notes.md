@@ -19,7 +19,10 @@ There are the following features in this release:
 
 ## Full List of Issues Covering all Changes in this Release
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd">PARSERNET-992</td><td class="confluenceTd">Implement API to provide data for text analysis</td><td class="confluenceTd">New feature</td></tr><tr><td class="confluenceTd">PARSERNET-956</td><td class="confluenceTd">Implement the support for text analysis API for PDF documents</td><td class="confluenceTd">New feature</td></tr></tbody></table>
+| Key | Summary | Issue Type |
+| --- | --- | --- |
+| PARSERNET-992 | Implement API to provide data for text analysis | New feature |
+| PARSERNET-956 | Implement the support for text analysis API for PDF documents | New feature |
 
 ## Public API and Backward Incompatible Changes
 

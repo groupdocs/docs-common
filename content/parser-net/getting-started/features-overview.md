@@ -72,7 +72,15 @@ GroupDocs.Parser also supports HTML formatting.
 
 Following HTML tags are now supported when extracting text with this formatting mode:
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd">&lt;p&gt;</td><td class="confluenceTd">Paragraph is surrounded by &lt;p&gt; tag</td></tr><tr><td class="confluenceTd">&lt;a&gt;</td><td class="confluenceTd">Hyperlinks</td></tr><tr><td class="confluenceTd">&lt;b&gt;</td><td class="confluenceTd">Text with Bold font is surrounded by &lt;b&gt; tag</td></tr><tr><td class="confluenceTd">&lt;i&gt;</td><td class="confluenceTd">Text with Italic font is surrounded by &lt;i&gt; tag</td></tr><tr><td class="confluenceTd">&lt;h1&gt; – &lt;h6&gt;</td><td class="confluenceTd">If the heading has 'Heading X' style, it's surrounded by &lt;hx&gt; tag</td></tr><tr><td class="confluenceTd">&lt;ol&gt;/&lt;ul&gt;</td><td class="confluenceTd">Numbering and bullets lists</td></tr><tr><td class="confluenceTd">&lt;table&gt;</td><td class="confluenceTd">Tables</td></tr></tbody></table>
+| Tag | Description |
+| --- | --- |
+| <p> | Paragraph is surrounded by <p> tag |
+| <a> | Hyperlinks |
+| <b> | Text with Bold font is surrounded by <b> tag |
+| <i> | Text with Italic font is surrounded by <i> tag |
+| <h1> – <h6> | If the heading has 'Heading X' style, it's surrounded by <hx> tag |
+| <ol>/<ul> | Numbering and bullets lists |
+| <table> | Tables |
 
 ### Extract Structured Text
 

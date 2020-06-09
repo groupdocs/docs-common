@@ -103,7 +103,7 @@ using (Parser parser = new Parser(filePath))
 }
 ```
 
-GroupDocs.Parser also allows to extract a text from Microsoft Office Excel spreadsheets as HTML, Markdown and formatted plain text. For more details, see [Extract Formatted Text](https://wiki.lisbon.dynabic.com/display/parser/Text+Extractor+-+Extract+Formatted+Text+from+a+Document).
+GroupDocs.Parser also allows to extract a text from Microsoft Office Excel spreadsheets as HTML, Markdown and formatted plain text. For more details, see [Extract Formatted Text](https://docs.groupdocs.com/display/parserjava/Extract+formatted+text+from+document).
 
 Here are the steps to extract a text from Microsoft Office Excel spreadsheet as HTML:
 

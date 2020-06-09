@@ -12,7 +12,13 @@ GroupDocs.Parser provides the functionality to extract data from HTML documents 
 
 The following table provides the list of supported formats:
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd"><a href="https://wiki.fileformat.com/web/html/" rel="nofollow" class="external-link">HTML</a></td><td class="confluenceTd">Hypertext Markup Language File</td></tr><tr><td class="confluenceTd"><a href="https://wiki.fileformat.com/web/xhtml/" rel="nofollow" class="external-link">XHTML</a></td><td class="confluenceTd">Extensible Hypertext Markup Language File</td></tr><tr><td class="confluenceTd"><a href="https://wiki.fileformat.com/web/mhtml/" rel="nofollow" class="external-link">MHTML</a></td><td class="confluenceTd">MIME HTML File</td></tr><tr><td class="confluenceTd"><a href="https://wiki.fileformat.com/word-processing/md/" rel="nofollow" class="external-link">MD</a></td><td class="confluenceTd">Markdown</td></tr><tr><td class="confluenceTd"><a href="https://wiki.fileformat.com/web/xml/" rel="nofollow" class="external-link">XML</a></td><td class="confluenceTd">XML File</td></tr></tbody></table>
+| Format | Description |
+| --- | --- |
+| [HTML](https://wiki.fileformat.com/web/html/) | Hypertext Markup Language File |
+| [XHTML](https://wiki.fileformat.com/web/xhtml/) | Extensible Hypertext Markup Language File |
+| [MHTML](https://wiki.fileformat.com/web/mhtml/) | MIME HTML File |
+| [MD](https://wiki.fileformat.com/word-processing/md/) | Markdown |
+| [XML](https://wiki.fileformat.com/web/xml/) | XML File |
 
 The following examples demonstrate how to extract data from HTML documents:
 

@@ -21,7 +21,13 @@ There are the following features and enhancements in this release:
 
 ## All Changes
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd">TEXTNET-820</td><td class="confluenceTd">Implement IPageTextExtractor support for NoteTextExtractor</td><td class="confluenceTd">Enhancement</td></tr><tr><td class="confluenceTd">TEXTNET-826</td><td class="confluenceTd">Implement ITextExtractorWithFormatter interface</td><td class="confluenceTd">Enhancement</td></tr><tr><td class="confluenceTd">TEXTNET-823</td><td class="confluenceTd">Implement the ability to retrieve an entity from Zip container by the full name</td><td class="confluenceTd">New feature</td></tr><tr><td class="confluenceTd">TEXTNET-824</td><td class="confluenceTd">Implement the ability to extract a text via Extractor class</td><td class="confluenceTd">New feature</td></tr><tr><td class="confluenceTd">TEXTNET-825</td><td class="confluenceTd">Implement the ability to extract a formatted text via Extractor class</td><td class="confluenceTd">New feature</td></tr></tbody></table>
+| Key | Summary | Issue Type |
+| --- | --- | --- |
+| TEXTNET-820 | Implement IPageTextExtractor support for NoteTextExtractor | Enhancement |
+| TEXTNET-826 | Implement ITextExtractorWithFormatter interface | Enhancement |
+| TEXTNET-823 | Implement the ability to retrieve an entity from Zip container by the full name | New feature |
+| TEXTNET-824 | Implement the ability to extract a text via Extractor class | New feature |
+| TEXTNET-825 | Implement the ability to extract a formatted text via Extractor class | New feature |
 
 ## Public API and Backward Incompatible Changes
 

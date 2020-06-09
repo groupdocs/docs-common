@@ -8,7 +8,7 @@ keywords:
 productName: GroupDocs.Parser for Java
 hideChildren: False
 ---
-GroupDocs.Parser allows to extract basic metadata from documents of various formats: PDF, Emails, Ebooks, Microsoft Office: Word (DOC, DOCX), PowerPoint (PPT, PPTX), Excel (XLS, XLSX), LibreOffice formats and many others (see full list at [supported document formats](Supported%2BDocument%2BFormats.html) article).
+GroupDocs.Parser allows to extract basic metadata from documents of various formats: PDF, Emails, Ebooks, Microsoft Office: Word (DOC, DOCX), PowerPoint (PPT, PPTX), Excel (XLS, XLSX), LibreOffice formats and many others (see full list at [supported document formats]({{< ref "parser-java/getting-started/supported-document-formats.md" >}}) article).
 
 # Extract metadata from documents
 
@@ -59,7 +59,7 @@ try (Parser parser = new Parser(Constants.SampleDocx)) {
 
 ### Advanced usage topics
 
-To learn more about document data extraction features and get familiar how to extract text, images, forms and more, please refer to the [advanced usage section](Advanced%2BUsage.html).
+To learn more about document data extraction features and get familiar how to extract text, images, forms and more, please refer to the [advanced usage section]({{< ref "parser-java/developer-guide/advanced-usage/_index.md" >}}).
 
 ### GitHub examples
 
@@ -74,4 +74,4 @@ You may easily run the code above and see the feature in action in our GitHub e
 
 Along with full featured Java library we provide simple, but powerful free Apps.
 
-You are welcome to extract data from PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX, Emails and more with our free online [Free Online Document Parser App](https://wiki.lisbon.dynabic.com/pages/viewpage.action?pageId=30050825).
+You are welcome to extract data from PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX, Emails and more with our free online [Free Online Document Parser App](https://products.groupdocs.app/parser).

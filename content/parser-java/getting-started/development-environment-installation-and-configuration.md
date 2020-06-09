@@ -17,15 +17,31 @@ GroupDocs hosts all Java APIs on [GroupDocs Repository](https://repository.grou
 
 ### Specify GroupDocs Repository Configuration
 
-First, you need to specify GroupDocs repository configuration/location in your Maven `pom.xml` as follows: 
+First, you need to specify GroupDocs repository configuration/location in your Maven `pom.xml` as follows:
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd"><div class="container" title="Hint: double-click to select code"><div class="line number1 index0 alt2"><code class="java plain">&lt;repositories&gt;</code></div><div class="line number2 index1 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">&lt;repository&gt;</code></div><div class="line number3 index2 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">&lt;id&gt;GroupDocsJavaAPI&lt;/id&gt;</code></div><div class="line number4 index3 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">&lt;name&gt;GroupDocs Java API&lt;/name&gt;</code></div><div class="line number5 index4 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">&lt;url&gt;http:</code><code class="java comments">//<a href="http://repository.groupdocs.com/repo/" class="external-link" rel="nofollow">repository.groupdocs.com/repo/</a>&lt;/url&gt;</code></div><div class="line number6 index5 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">&lt;/repository&gt;</code></div><div class="line number7 index6 alt2"><code class="java plain">&lt;/repositories&gt;</code></div></div></td></tr></tbody></table>
+```csharp
+<repositories>
+    <repository>
+        <id>GroupDocsJavaAPI</id>
+        <name>GroupDocs Java API</name>
+        <url>http://repository.groupdocs.com/repo/</url>
+    </repository>
+</repositories>
+```
 
 ### Define GroupDocs.Parser for Java API Dependency
 
 Then define GroupDocs.Parser for Java API dependency in your `pom.xml` as follows:
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd"><div class="container" title="Hint: double-click to select code"><div class="line number1 index0 alt2"><code class="java plain">&lt;dependencies&gt;</code></div><div class="line number2 index1 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">&lt;dependency&gt;</code></div><div class="line number3 index2 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">&lt;groupId&gt;com.groupdocs&lt;/groupId&gt;</code></div><div class="line number4 index3 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">&lt;artifactId&gt;groupdocs-parser&lt;/artifactId&gt;</code></div><div class="line number5 index4 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">&lt;version&gt;</code><code class="java value">19.11</code><code class="java plain">&lt;/version&gt;</code></div><div class="line number6 index5 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">&lt;/dependency&gt;</code></div><div class="line number7 index6 alt2"><code class="java plain">&lt;/dependencies&gt;</code></div></div></td></tr></tbody></table>
+```csharp
+<dependencies>
+    <dependency>
+        <groupId>com.groupdocs</groupId>
+        <artifactId>groupdocs-parser</artifactId>
+        <version>19.11</version> 
+    </dependency>
+</dependencies>
+```
 
 After performing above-mentioned steps, GroupDocs.Parser for Java dependency will finally be added to your Maven project.
 

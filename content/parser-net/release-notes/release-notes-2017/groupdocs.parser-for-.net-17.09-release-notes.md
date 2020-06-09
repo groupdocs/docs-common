@@ -20,7 +20,11 @@ There are the following features in this release:
 
 ## All Changes
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd">TEXTNET-533</td><td class="confluenceTd">Remove obsolete members (v1702)</td><td class="confluenceTd">Enhancement</td></tr><tr><td class="confluenceTd">TEXTNET-551</td><td class="confluenceTd">Implement the ability to extract a text from Microsoft Exchange Server</td><td class="confluenceTd">New Feature</td></tr><tr><td class="confluenceTd">TEXTNET-707</td><td class="confluenceTd">Implement the media type detector for CHM files</td><td class="confluenceTd">New Feature</td></tr></tbody></table>
+| Key | Summary | Issue Type |
+| --- | --- | --- |
+| TEXTNET-533 | Remove obsolete members (v1702) | Enhancement |
+| TEXTNET-551 | Implement the ability to extract a text from Microsoft Exchange Server | New Feature |
+| TEXTNET-707 | Implement the media type detector for CHM files | New Feature |
 
 ## Public API and Backward Incompatible Changes
 

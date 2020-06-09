@@ -12,7 +12,11 @@ GroupDocs.Parser provides the functionality to extract data from EPUB e-books. A
 
 The following table provides the list of supported formats:
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd"><a href="https://wiki.fileformat.com/web/chm/" rel="nofollow" class="external-link">CHM</a></td><td class="confluenceTd">Compiled HTML Help File</td></tr><tr><td class="confluenceTd"><a href="https://wiki.fileformat.com/ebook/epub/" rel="nofollow" class="external-link">EPUB</a></td><td class="confluenceTd">Digital E-Book File Format</td></tr><tr><td class="confluenceTd"><a href="https://wiki.fileformat.com/ebook/fb2/" rel="nofollow" class="external-link">FB2</a></td><td class="confluenceTd">FictionBook 2.0 File</td></tr></tbody></table>
+| Format | Description |
+| --- | --- |
+| [CHM](https://wiki.fileformat.com/web/chm/) | Compiled HTML Help File |
+| [EPUB](https://wiki.fileformat.com/ebook/epub/) | Digital E-Book File Format |
+| [FB2](https://wiki.fileformat.com/ebook/fb2/) | FictionBook 2.0 File |
 
 The following examples demonstrate how to extract data from EPUB e-books:
 

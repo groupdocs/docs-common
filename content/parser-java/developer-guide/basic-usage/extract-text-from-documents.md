@@ -8,9 +8,9 @@ keywords:
 productName: GroupDocs.Parser for Java
 hideChildren: False
 ---
-GroupDocs.Parser allows to extract text from PDF, Emails, Ebooks, Microsoft Office formats: Word (DOC, DOCX), PowerPoint (PPT, PPTX), Excel (XLS, XLSX), LibreOffice formats and many others (see full list at [supported document formats](Supported%2BDocument%2BFormats.html) article).
+GroupDocs.Parser allows to extract text from PDF, Emails, Ebooks, Microsoft Office formats: Word (DOC, DOCX), PowerPoint (PPT, PPTX), Excel (XLS, XLSX), LibreOffice formats and many others (see full list at [supported document formats]({{< ref "parser-java/getting-started/supported-document-formats.md" >}}) article).
 
-GroupDocs.Parser's text extractor is easy to use and powerful at the same time (to resolve complex scenarios see [advanced usage section](Advanced%2BUsage.html)).
+GroupDocs.Parser's text extractor is easy to use and powerful at the same time (to resolve complex scenarios see [advanced usage section]({{< ref "parser-java/developer-guide/advanced-usage/_index.md" >}})).
 
 This article demonstrates how to implement the simplest scenario - extract text from any supported format without additional settings.
 
@@ -59,7 +59,7 @@ try (Parser parser = new Parser(Constants.SamplePdf)) {
 
 ### Advanced usage topics
 
-To learn more about document data extraction features and get familiar how to extract text, images, forms and more, please refer to the [advanced usage section](Advanced%2BUsage.html).
+To learn more about document data extraction features and get familiar how to extract text, images, forms and more, please refer to the [advanced usage section]({{< ref "parser-java/developer-guide/advanced-usage/_index.md" >}}).
 
 ### GitHub examples
 
@@ -74,4 +74,4 @@ You may easily run the code above and see the feature in action in our GitHub e
 
 Along with full featured Java library we provide simple, but powerful free Apps.
 
-You are welcome to extract data from PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX, Emails and more with our free online [Free Online Document Parser App](https://wiki.lisbon.dynabic.com/pages/viewpage.action?pageId=30050825).
+You are welcome to extract data from PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX, Emails and more with our free online [Free Online Document Parser App](https://products.groupdocs.app/parser).

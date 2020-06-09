@@ -26,7 +26,17 @@ There are the following features in this release:
 
 ## All Changes
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd"><p>TEXTNET-511</p></td><td class="confluenceTd"><p>Implement the ability to extract a structured text from EPUB files</p></td><td class="confluenceTd"><p>New feature</p></td></tr><tr><td class="confluenceTd"><p>TEXTNET-536</p></td><td class="confluenceTd"><p>Implement the ability to extract a formatted text from EPUB files</p></td><td class="confluenceTd"><p>New feature</p></td></tr><tr><td class="confluenceTd"><p>TEXTNET-537</p></td><td class="confluenceTd"><p>Implement the ability to extract a text from fb2 files</p></td><td class="confluenceTd"><p>New feature</p></td></tr><tr><td class="confluenceTd"><p>TEXTNET-538</p></td><td class="confluenceTd"><p>Implement the ability to extract metadata from fb2 files</p></td><td class="confluenceTd"><p>New feature</p></td></tr><tr><td class="confluenceTd"><p>TEXTNET-539</p></td><td class="confluenceTd"><p>Implement the ability to extract highlights from fb2 files</p></td><td class="confluenceTd"><p>New feature</p></td></tr><tr><td class="confluenceTd"><p>TEXTNET-540</p></td><td class="confluenceTd"><p>Implement the ability to search a text in fb2 files</p></td><td class="confluenceTd"><p>New feature</p></td></tr><tr><td class="confluenceTd"><p>TEXTNET-604</p></td><td class="confluenceTd"><p>Implement the ability to extract a structured text from fb2 files</p></td><td class="confluenceTd"><p>New feature</p></td></tr><tr><td class="confluenceTd"><p>TEXTNET-615</p></td><td class="confluenceTd"><p>Implement the support for Dynabic.Metered</p></td><td class="confluenceTd"><p>New feature</p></td></tr><tr><td class="confluenceTd"><p>TEXTNET-616</p></td><td class="confluenceTd"><p>Implement the media type detector for fb2 documents</p></td><td class="confluenceTd"><p>New feature</p></td></tr></tbody></table>
+| Key | Summary | Issue Type |
+| --- | --- | --- |
+| TEXTNET-511 | Implement the ability to extract a structured text from EPUB files | New feature |
+| TEXTNET-536 | Implement the ability to extract a formatted text from EPUB files | New feature |
+| TEXTNET-537 | Implement the ability to extract a text from fb2 files | New feature |
+| TEXTNET-538 | Implement the ability to extract metadata from fb2 files | New feature |
+| TEXTNET-539 | Implement the ability to extract highlights from fb2 files | New feature |
+| TEXTNET-540 | Implement the ability to search a text in fb2 files | New feature |
+| TEXTNET-604 | Implement the ability to extract a structured text from fb2 files | New feature |
+| TEXTNET-615 | Implement the support for Dynabic.Metered | New feature |
+| TEXTNET-616 | Implement the media type detector for fb2 documents | New feature |
 
 ## Public API and Backward Incompatible Changes
 

@@ -33,11 +33,11 @@ The API supports the following formatting:
 
 The following Microsoft Word document is used as input document:
 
-![](https://wiki.lisbon.dynabic.com/download/attachments/30050884/lorem_docx.png?version=1&modificationDate=1572111421000&api=v2)
+![](parser-java/images/markdown.png)
 
 The following Markdown document is extracted using the example above:
 
-![](https://wiki.lisbon.dynabic.com/download/attachments/30050884/lorem_md.png?version=1&modificationDate=1572111425000&api=v2)
+![](parser-java/images/markdown_1.png)
 
 ## More resources
 

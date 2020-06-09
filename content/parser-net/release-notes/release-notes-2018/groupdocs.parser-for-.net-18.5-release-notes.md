@@ -19,7 +19,10 @@ There are the following enhancements in this release:
 
 ## Full List of Issues Covering all Changes in this Release
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd">PARSERNET-948</td><td class="confluenceTd">Implement Standard extract mode as default behavior</td><td class="confluenceTd">Enhancement</td></tr><tr><td class="confluenceTd">PARSERNET-877</td><td class="confluenceTd">Implement the support for GitHub Markdown syntax</td><td class="confluenceTd">Enhancement</td></tr></tbody></table>
+| Key | Summary | Issue Type |
+| --- | --- | --- |
+| PARSERNET-948 | Implement Standard extract mode as default behavior | Enhancement |
+| PARSERNET-877 | Implement the support for GitHub Markdown syntax | Enhancement |
 
 ## Public API and Backward Incompatible Changes
 

@@ -25,7 +25,16 @@ There are the following improvements and new features in this release:
 
 ## Full List of Issues Covering all Changes in this Release
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd"><p>Key</p></td><td class="confluenceTd"><p>Summary</p></td><td class="confluenceTd"><p>Category</p></td></tr><tr><td colspan="1" class="confluenceTd"><p>SEARCHNET-371</p></td><td colspan="1" class="confluenceTd">Implement document filtering in search results</td><td colspan="1" class="confluenceTd">Improvement</td></tr><tr><td class="confluenceTd"><p>SEARCHNET-1883</p></td><td class="confluenceTd"><p>Implement settings for logging functionality</p></td><td class="confluenceTd"><p>Improvement</p></td></tr><tr><td colspan="1" class="confluenceTd">SEARCHNET-1896</td><td colspan="1" class="confluenceTd">Add English synonyms to default synonym dictionary</td><td colspan="1" class="confluenceTd">Improvement</td></tr><tr><td colspan="1" class="confluenceTd">SEARCHNET-1945</td><td colspan="1" class="confluenceTd">Implement providing number of hits for each found word separately</td><td colspan="1" class="confluenceTd">Improvement</td></tr><tr><td colspan="1" class="confluenceTd">SEARCHNET-1951</td><td colspan="1" class="confluenceTd">Implement optimization of index storage format</td><td colspan="1" class="confluenceTd">Improvement</td></tr><tr><td colspan="1" class="confluenceTd">SEARCHNET-1966</td><td colspan="1" class="confluenceTd">Add support for new file formats</td><td colspan="1" class="confluenceTd">Improvement</td></tr><tr><td colspan="1" class="confluenceTd">SEARCHNET-1980</td><td colspan="1" class="confluenceTd">Implement method to retrieve credit consumption info</td><td colspan="1" class="confluenceTd">Improvement</td></tr><tr><td colspan="1" class="confluenceTd">SEARCHNET-1941</td><td colspan="1" class="confluenceTd">Implement ability to attach to a document arbitrary additional fields</td><td colspan="1" class="confluenceTd">New Feature</td></tr></tbody></table>
+| Key | Summary | Category |
+| --- | --- | --- |
+| SEARCHNET-371 | Implement document filtering in search results | Improvement |
+| SEARCHNET-1883 | Implement settings for logging functionality | Improvement |
+| SEARCHNET-1896 | Add English synonyms to default synonym dictionary | Improvement |
+| SEARCHNET-1945 | Implement providing number of hits for each found word separately | Improvement |
+| SEARCHNET-1951 | Implement optimization of index storage format | Improvement |
+| SEARCHNET-1966 | Add support for new file formats | Improvement |
+| SEARCHNET-1980 | Implement method to retrieve credit consumption info | Improvement |
+| SEARCHNET-1941 | Implement ability to attach to a document arbitrary additional fields | New Feature |
 
 ## Public API and Backward Incompatible Changes
 

@@ -12,7 +12,7 @@ The life cycle of an index begins at the moment of creating an instance of the I
 
 Please note that the index life cycle does not consider the events of loading and unloading the index from RAM. At each stage of existence, the index can be loaded and unloaded from memory several times.
 
-![](https://wiki.lisbon.dynabic.com/download/attachments/29428624/IndexLifecycle.png?version=2&modificationDate=1567163468000&api=v2)
+![](search-net/images/index-lifecycle.png)
 
 After creation a new index, it is in the Empty state.
 
@@ -32,7 +32,7 @@ Regarding the addition of documents to an index, it is important to know that a
 
 ### Advanced usage topics
 
-To learn more about search features and get familiar how to enhance your search solution, please refer to the [advanced usage section](Advanced%2BUsage.html).
+To learn more about search features and get familiar how to enhance your search solution, please refer to the [advanced usage section]({{< ref "search-net/developer-guide/advanced-usage/_index.md" >}}).
 
 ### GitHub examples
 

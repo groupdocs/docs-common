@@ -8,9 +8,106 @@ keywords:
 productName: GroupDocs.Search for .NET
 hideChildren: False
 ---
-The table below provides syntax of all elements allowed in text search queries. See also [Search operation table](Search%2Boperation%2Btable.html), [Search operation table](Search%2Boperation%2Btable.html).
+The table below provides syntax of all elements allowed in text search queries. See also [Search operation table]({{< ref "search-net/developer-guide/advanced-usage/searching/search-operation-table.md" >}}), [Search operation table]({{< ref "search-net/developer-guide/advanced-usage/searching/search-operation-table.md" >}}).
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd"><p><strong>Element</strong></p></td><td class="confluenceTd"><p><strong>Syntax</strong></p></td><td class="confluenceTd"><p><strong>Description</strong></p></td><td class="confluenceTd"><p><strong>Examples</strong></p></td></tr><tr><td class="confluenceTd"><p>Parentheses</p></td><td class="confluenceTd"><p>( <em>inner-query</em> )</p></td><td class="confluenceTd"><p>Parentheses are used to specify order of operations.</p></td><td class="confluenceTd"><ul><li>term1 I (term2 &amp; term3)</li><li>("total expenses" | "total costs") &amp; (82000 ~~ 83000 | 92000 ~~ 93000)</li></ul></td></tr><tr><td class="confluenceTd"><p>Field specifier</p></td><td class="confluenceTd"><p><em>field-name</em> : <em>inner-query</em></p></td><td class="confluenceTd"><p>Field specifier is used to specify field name.</p></td><td class="confluenceTd"><ul><li>content : term</li><li>creationdate : (2010 ~~ 2013)</li><li>filename : report &amp; creationdate : 2009</li></ul></td></tr><tr><td class="confluenceTd"><p>Exact phrase query specifier</p></td><td class="confluenceTd"><p>" <em>exact-phrase-query</em> "</p></td><td class="confluenceTd"><p>Exact phrase query specifier is used to specify phrase for phrase search.</p></td><td class="confluenceTd"><ul><li>"term1 term2 term3"</li><li>"computational complexity theory"</li><li>"formal language" AND harrison</li></ul></td></tr><tr><td class="confluenceTd"><p>And operation</p></td><td class="confluenceTd"><p><em>left-query</em> &amp; <em>right-query</em><br class="atl-forced-newline"><em>left-query</em> AND <em>right-query</em></p></td><td class="confluenceTd"><p>And operation is used to find documents which contain both left query and right query.</p></td><td class="confluenceTd"><ul><li>term1 &amp; term2</li><li>term1 AND term2</li><li>computational &amp; complexity</li></ul></td></tr><tr><td class="confluenceTd"><p>Or operation</p></td><td class="confluenceTd"><p><em>left-query</em> | <em>right-query</em><br class="atl-forced-newline"><em>left-query</em> || <em>right-query</em><br class="atl-forced-newline"><em>left-query</em> OR <em>right-query</em></p></td><td class="confluenceTd"><p>Or operation is used to find documents which contain left query, or right query, or both.</p></td><td class="confluenceTd"><ul><li>term1 | term2</li><li>term1 || term2</li><li>term1 OR term2</li><li>"cumulative distribution function" OR "cumulative density function"</li></ul></td></tr><tr><td class="confluenceTd"><p>Not operation</p></td><td class="confluenceTd"><p>! <em>inner-query</em><br class="atl-forced-newline">NOT <em>inner-query</em></p></td><td class="confluenceTd"><p>Not operation is used to find all documents which do not contain inner query.</p></td><td class="confluenceTd"><ul><li>! term</li><li>NOT term</li><li>author : (Cardano AND NOT Gerolamo)</li></ul></td></tr><tr><td class="confluenceTd"><p>Macro name specifier</p></td><td class="confluenceTd"><p>@<em>macro-name</em></p></td><td class="confluenceTd"><p>Macro name specifier is used to specify name of macro within search query that will be replaced with the body of the macro before parsing the query.</p></td><td class="confluenceTd"><ul><li>@query_macro</li><li>@macro1 &amp; @macro2</li></ul></td></tr><tr><td class="confluenceTd"><p>Regular expression specifier</p></td><td class="confluenceTd"><p>^<em>regular-expression</em></p></td><td class="confluenceTd"><p>Regular expression specifier is used to specify query that is regular expression.</p></td><td class="confluenceTd"><ul><li>^^[0-9]{1,5}$</li></ul></td></tr><tr><td class="confluenceTd"><p>Numeric range specifier</p></td><td class="confluenceTd"><p><em>start-number</em> ~~ <em>end-number</em></p></td><td class="confluenceTd"><p>Numeric range specifier is used to specify range for numeric range search.</p></td><td class="confluenceTd"><ul><li>13 ~~ 42</li><li>10000000000 ~~ 100000000000</li></ul></td></tr><tr><td class="confluenceTd"><p>Date range specifier</p></td><td class="confluenceTd"><p>daterange( <em>start-date</em> ~~ <em>end-date</em>)<br>where <em>start-date</em> and <em>end-date</em> are dates in the format 'yyyy-MM-dd'.</p></td><td class="confluenceTd"><p>Date range specifier is used to specify range for date range search.</p></td><td class="confluenceTd"><ul><li>daterange(2017-09-28 ~~ 2017-11-11)</li></ul></td></tr><tr><td colspan="1" class="confluenceTd">Wildcard&nbsp;(since v.18.12)</td><td colspan="1" class="confluenceTd"><p>? - wildcard character,<br>?(<em>N</em>~<em>M</em>) - wildcard character range,<br>*<em>N</em> - wildcard word,<br>*<em>N</em>~~<em>M</em> - wildcard word range,<br>where <em>N</em> and <em>M</em> are in the range from 0 to 255.</p></td><td colspan="1" class="confluenceTd">Wildcard characters and wildcard words allow to perform wildcard search.</td><td colspan="1" class="confluenceTd"><ul><li>?ffect - for 'affect', 'effect'</li><li>princip?(2~4) - for 'principal', 'principle', 'principles', 'principally'</li><li>?(0~2)sure - for 'assure', 'ensure', 'sure'</li><li>"\"First law *1 thermodynamics\"" - for 'First law of thermodynamics'</li><li>"\"Frodo *1~~5 Pippin\"" - for 'Frodo spoke to Pippin', 'Frodo stripped the blankets from Pippin'</li></ul></td></tr><tr><td colspan="1" class="confluenceTd">Escape sequence&nbsp;(since v.19.2)</td><td colspan="1" class="confluenceTd">\<em>N</em><br>where <em>N</em> can be one of<br>( ) : " &amp; | ! ^ ~ * ? \<br>-&nbsp;or -<br>s (for space character)<br><span>-&nbsp;or -</span><br>u<em>hhhh</em><strong><br></strong>where <em>h</em> is hexadecimal digit (for any Unicode character)</td><td colspan="1" class="confluenceTd"><p>Escape sequence allows to use special character in a query as it is. Note that escaped character must be added to Alphabet to be indexed as a valid character (not as a separator).</p></td><td colspan="1" class="confluenceTd"><ul><li>\&amp; - escaping &amp; character</li><li>\~ - escaping ~ character</li><li>\s - escaping space character</li><li>\u0026 - escaping &amp; character (Unicode code)</li><li>R\&amp;B - searching for 'R&amp;B' as a whole word (&amp; character must be added to Alphabet before indexing)</li></ul></td></tr></tbody></table>
+| Element | Syntax | Description | Examples |
+| --- | --- | --- | --- |
+| Parentheses | ( *inner-query* ) | Parentheses are used to specify order of operations. | 
+*   term1 I (term2 & term3)
+*   ("total expenses" | "total costs") & (82000 ~~ 83000 | 92000 ~~ 93000)
+
+ |
+| Field specifier | *field-name* : *inner-query* | Field specifier is used to specify field name. | 
+
+*   content : term
+*   creationdate : (2010 ~~ 2013)
+*   filename : report & creationdate : 2009
+
+ |
+| Exact phrase query specifier | " *exact-phrase-query* " | Exact phrase query specifier is used to specify phrase for phrase search. | 
+
+*   "term1 term2 term3"
+*   "computational complexity theory"
+*   "formal language" AND harrison
+
+ |
+| And operation | *left-query* & *right-query*  
+*left-query* AND *right-query* | And operation is used to find documents which contain both left query and right query. | 
+
+*   term1 & term2
+*   term1 AND term2
+*   computational & complexity
+
+ |
+| Or operation | *left-query* | *right-query*  
+*left-query* || *right-query*  
+*left-query* OR *right-query* | Or operation is used to find documents which contain left query, or right query, or both. | 
+
+*   term1 | term2
+*   term1 || term2
+*   term1 OR term2
+*   "cumulative distribution function" OR "cumulative density function"
+
+ |
+| Not operation | ! *inner-query*  
+NOT *inner-query* | Not operation is used to find all documents which do not contain inner query. | 
+
+*   ! term
+*   NOT term
+*   author : (Cardano AND NOT Gerolamo)
+
+ |
+| Macro name specifier | @*macro-name* | Macro name specifier is used to specify name of macro within search query that will be replaced with the body of the macro before parsing the query. | 
+
+*   @query\_macro
+*   @macro1 & @macro2
+
+ |
+| Regular expression specifier | ^*regular-expression* | Regular expression specifier is used to specify query that is regular expression. | 
+
+*   ^^\[0-9\]{1,5}$
+
+ |
+| Numeric range specifier | *start-number* ~~ *end-number* | Numeric range specifier is used to specify range for numeric range search. | 
+
+*   13 ~~ 42
+*   10000000000 ~~ 100000000000
+
+ |
+| Date range specifier | daterange( *start-date* ~~ *end-date*)  
+where *start-date* and *end-date* are dates in the format 'yyyy-MM-dd'. | Date range specifier is used to specify range for date range search. | 
+
+*   daterange(2017-09-28 ~~ 2017-11-11)
+
+ |
+| Wildcard (since v.18.12) | ? - wildcard character,  
+?(*N*~*M*) - wildcard character range,  
+\**N* - wildcard word,  
+\**N*~~*M* - wildcard word range,  
+where *N* and *M* are in the range from 0 to 255. | Wildcard characters and wildcard words allow to perform wildcard search. | 
+
+*   ?ffect - for 'affect', 'effect'
+*   princip?(2~4) - for 'principal', 'principle', 'principles', 'principally'
+*   ?(0~2)sure - for 'assure', 'ensure', 'sure'
+*   "\\"First law \*1 thermodynamics\\"" - for 'First law of thermodynamics'
+*   "\\"Frodo \*1~~5 Pippin\\"" - for 'Frodo spoke to Pippin', 'Frodo stripped the blankets from Pippin'
+
+ |
+| Escape sequence (since v.19.2) | \\*N*  
+where *N* can be one of  
+( ) : " & | ! ^ ~ \* ? \\  
+\- or -  
+s (for space character)  
+\- or -  
+u*hhhh*where *h* is hexadecimal digit (for any Unicode character) | Escape sequence allows to use special character in a query as it is. Note that escaped character must be added to Alphabet to be indexed as a valid character (not as a separator). | 
+
+*   \\& - escaping & character
+*   \\~ - escaping ~ character
+*   \\s - escaping space character
+*   \\u0026 - escaping & character (Unicode code)
+*   R\\&B - searching for 'R&B' as a whole word (& character must be added to Alphabet before indexing)
+
+ |
 
 ## More resources
 

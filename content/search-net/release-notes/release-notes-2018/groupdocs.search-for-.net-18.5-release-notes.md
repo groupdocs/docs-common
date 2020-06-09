@@ -20,7 +20,11 @@ There are 3 enhancements in this regular monthly release:
 
 ## All Changes
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd">Key</td><td class="confluenceTd">Summary</td><td class="confluenceTd">Category</td></tr><tr><td class="confluenceTd"><span>SEARCHNET-1207</span></td><td class="confluenceTd">Implement searching by parts</td><td class="confluenceTd">Enhancement</td></tr><tr><td colspan="1" class="confluenceTd"><span>SEARCHNET-1502</span></td><td colspan="1" class="confluenceTd"><span>Implement ability to specify the number of searching threads</span></td><td colspan="1" class="confluenceTd">Enhancement</td></tr><tr><td colspan="1" class="confluenceTd"><span>SEARCHNET-1551</span></td><td colspan="1" class="confluenceTd"><span>Add SearchingTime field to SearchResults</span></td><td colspan="1" class="confluenceTd">Enhancement</td></tr></tbody></table>
+| Key | Summary | Category |
+| --- | --- | --- |
+| SEARCHNET-1207 | Implement searching by parts | Enhancement |
+| SEARCHNET-1502 | Implement ability to specify the number of searching threads | Enhancement |
+| SEARCHNET-1551 | Add SearchingTime field to SearchResults | Enhancement |
 
 ## Public API and Backward Incompatible Changes
 

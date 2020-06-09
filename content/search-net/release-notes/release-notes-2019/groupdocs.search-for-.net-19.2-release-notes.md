@@ -19,7 +19,11 @@ There are the following improvements in this release:
 
 ## Full List of Issues Covering all Changes in this Release
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd"><p>Key</p></td><td class="confluenceTd"><p>Summary</p></td><td class="confluenceTd"><p>Category</p></td></tr><tr><td colspan="1" class="confluenceTd"><p>SEARCHNET-1842</p></td><td colspan="1" class="confluenceTd">Delete obsolete methods Import and Export</td><td colspan="1" class="confluenceTd">Breaking Change</td></tr><tr><td class="confluenceTd"><p>SEARCHNET-1800</p></td><td class="confluenceTd"><p>Implement escaping special characters in search queries</p></td><td class="confluenceTd"><p>Improvement</p></td></tr><tr><td colspan="1" class="confluenceTd">SEARCHNET-1837</td><td colspan="1" class="confluenceTd">Implement indexing ZIP archives inside other ZIP archives</td><td colspan="1" class="confluenceTd">Improvement</td></tr></tbody></table>
+| Key | Summary | Category |
+| --- | --- | --- |
+| SEARCHNET-1842 | Delete obsolete methods Import and Export | Breaking Change |
+| SEARCHNET-1800 | Implement escaping special characters in search queries | Improvement |
+| SEARCHNET-1837 | Implement indexing ZIP archives inside other ZIP archives | Improvement |
 
 ## Public API and Backward Incompatible Changes
 

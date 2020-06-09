@@ -16,19 +16,19 @@ The [Cancellation](https://apireference.groupdocs.com/net/search/groupdocs.searc
 
 ## DateFormats property
 
-The [DateFormats](https://apireference.groupdocs.com/net/search/groupdocs.search.options/searchoptions/properties/dateformats) property allows you to specify formats for the date range search feature. For details, see the [Search options](Search%2Boptions.html) page.
+The [DateFormats](https://apireference.groupdocs.com/net/search/groupdocs.search.options/searchoptions/properties/dateformats) property allows you to specify formats for the date range search feature. For details, see the [Search options]({{< ref "search-net/developer-guide/advanced-usage/searching/search-options.md" >}}) page.
 
 ## FuzzySearch property
 
-The [FuzzySearch](https://apireference.groupdocs.com/net/search/groupdocs.search.options/searchoptions/properties/fuzzysearch) property returns a fuzzy search options object that allows you to enable fuzzy search and set its options. By default, the fuzzy search feature is disabled. For details, see the [Search options](Search%2Boptions.html) page.
+The [FuzzySearch](https://apireference.groupdocs.com/net/search/groupdocs.search.options/searchoptions/properties/fuzzysearch) property returns a fuzzy search options object that allows you to enable fuzzy search and set its options. By default, the fuzzy search feature is disabled. For details, see the [Search options]({{< ref "search-net/developer-guide/advanced-usage/searching/search-options.md" >}}) page.
 
 ## IsChunkSearch property
 
-The [IsChunkSearch](https://apireference.groupdocs.com/net/search/groupdocs.search.options/searchoptions/properties/ischunksearch) property allows you to enable search by chunks. By default, the search by chunks feature is disabled. For details, see the [Search options](Search%2Boptions.html) page.
+The [IsChunkSearch](https://apireference.groupdocs.com/net/search/groupdocs.search.options/searchoptions/properties/ischunksearch) property allows you to enable search by chunks. By default, the search by chunks feature is disabled. For details, see the [Search options]({{< ref "search-net/developer-guide/advanced-usage/searching/search-options.md" >}}) page.
 
 ## KeyboardLayoutCorrector property
 
-The [KeyboardLayoutCorrector](https://apireference.groupdocs.com/net/search/groupdocs.search.options/searchoptions/properties/keyboardlayoutcorrector) property returns a keyboard layout corrector options object, which allows you to enable keyboard layout correction in search queries. By default, the keyboard layout correction feature is disabled. See the [Search options](Search%2Boptions.html) page for details.
+The [KeyboardLayoutCorrector](https://apireference.groupdocs.com/net/search/groupdocs.search.options/searchoptions/properties/keyboardlayoutcorrector) property returns a keyboard layout corrector options object, which allows you to enable keyboard layout correction in search queries. By default, the keyboard layout correction feature is disabled. See the [Search options]({{< ref "search-net/developer-guide/advanced-usage/searching/search-options.md" >}}) page for details.
 
 ## MaxOccurrenceCountPerTerm property
 
@@ -40,27 +40,27 @@ The [MaxTotalOccurrenceCount](https://apireference.groupdocs.com/net/search/grou
 
 ## SearchDocumentFilter property
 
-The [SearchDocumentFilter](https://apireference.groupdocs.com/net/search/groupdocs.search.options/searchoptions/properties/searchdocumentfilter) property allows you to specify the filter of documents returned as a search result. By default, all documents found will be returned as a search result. For details, see the [Search options](Search%2Boptions.html) page.
+The [SearchDocumentFilter](https://apireference.groupdocs.com/net/search/groupdocs.search.options/searchoptions/properties/searchdocumentfilter) property allows you to specify the filter of documents returned as a search result. By default, all documents found will be returned as a search result. For details, see the [Search options]({{< ref "search-net/developer-guide/advanced-usage/searching/search-options.md" >}}) page.
 
 ## SpellingCorrector property
 
-The [SpellingCorrector](https://apireference.groupdocs.com/net/search/groupdocs.search.options/searchoptions/properties/spellingcorrector) property returns the spelling corrector options object, which allows you to enable spelling correction in search queries and specify spelling correction options. By default, spelling correction is disabled. See the [Search options](Search%2Boptions.html) page for details.
+The [SpellingCorrector](https://apireference.groupdocs.com/net/search/groupdocs.search.options/searchoptions/properties/spellingcorrector) property returns the spelling corrector options object, which allows you to enable spelling correction in search queries and specify spelling correction options. By default, spelling correction is disabled. See the [Search options]({{< ref "search-net/developer-guide/advanced-usage/searching/search-options.md" >}}) page for details.
 
 ## UseCaseSensitiveSearch property
 
-The [UseCaseSensitiveSearch](https://apireference.groupdocs.com/net/search/groupdocs.search.options/searchoptions/properties/usecasesensitivesearch) property allows you to perform case-sensitive search. Please note that case-sensitive search is not compatible with other types of searches. By default, case-insensitive search is performed. For details, see the [Search options](Search%2Boptions.html) page.
+The [UseCaseSensitiveSearch](https://apireference.groupdocs.com/net/search/groupdocs.search.options/searchoptions/properties/usecasesensitivesearch) property allows you to perform case-sensitive search. Please note that case-sensitive search is not compatible with other types of searches. By default, case-insensitive search is performed. For details, see the [Search options]({{< ref "search-net/developer-guide/advanced-usage/searching/search-options.md" >}}) page.
 
 ## UseHomophoneSearch property
 
-The [UseHomophoneSearch](https://apireference.groupdocs.com/net/search/groupdocs.search.options/searchoptions/properties/usehomophonesearch) property allows you to enable homophone search feature. By default, the homophone search feature is disabled. For details, see the [Search options](Search%2Boptions.html) page.
+The [UseHomophoneSearch](https://apireference.groupdocs.com/net/search/groupdocs.search.options/searchoptions/properties/usehomophonesearch) property allows you to enable homophone search feature. By default, the homophone search feature is disabled. For details, see the [Search options]({{< ref "search-net/developer-guide/advanced-usage/searching/search-options.md" >}}) page.
 
 ## UseSynonymSearch property
 
-The [UseSynonymSearch](https://apireference.groupdocs.com/net/search/groupdocs.search.options/searchoptions/properties/usesynonymsearch) property allows you to enable synonym search feature. By default, the synonym search feature is disabled. For details, see the [Search options](Search%2Boptions.html) page.
+The [UseSynonymSearch](https://apireference.groupdocs.com/net/search/groupdocs.search.options/searchoptions/properties/usesynonymsearch) property allows you to enable synonym search feature. By default, the synonym search feature is disabled. For details, see the [Search options]({{< ref "search-net/developer-guide/advanced-usage/searching/search-options.md" >}}) page.
 
 ## UseWordFormsSearch property
 
-The [UseWordFormsSearch](https://apireference.groupdocs.com/net/search/groupdocs.search.options/searchoptions/properties/usewordformssearch) property allows you to enable the word forms search feature. By default, the word forms search feature is disabled. For details, see the [Search options](Search%2Boptions.html) page.
+The [UseWordFormsSearch](https://apireference.groupdocs.com/net/search/groupdocs.search.options/searchoptions/properties/usewordformssearch) property allows you to enable the word forms search feature. By default, the word forms search feature is disabled. For details, see the [Search options]({{< ref "search-net/developer-guide/advanced-usage/searching/search-options.md" >}}) page.
 
 ## More resources
 

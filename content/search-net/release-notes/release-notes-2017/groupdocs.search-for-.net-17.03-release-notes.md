@@ -23,7 +23,14 @@ There are 9 features bug fixes and enhancements in this regular monthly release.
 
 ## All Changes
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd"><p>Key</p></td><td class="confluenceTd"><p>Summary</p></td><td class="confluenceTd"><p>Category</p></td></tr><tr><td class="confluenceTd"><p>SEARCHNET-887</p></td><td class="confluenceTd"><p>Implement optimization of fuzzy search</p></td><td class="confluenceTd"><p>Enhancement</p></td></tr><tr><td class="confluenceTd"><p>SEARCHNET-888</p></td><td class="confluenceTd"><p>Implement optimization of regex search</p></td><td class="confluenceTd"><p>Enhancement</p></td></tr><tr><td class="confluenceTd"><p>SEARCHNET-799</p></td><td class="confluenceTd"><p>Implement flow for support all methods in previous index versions</p></td><td class="confluenceTd"><p>New Feature</p></td></tr><tr><td class="confluenceTd"><p>SEARCHNET-230</p></td><td class="confluenceTd"><p>Implement Numeric Range search feature</p></td><td class="confluenceTd"><p>New Feature</p></td></tr><tr><td class="confluenceTd"><p>SEARCHNET-709</p></td><td class="confluenceTd"><p>Implement function that is a relation between max mistake count and word length for Fuzzy Search</p></td><td class="confluenceTd"><p>New Feature</p></td></tr><tr><td class="confluenceTd"><p>SEARCHNET-845</p></td><td class="confluenceTd"><p>Implement limitation for number of search results</p></td><td class="confluenceTd"><p>New Feature</p></td></tr></tbody></table>
+| Key | Summary | Category |
+| --- | --- | --- |
+| SEARCHNET-887 | Implement optimization of fuzzy search | Enhancement |
+| SEARCHNET-888 | Implement optimization of regex search | Enhancement |
+| SEARCHNET-799 | Implement flow for support all methods in previous index versions | New Feature |
+| SEARCHNET-230 | Implement Numeric Range search feature | New Feature |
+| SEARCHNET-709 | Implement function that is a relation between max mistake count and word length for Fuzzy Search | New Feature |
+| SEARCHNET-845 | Implement limitation for number of search results | New Feature |
 
 ## Public API and Backward Incompatible Changes
 

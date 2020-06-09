@@ -21,7 +21,12 @@ There are the following improvements in this release:
 
 ## Full List of Issues Covering all Changes in this Release
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd"><p>Key</p></td><td class="confluenceTd"><p>Summary</p></td><td class="confluenceTd"><p>Category</p></td></tr><tr><td colspan="1" class="confluenceTd"><p>SEARCHNET-659</p></td><td colspan="1" class="confluenceTd">Implement event that notifies about search phase finished</td><td colspan="1" class="confluenceTd">Improvement</td></tr><tr><td class="confluenceTd"><p>SEARCHNET-1833</p></td><td class="confluenceTd"><p>Implement logging of indexing operations</p></td><td class="confluenceTd"><p>Improvement</p></td></tr><tr><td colspan="1" class="confluenceTd">SEARCHNET-1845</td><td colspan="1" class="confluenceTd">Searching for a complete phrase with stop words</td><td colspan="1" class="confluenceTd">Improvement</td></tr><tr><td colspan="1" class="confluenceTd">SEARCHNET-1878</td><td colspan="1" class="confluenceTd">Implement Dictionary API enhancements</td><td colspan="1" class="confluenceTd">Improvement</td></tr></tbody></table>
+| Key | Summary | Category |
+| --- | --- | --- |
+| SEARCHNET-659 | Implement event that notifies about search phase finished | Improvement |
+| SEARCHNET-1833 | Implement logging of indexing operations | Improvement |
+| SEARCHNET-1845 | Searching for a complete phrase with stop words | Improvement |
+| SEARCHNET-1878 | Implement Dictionary API enhancements | Improvement |
 
 ## Public API and Backward Incompatible Changes
 

@@ -28,7 +28,19 @@ There are 11 features and enhancements in this regular monthly release. The most
 
 ## All Changes
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd">Key</td><td class="confluenceTd">Summary</td><td class="confluenceTd">Category</td></tr><tr><td class="confluenceTd">SEARCHNET-1146</td><td class="confluenceTd">Fix all arguments classes according to best practices</td><td class="confluenceTd">Breaking Change</td></tr><tr><td class="confluenceTd">SEARCHNET-1091</td><td class="confluenceTd">Remove obsolete SimilarityLevel property from SearchParameters</td><td class="confluenceTd">Enhancement</td></tr><tr><td class="confluenceTd">SEARCHNET-474</td><td class="confluenceTd">Implement accent-insensitive indexing</td><td class="confluenceTd">New Feature</td></tr><tr><td class="confluenceTd">SEARCHNET-576</td><td class="confluenceTd">Add FileIndexing event for selecting custom indexing strategy for separate document</td><td class="confluenceTd">New Feature</td></tr><tr><td class="confluenceTd">SEARCHNET-1092</td><td class="confluenceTd">Implement option for the spelling corrector 'Only best results'</td><td class="confluenceTd">New Feature</td></tr><tr><td class="confluenceTd">SEARCHNET-1096</td><td class="confluenceTd">Implement option for the fuzzy search 'Only best results'</td><td class="confluenceTd">New Feature</td></tr><tr><td class="confluenceTd">SEARCHNET-1098</td><td class="confluenceTd">Implement Limit for Searching Report</td><td class="confluenceTd">New Feature</td></tr><tr><td class="confluenceTd">SEARCHNET-1099</td><td class="confluenceTd">Implement Limit for Indexing Report</td><td class="confluenceTd">New Feature</td></tr><tr><td class="confluenceTd">SEARCHNET-1129</td><td class="confluenceTd">Implement method that generates text with highlighted search results</td><td class="confluenceTd">New Feature</td></tr><tr><td class="confluenceTd">SEARCHNET-1135</td><td class="confluenceTd">Implement indexing ZIP archives</td><td class="confluenceTd">New Feature</td></tr><tr><td class="confluenceTd">SEARCHNET-1148</td><td class="confluenceTd">Add StatusChanged event to Index class</td><td class="confluenceTd">New Feature</td></tr></tbody></table>
+| Key | Summary | Category |
+| --- | --- | --- |
+| SEARCHNET-1146 | Fix all arguments classes according to best practices | Breaking Change |
+| SEARCHNET-1091 | Remove obsolete SimilarityLevel property from SearchParameters | Enhancement |
+| SEARCHNET-474 | Implement accent-insensitive indexing | New Feature |
+| SEARCHNET-576 | Add FileIndexing event for selecting custom indexing strategy for separate document | New Feature |
+| SEARCHNET-1092 | Implement option for the spelling corrector 'Only best results' | New Feature |
+| SEARCHNET-1096 | Implement option for the fuzzy search 'Only best results' | New Feature |
+| SEARCHNET-1098 | Implement Limit for Searching Report | New Feature |
+| SEARCHNET-1099 | Implement Limit for Indexing Report | New Feature |
+| SEARCHNET-1129 | Implement method that generates text with highlighted search results | New Feature |
+| SEARCHNET-1135 | Implement indexing ZIP archives | New Feature |
+| SEARCHNET-1148 | Add StatusChanged event to Index class | New Feature |
 
 ## Public API and Backward Incompatible Changes
 

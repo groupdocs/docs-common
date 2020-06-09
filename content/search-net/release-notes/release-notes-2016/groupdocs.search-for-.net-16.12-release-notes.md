@@ -20,7 +20,11 @@ There are 3 features in this regular monthly release. The most notable are:
 
 ## All Changes
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd"><p>Key</p></td><td class="confluenceTd"><p>Summary</p></td><td class="confluenceTd"><p>Category</p></td></tr><tr><td class="confluenceTd"><p>SEARCHNET-423</p></td><td class="confluenceTd"><p>Implement support of password protected documents</p></td><td class="confluenceTd"><p>New Feature</p></td></tr><tr><td class="confluenceTd"><p>SEARCHNET-443</p></td><td class="confluenceTd"><p>Implement Managing Stop Words functionality</p></td><td class="confluenceTd"><p>New Feature</p></td></tr><tr><td class="confluenceTd"><p>SEARCHNET-589</p></td><td class="confluenceTd"><p>Implement Managing Synonyms functionality</p></td><td class="confluenceTd"><p>New Feature</p></td></tr></tbody></table>
+| Key | Summary | Category |
+| --- | --- | --- |
+| SEARCHNET-423 | Implement support of password protected documents | New Feature |
+| SEARCHNET-443 | Implement Managing Stop Words functionality | New Feature |
+| SEARCHNET-589 | Implement Managing Synonyms functionality | New Feature |
 
 ## Public API and Backward Incompatible Changes
 

@@ -23,13 +23,19 @@ Other notable features and improvements:
 
 ## Full List of Issues Covering all Changes in this Release
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd"><p>Key</p></td><td class="confluenceTd"><p>Summary</p></td><td class="confluenceTd"><p>Category</p></td></tr><tr><td colspan="1" class="confluenceTd"><p>SEARCHNET-1967</p></td><td colspan="1" class="confluenceTd">Implement highlighting search results in short fragments</td><td colspan="1" class="confluenceTd">Improvement</td></tr><tr><td class="confluenceTd"><p>SEARCHNET-1970</p></td><td class="confluenceTd"><p>Enhance document metadata indexing with new formats</p></td><td class="confluenceTd"><p>Improvement</p></td></tr><tr><td colspan="1" class="confluenceTd">SEARCHNET-2110</td><td colspan="1" class="confluenceTd">Implement new public API</td><td colspan="1" class="confluenceTd">Improvement</td></tr><tr><td colspan="1" class="confluenceTd">SEARCHNET-2035</td><td colspan="1" class="confluenceTd">Implement indexing each letter as a separate word</td><td colspan="1" class="confluenceTd">New Feature</td></tr><tr><td colspan="1" class="confluenceTd">SEARCHNET-2108</td><td colspan="1" class="confluenceTd">Implement ability to remove paths from index</td><td colspan="1" class="confluenceTd">New Feature</td></tr></tbody></table>
+| Key | Summary | Category |
+| --- | --- | --- |
+| SEARCHNET-1967 | Implement highlighting search results in short fragments | Improvement |
+| SEARCHNET-1970 | Enhance document metadata indexing with new formats | Improvement |
+| SEARCHNET-2110 | Implement new public API | Improvement |
+| SEARCHNET-2035 | Implement indexing each letter as a separate word | New Feature |
+| SEARCHNET-2108 | Implement ability to remove paths from index | New Feature |
 
 ## Public API and Backward Incompatible Changes
 
 ### Implement highlighting search results in short fragments
 
-This improvement allows highlighting the search results in separate short fragments of the text, and not in the whole document. A detailed description of the feature is presented in the documentation on the [GroupDocs.Search for .NET 19.10 Release Notes](GroupDocs.Search%2Bfor%2B.NET%2B19.10%2BRelease%2BNotes.html) page.
+This improvement allows highlighting the search results in separate short fragments of the text, and not in the whole document. A detailed description of the feature is presented in the documentation on the [GroupDocs.Search for .NET 19.10 Release Notes]({{< ref "search-net/release-notes/release-notes-2019/groupdocs.search-for-.net-19.10-release-notes.md" >}}) page.
 
 ##### Usecases
 
@@ -106,11 +112,11 @@ This improvement adds support for new document formats. These are mostly documen
 *   FLV – Animate Video File;
 *   ASF – Advanced Systems Format File.
 
-A complete list of supported formats is provided on the [Supported Document Formats](Supported%2BDocument%2BFormats.html) page.
+A complete list of supported formats is provided on the [Supported Document Formats]({{< ref "search-net/getting-started/supported-document-formats.md" >}}) page.
 
 ### Implement new public API
 
-Implemented a new convenient intuitive public API. Full documentation for the new API is presented [here](Home.html).
+Implemented a new convenient intuitive public API. Full documentation for the new API is presented [here]({{< ref "search-net/_index.md" >}}).
 
 All public types from the legacy GroupDocs.Search namespace have been moved to the GroupDocs.Search.Legacy namespace and marked obsolete with the message: "This interface / class / enumeration is deprecated and will be available until January 2020 (version 20.1)."
 
@@ -154,7 +160,7 @@ SearchResult result = index.Search("\u4E50");
 
 ### Implement ability to remove paths from index
 
-This feature allows you to remove from an index paths added for indexing. When indexed paths are removed from an index, the index is updated and all removed documents and folders become inaccessible for search. Detailed information about this feature is presented on the [Delete indexed paths](Delete%2Bindexed%2Bpaths.html) page.
+This feature allows you to remove from an index paths added for indexing. When indexed paths are removed from an index, the index is updated and all removed documents and folders become inaccessible for search. Detailed information about this feature is presented on the [Delete indexed paths]({{< ref "search-net/developer-guide/advanced-usage/indexing/delete-indexed-paths.md" >}}) page.
 
 ##### Usecases
 

@@ -20,7 +20,11 @@ There are 3 enhancements in this regular monthly release. The most notable are:
 
 ## All Changes
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd">Key</td><td class="confluenceTd">Summary</td><td class="confluenceTd">Category</td></tr><tr><td class="confluenceTd">SEARCHNET-1157</td><td class="confluenceTd">Implement compact index feature</td><td class="confluenceTd">Enhancement</td></tr><tr><td class="confluenceTd">SEARCHNET-1321</td><td class="confluenceTd"><span>Implement option for multithreaded indexing</span></td><td class="confluenceTd">Enhancement</td></tr><tr><td class="confluenceTd">SEARCHNET-1414</td><td class="confluenceTd"><span>Improve index structure to increase indexing speed</span></td><td class="confluenceTd">Enhancement</td></tr></tbody></table>
+| Key | Summary | Category |
+| --- | --- | --- |
+| SEARCHNET-1157 | Implement compact index feature | Enhancement |
+| SEARCHNET-1321 | Implement option for multithreaded indexing | Enhancement |
+| SEARCHNET-1414 | Improve index structure to increase indexing speed | Enhancement |
 
 ## Public API and Backward Incompatible Changes
 

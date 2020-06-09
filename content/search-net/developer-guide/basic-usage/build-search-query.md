@@ -8,11 +8,11 @@ keywords:
 productName: GroupDocs.Search for .NET
 hideChildren: False
 ---
-This page contains information about building text search queries of various types. More examples on building search queries are provided on the page [Search operation table](Search%2Boperation%2Btable.html). A detailed specification of search query language is presented on the page [Query language specification](Query%2Blanguage%2Bspecification.html).
+This page contains information about building text search queries of various types. More examples on building search queries are provided on the page [Search operation table](Search%2Boperation%2Btable.html). A detailed specification of search query language is presented on the page [Query language specification]({{< ref "search-net/developer-guide/advanced-usage/searching/query-language-specification.md" >}}).
 
-In addition to text search queries, there is also the ability to create queries in an object form. Search query forms are described on the page [Queries in text and object form](Queries%2Bin%2Btext%2Band%2Bobject%2Bform.html).
+In addition to text search queries, there is also the ability to create queries in an object form. Search query forms are described on the page [Queries in text and object form]({{< ref "search-net/developer-guide/advanced-usage/searching/queries-in-text-and-object-form.md" >}}).
 
-You can also use search options to customize your search queries. Detailed information on search options is provided on the page [Search options](Search%2Boptions.html).
+You can also use search options to customize your search queries. Detailed information on search options is provided on the page [Search options]({{< ref "search-net/developer-guide/advanced-usage/searching/search-options.md" >}}).
 
 ## Simple search query
 
@@ -27,7 +27,7 @@ SearchResult result = index.Search(query); // Search in the index
 
 ## Wildcard search query
 
-A more complex type of query is a wildcard search query. There are 2 types of wildcard characters in a word: a one character wildcard and a character group wildcard. Detailed information about wildcards in a word is provided on the page [Wildcard search](Wildcard%2Bsearch.html). The example below demonstrates use of the one character wildcard.
+A more complex type of query is a wildcard search query. There are 2 types of wildcard characters in a word: a one character wildcard and a character group wildcard. Detailed information about wildcards in a word is provided on the page [Wildcard search]({{< ref "search-net/developer-guide/advanced-usage/searching/wildcard-search.md" >}}). The example below demonstrates use of the one character wildcard.
 
 **C#**
 
@@ -47,7 +47,7 @@ SearchResult result = index.Search(query); // Search for words 'principal', 'pri
 
 ## Faceted search query
 
-The next type of query - faceted search query - allows you to specify the document field for the search. Detailed information about faceted search is presented on the page [Faceted search](Faceted%2Bsearch.html). The following example shows how to search only in 'Content' field.
+The next type of query - faceted search query - allows you to specify the document field for the search. Detailed information about faceted search is presented on the page [Faceted search]({{< ref "search-net/developer-guide/advanced-usage/searching/faceted-search.md" >}}). The following example shows how to search only in 'Content' field.
 
 **C#**
 
@@ -58,7 +58,7 @@ SearchResult result = index.Search(query); // Search for word 'Einstein' only in
 
 ## Numeric range search query
 
-The following type of query allows you to specify a range of numbers to search - numeric range search query. Detailed information about numeric range search is presented on the page [Numeric range search](Numeric%2Brange%2Bsearch.html). The example below demonstrates how to search for numbers in the range from 2000 to 3000.
+The following type of query allows you to specify a range of numbers to search - numeric range search query. Detailed information about numeric range search is presented on the page [Numeric range search]({{< ref "search-net/developer-guide/advanced-usage/searching/numeric-range-search.md" >}}). The example below demonstrates how to search for numbers in the range from 2000 to 3000.
 
 **C#**
 
@@ -69,7 +69,7 @@ SearchResult result = index.Search(query); // Search for numbers from 2000 to 30
 
 ## Date range search query
 
-Search for dates from a particular range is performed using a date range search query. Details on the date range search are presented on the page [Date range search](Date%2Brange%2Bsearch.html). The example demonstrates how to search for dates in the format 'MM/dd/yyyy' in the range from 01/01/2000 to 06/15/2001.
+Search for dates from a particular range is performed using a date range search query. Details on the date range search are presented on the page [Date range search]({{< ref "search-net/developer-guide/advanced-usage/searching/date-range-search.md" >}}). The example demonstrates how to search for dates in the format 'MM/dd/yyyy' in the range from 01/01/2000 to 06/15/2001.
 
 **C#**
 
@@ -96,7 +96,7 @@ SearchResult result = index.Search(query, options); // Search in index
 
 ## Regular expression search query
 
-The next type of query is a regular expression search query. Detailed information about queries of this type is presented on the page [Regular expression search](Regular%2Bexpression%2Bsearch.html). The following example demonstrates the use of regular expressions to search in an index.
+The next type of query is a regular expression search query. Detailed information about queries of this type is presented on the page [Regular expression search]({{< ref "search-net/developer-guide/advanced-usage/searching/regular-expression-search.md" >}}). The following example demonstrates the use of regular expressions to search in an index.
 
 **C#**
 
@@ -107,7 +107,7 @@ SearchResult result = index.Search(query); // Search for three or more identical
 
 ## Boolean search query
 
-The next type of search query is a boolean search query. Queries of this type allow you to use the logical conditions for the presence or absence of particular words in documents. The boolean operators AND, OR, NOT can be used in queries of this type. Detailed information about this type of search is presented on the page [Boolean search](Boolean%2Bsearch.html). The following example demonstrates how to search for documents containing the word 'Einstein' but not containing the word 'relativity'.
+The next type of search query is a boolean search query. Queries of this type allow you to use the logical conditions for the presence or absence of particular words in documents. The boolean operators AND, OR, NOT can be used in queries of this type. Detailed information about this type of search is presented on the page [Boolean search]({{< ref "search-net/developer-guide/advanced-usage/searching/boolean-search.md" >}}). The following example demonstrates how to search for documents containing the word 'Einstein' but not containing the word 'relativity'.
 
 **C#**
 
@@ -127,7 +127,7 @@ SearchResult result = index.Search(query); // Search for documents whose paths c
 
 ## Phrase search query
 
-Another type of query - a phrase search query - allows you to search entire phrases in documents. Detailed information on the phase search is on the page [Phrase search](Phrase%2Bsearch.html). An example of the phrase search is presented below.
+Another type of query - a phrase search query - allows you to search entire phrases in documents. Detailed information on the phase search is on the page [Phrase search]({{< ref "search-net/developer-guide/advanced-usage/searching/phrase-search.md" >}}). An example of the phrase search is presented below.
 
 **C#**
 
@@ -140,7 +140,7 @@ SearchResult result = index.Search(query); // Search for the phrase 'theory of s
 
 ### Advanced usage topics
 
-To learn more about search features and get familiar how to enhance your search solution, please refer to the [advanced usage section](Advanced%2BUsage.html).
+To learn more about search features and get familiar how to enhance your search solution, please refer to the [advanced usage section]({{< ref "search-net/developer-guide/advanced-usage/_index.md" >}}).
 
 ### GitHub examples
 

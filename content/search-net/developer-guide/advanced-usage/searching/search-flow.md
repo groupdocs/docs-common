@@ -8,9 +8,31 @@ keywords:
 productName: GroupDocs.Search for .NET
 hideChildren: False
 ---
-The table below shows the internal stages of each search operation. See also [Search flow](Search%2Bflow.html), [Search flow](Search%2Bflow.html).
+The table below shows the internal stages of each search operation. See also [Search flow]({{< ref "search-net/developer-guide/advanced-usage/searching/search-flow.md" >}}), [Search flow]({{< ref "search-net/developer-guide/advanced-usage/searching/search-flow.md" >}}).
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd"><p><strong>Operation</strong></p></td><td class="confluenceTd"><p><strong>Search flow</strong></p></td></tr><tr><td class="confluenceTd"><p>Simple term search (case insensitive)</p></td><td class="confluenceTd"><p>Keyboard layout correction<br class="atl-forced-newline">Spelling correction<br class="atl-forced-newline">Homophone search<br class="atl-forced-newline">Synonym search<br class="atl-forced-newline">Word forms search (since v.18.7)<br class="atl-forced-newline">Fuzzy search<br class="atl-forced-newline">Retrieving results</p></td></tr><tr><td class="confluenceTd"><p>Simple term search (case sensitive)</p></td><td class="confluenceTd"><p>Retrieving results</p></td></tr><tr><td colspan="1" class="confluenceTd">Wildcard search (since v.18.12)</td><td colspan="1" class="confluenceTd"><p>Wildcard search<br>Retrieving results</p></td></tr><tr><td class="confluenceTd"><p>Date range search</p></td><td class="confluenceTd"><p>Retrieving results</p></td></tr><tr><td class="confluenceTd"><p>Numeric range search</p></td><td class="confluenceTd"><p>Retrieving results</p></td></tr><tr><td class="confluenceTd"><p>Phrase search</p></td><td class="confluenceTd"><p>Retrieving results for each term of a phrase<br class="atl-forced-newline">Joining sets of results</p></td></tr><tr><td class="confluenceTd"><p>Regex search</p></td><td class="confluenceTd"><p>Regex search<br class="atl-forced-newline">Fuzzy search<br class="atl-forced-newline">Retrieving results</p></td></tr><tr><td class="confluenceTd"><p>And, Or</p></td><td class="confluenceTd"><p>Retrieving results for each operand<br class="atl-forced-newline">Combining sets of results</p></td></tr><tr><td class="confluenceTd"><p>Not</p></td><td class="confluenceTd"><p>Retrieving results&nbsp;for operand<br class="atl-forced-newline">Inverting set of results</p></td></tr></tbody></table>
+| Operation | Search flow |
+| --- | --- |
+| Simple term search (case insensitive) | Keyboard layout correction  
+Spelling correction  
+Homophone search  
+Synonym search  
+Word forms search (since v.18.7)  
+Fuzzy search  
+Retrieving results |
+| Simple term search (case sensitive) | Retrieving results |
+| Wildcard search (since v.18.12) | Wildcard search  
+Retrieving results |
+| Date range search | Retrieving results |
+| Numeric range search | Retrieving results |
+| Phrase search | Retrieving results for each term of a phrase  
+Joining sets of results |
+| Regex search | Regex search  
+Fuzzy search  
+Retrieving results |
+| And, Or | Retrieving results for each operand  
+Combining sets of results |
+| Not | Retrieving results for operand  
+Inverting set of results |
 
 ## More resources
 

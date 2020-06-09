@@ -18,7 +18,9 @@ There is 1 enhancements in this regular monthly release.
 
 ## All Changes
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd">Key</td><td class="confluenceTd">Summary</td><td class="confluenceTd">Category</td></tr><tr><td class="confluenceTd"><span>SEARCHNET-1458</span></td><td class="confluenceTd"><span>Implement support for indexing of more than 1 TB of text documents</span></td><td class="confluenceTd">Enhancement</td></tr></tbody></table>
+| Key | Summary | Category |
+| --- | --- | --- |
+| SEARCHNET-1458 | Implement support for indexing of more than 1 TB of text documents | Enhancement |
 
 ## Public API and Backward Incompatible Changes
 

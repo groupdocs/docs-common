@@ -18,7 +18,9 @@ There is 1 enhancement in this regular monthly release.
 
 ## All Changes
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd"><p>Key</p></td><td class="confluenceTd"><p>Summary</p></td><td class="confluenceTd"><p>Category</p></td></tr><tr><td class="confluenceTd"><p>SEARCHNET-1622</p></td><td class="confluenceTd"><p>Implement breaking functionality for IndexRepository class</p></td><td class="confluenceTd"><p>Enhancement</p></td></tr></tbody></table>
+| Key | Summary | Category |
+| --- | --- | --- |
+| SEARCHNET-1622 | Implement breaking functionality for IndexRepository class | Enhancement |
 
 ## Public API and Backward Incompatible Changes
 

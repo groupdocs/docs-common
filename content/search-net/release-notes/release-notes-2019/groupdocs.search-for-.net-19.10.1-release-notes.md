@@ -19,7 +19,10 @@ There are the following bug fixes and improvements:
 
 ## Full List of Issues Covering all Changes in this Release
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd"><p>Key</p></td><td class="confluenceTd"><p>Summary</p></td><td class="confluenceTd"><p>Category</p></td></tr><tr><td colspan="1" class="confluenceTd"><p>SEARCHNET-2129</p></td><td colspan="1" class="confluenceTd"><p>License setting error while extracting text of documents</p></td><td colspan="1" class="confluenceTd">Bug</td></tr><tr><td class="confluenceTd"><p>SEARCHNET-2127</p></td><td class="confluenceTd"><p>Add MailFieldNames class containing e-mail field names</p></td><td class="confluenceTd"><p>Improvement</p></td></tr></tbody></table>
+| Key | Summary | Category |
+| --- | --- | --- |
+| SEARCHNET-2129 | License setting error while extracting text of documents | Bug |
+| SEARCHNET-2127 | Add MailFieldNames class containing e-mail field names | Improvement |
 
 ## Public API and Backward Incompatible Changes
 

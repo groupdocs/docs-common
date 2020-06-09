@@ -23,4 +23,11 @@ There are 6 features in this regular monthly release. The most notable are:
 
 ## All Changes
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd"><p>Key</p></td><td class="confluenceTd"><p>Summary</p></td><td class="confluenceTd"><p>Category</p></td></tr><tr><td class="confluenceTd"><p>SEARCHNET-455</p></td><td class="confluenceTd"><p>Add to Search Results hit count property</p></td><td class="confluenceTd"><p>Enhancement</p></td></tr><tr><td class="confluenceTd"><p>SEARCHNET-435</p></td><td class="confluenceTd"><p>Add checking for already indexed documents to Index.AddToIndex Method</p></td><td class="confluenceTd"><p>Enhancement</p></td></tr><tr><td class="confluenceTd"><p>SEARCHNET-436</p></td><td class="confluenceTd"><p>Improve Update method to check for all document changes in folder (adding, removing, editing)</p></td><td class="confluenceTd"><p>Enhancement</p></td></tr><tr><td class="confluenceTd"><p>SEARCHNET-535</p></td><td class="confluenceTd"><p>Implement support of OST and PST MS Outlook formats</p></td><td class="confluenceTd"><p>New feature</p></td></tr><tr><td class="confluenceTd"><p>SEARCHNET-562</p></td><td class="confluenceTd"><p>Add indexing of metadata for ppt and pptx documents</p></td><td class="confluenceTd"><p>Enhancement</p></td></tr><tr><td class="confluenceTd"><p>SEARCHNET-578</p></td><td class="confluenceTd"><p>Improve AddToIndex method to make possible add to index separate files</p></td><td class="confluenceTd"><p>Enhancement</p></td></tr></tbody></table>
+| Key | Summary | Category |
+| --- | --- | --- |
+| SEARCHNET-455 | Add to Search Results hit count property | Enhancement |
+| SEARCHNET-435 | Add checking for already indexed documents to Index.AddToIndex Method | Enhancement |
+| SEARCHNET-436 | Improve Update method to check for all document changes in folder (adding, removing, editing) | Enhancement |
+| SEARCHNET-535 | Implement support of OST and PST MS Outlook formats | New feature |
+| SEARCHNET-562 | Add indexing of metadata for ppt and pptx documents | Enhancement |
+| SEARCHNET-578 | Improve AddToIndex method to make possible add to index separate files | Enhancement |

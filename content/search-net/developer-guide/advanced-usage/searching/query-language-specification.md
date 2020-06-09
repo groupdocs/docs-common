@@ -8,7 +8,7 @@ keywords:
 productName: GroupDocs.Search for .NET
 hideChildren: False
 ---
-The text below represents the complete specification of the search query DSL (Domain Specific Language) used in text queries. See also [Query language specification](Query%2Blanguage%2Bspecification.html), [Query language specification](Query%2Blanguage%2Bspecification.html).
+The text below represents the complete specification of the search query DSL (Domain Specific Language) used in text queries. See also [Query language specification]({{< ref "search-net/developer-guide/advanced-usage/searching/query-language-specification.md" >}}), [Query language specification]({{< ref "search-net/developer-guide/advanced-usage/searching/query-language-specification.md" >}}).
 
 *query*:
 

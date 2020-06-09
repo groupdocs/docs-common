@@ -10,7 +10,7 @@ hideChildren: False
 ---
 The use of aliases allows you to reduce the length of search queries in text form. To use an alias in a search query, you must enter the @ symbol with the name of the alias after it without spaces.
 
-Aliases are stored in the alias dictionary. By default the alias dictionary is empty. Detailed information on managing the alias dictionary can be found on the [Using aliases](Using%2Baliases.html) page of the [Using aliases](Using%2Baliases.html) section.
+Aliases are stored in the alias dictionary. By default the alias dictionary is empty. Detailed information on managing the alias dictionary can be found on the [Using aliases]({{< ref "search-net/developer-guide/advanced-usage/searching/using-aliases.md" >}}) page of the [Using aliases]({{< ref "search-net/developer-guide/advanced-usage/searching/using-aliases.md" >}}) section.
 
 An example of using aliases for searching is presented below.
 

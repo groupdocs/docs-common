@@ -12,7 +12,7 @@ This brief guide describes the basic steps for creating your first search index.
 
 ## Step #1: Create new index
 
-First of all you need to create an index. An index can be created in memory or on disk. An index created in memory cannot be saved after exiting your program. In contrast, an index created on disk may be loaded in the future to continue working. Details on creating an index are described in the section [Creating an index](Creating%2Ban%2Bindex.html). The following example shows how to create an index on disk.
+First of all you need to create an index. An index can be created in memory or on disk. An index created in memory cannot be saved after exiting your program. In contrast, an index created on disk may be loaded in the future to continue working. Details on creating an index are described in the section [Creating an index]({{< ref "search-net/developer-guide/advanced-usage/creating-an-index/_index.md" >}}). The following example shows how to create an index on disk.
 
 **C#**
 
@@ -34,7 +34,7 @@ Index index = new Index(indexFolder);
 
 ## Step #3: Subscribe to index events
 
-After creating an index, you need to add documents to the index for indexing. Indexing documents can be successful or unsuccessful for various reasons, for example, due to read errors from the disk or the presence of a password to access a document. To receive information about indexing errors, you can subscribe to the ErrorOccurred event. To work with events, see the section [Search index events](Search%2Bindex%2Bevents.html). The following example shows how to subscribe to the ErrorOccurred event.
+After creating an index, you need to add documents to the index for indexing. Indexing documents can be successful or unsuccessful for various reasons, for example, due to read errors from the disk or the presence of a password to access a document. To receive information about indexing errors, you can subscribe to the ErrorOccurred event. To work with events, see the section [Search index events]({{< ref "search-net/developer-guide/advanced-usage/creating-an-index/search-index-events.md" >}}). The following example shows how to subscribe to the ErrorOccurred event.
 
 **C#**
 
@@ -62,7 +62,7 @@ index.Add(documentsFolder); // Synchronous indexing documents from the specified
 
 ## Step #5: Add files asynchronously
 
-More often, however, it is necessary to perform indexing asynchronously, with the ability to execute other tasks in the thread that launched the operation. A detailed description of all aspects of the indexing process is provided in the section [Indexing](Indexing.html). The following example shows how to perform indexing asynchronously.
+More often, however, it is necessary to perform indexing asynchronously, with the ability to execute other tasks in the thread that launched the operation. A detailed description of all aspects of the indexing process is provided in the section [Indexing]({{< ref "search-net/developer-guide/advanced-usage/indexing/_index.md" >}}). The following example shows how to perform indexing asynchronously.
 
 **C#**
 
@@ -93,7 +93,7 @@ index.Add(documentsFolder, options);
 
 ## Step #6: Perform search
 
-When documents are indexed, the index is ready to handle search queries. The following types of search queries are supported: simple, fuzzy, case sensitive, boolean, phrasal, faceted, with wildcards, and others. Description of search queries of various types is presented in the section [Searching](Searching.html). The example below shows how to perform simple search in an index.
+When documents are indexed, the index is ready to handle search queries. The following types of search queries are supported: simple, fuzzy, case sensitive, boolean, phrasal, faceted, with wildcards, and others. Description of search queries of various types is presented in the section [Searching]({{< ref "search-net/developer-guide/advanced-usage/searching/_index.md" >}}). The example below shows how to perform simple search in an index.
 
 **C#**
 
@@ -104,7 +104,7 @@ SearchResult result = index.Search(query); // Searching in the index
 
 ## Step #7: Use search results
 
-When a search is completed, you need to somehow interpret a result. The result can be represented by a simple list of documents found, or the words and phrases found can be highlighted in the text of the document. For more information on processing search results, see [Search results](Search%2Bresults.html). The example below shows how to list found documents in the console.
+When a search is completed, you need to somehow interpret a result. The result can be represented by a simple list of documents found, or the words and phrases found can be highlighted in the text of the document. For more information on processing search results, see [Search results]({{< ref "search-net/developer-guide/advanced-usage/searching/search-results.md" >}}). The example below shows how to list found documents in the console.
 
 **C#**
 
@@ -123,7 +123,7 @@ for (int i = 0; i < result.DocumentCount; i++)
 }
 ```
 
-The following example shows how to highlight search results in the text of a document. Detailed information on how to highlight search results is described in the section [Highlighting search results](Highlighting%2Bsearch%2Bresults.html).
+The following example shows how to highlight search results in the text of a document. Detailed information on how to highlight search results is described in the section [Highlighting search results]({{< ref "search-net/developer-guide/advanced-usage/searching/highlighting-search-results.md" >}}).
 
 **C#**
 

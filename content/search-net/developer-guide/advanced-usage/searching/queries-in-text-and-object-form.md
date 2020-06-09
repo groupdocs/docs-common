@@ -10,11 +10,11 @@ hideChildren: False
 ---
 There are two ways to create a search query: in text or object form.
 
-A search query in text form is simpler but less flexible. The flexibility of queries in object form lies in the fact that it is possible for each subquery to set separate search options. In object form, you can also use, for example, regular expression query as a part of more complex one. All combinations of nesting search queries in object form can be found on the page [Nesting search queries in object form](Nesting%2Bsearch%2Bqueries%2Bin%2Bobject%2Bform.html).
+A search query in text form is simpler but less flexible. The flexibility of queries in object form lies in the fact that it is possible for each subquery to set separate search options. In object form, you can also use, for example, regular expression query as a part of more complex one. All combinations of nesting search queries in object form can be found on the page [Nesting search queries in object form]({{< ref "search-net/developer-guide/advanced-usage/searching/nesting-search-queries-in-object-form.md" >}}).
 
 The correlation of two forms of search queries is that each text query before search is transformed to query in object form. Therefore, processor handles queries in object form faster.
 
-The full specification of the query language in text form is presented on the page [Query language specification](Query%2Blanguage%2Bspecification.html). Syntax with examples of all elements allowed in text search queries is presented on the page [Search operation table](Search%2Boperation%2Btable.html).
+The full specification of the query language in text form is presented on the page [Query language specification](Query%2Blanguage%2Bspecification.html). Syntax with examples of all elements allowed in text search queries is presented on the page [Search operation table]({{< ref "search-net/developer-guide/advanced-usage/searching/search-operation-table.md" >}}).
 
 Each example in this documentation is usually given with the search query in text and object form.
 

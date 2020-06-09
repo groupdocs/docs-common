@@ -12,7 +12,7 @@ Homophone search, or in other words phonic search, allows you to find not only t
 
 To enable homophone search, you must set the [UseHomophoneSearch](https://apireference.groupdocs.com/net/search/groupdocs.search.options/searchoptions/properties/usehomophonesearch) property of the [SearchOptions](https://apireference.groupdocs.com/net/search/groupdocs.search.options/searchoptions) class to true. By default, homophone search is disabled.
 
-The default homophone dictionary contains homophones only for the English language. To manage the homophone dictionary, see the [Homophone search](Homophone%2Bsearch.html) page in the [Homophone search](Homophone%2Bsearch.html) section.
+The default homophone dictionary contains homophones only for the English language. To manage the homophone dictionary, see the [Homophone search]({{< ref "search-net/developer-guide/advanced-usage/searching/homophone-search.md" >}}) page in the [Homophone search]({{< ref "search-net/developer-guide/advanced-usage/searching/homophone-search.md" >}}) section.
 
 The following example demonstrates the homophone search.
 

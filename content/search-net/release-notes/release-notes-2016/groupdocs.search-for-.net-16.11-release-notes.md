@@ -18,7 +18,9 @@ There is one feature in this regular monthly release:
 
 ## All Changes
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd"><p>Key</p></td><td class="confluenceTd"><p>Summary</p></td><td class="confluenceTd"><p>Category</p></td></tr><tr><td class="confluenceTd"><p>SEARCHNET-452</p></td><td class="confluenceTd"><p>Implement Case sensitive search feature</p></td><td class="confluenceTd"><p>New Feature</p></td></tr></tbody></table>
+| Key | Summary | Category |
+| --- | --- | --- |
+| SEARCHNET-452 | Implement Case sensitive search feature | New Feature |
 
 ## Public API and Backward Incompatible Changes
 

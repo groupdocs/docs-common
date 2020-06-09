@@ -78,7 +78,7 @@ for (int i = 0; i < result.DocumentCount; i++)
 
 ## Highlight search results
 
-At the end of a search, it is usually necessary to visualize the results by highlighting the words found in the text. You can highlight search results either in the text of an entire document, or in separate segments. Detailed information about highlighting search results can be found on the page [Highlighting search results](Highlighting%2Bsearch%2Bresults.html). Below is an example of highlighting search results in the text of an entire document.
+At the end of a search, it is usually necessary to visualize the results by highlighting the words found in the text. You can highlight search results either in the text of an entire document, or in separate segments. Detailed information about highlighting search results can be found on the page [Highlighting search results]({{< ref "search-net/developer-guide/advanced-usage/searching/highlighting-search-results.md" >}}). Below is an example of highlighting search results in the text of an entire document.
 
 **C#**
 
@@ -109,7 +109,7 @@ if (result.DocumentCount > 0)
 
 ### Advanced usage topics
 
-To learn more about search features and get familiar how to enhance your search solution, please refer to the [advanced usage section](Advanced%2BUsage.html).
+To learn more about search features and get familiar how to enhance your search solution, please refer to the [advanced usage section]({{< ref "search-net/developer-guide/advanced-usage/_index.md" >}}).
 
 ### GitHub examples
 

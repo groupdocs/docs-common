@@ -27,7 +27,18 @@ SEARCHNET-1197 Implement option for spelling corrector to consider transposition
 
 ## All Changes
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd">Key</td><td class="confluenceTd">Summary</td><td class="confluenceTd">Category</td></tr><tr><td class="confluenceTd">SEARCHNET-1087</td><td class="confluenceTd">Add public constants with field names</td><td class="confluenceTd">Enhancement</td></tr><tr><td class="confluenceTd">SEARCHNET-1191</td><td class="confluenceTd">Remove obsolete&nbsp;properties&nbsp;from IndexingSettings</td><td class="confluenceTd">Enhancement</td></tr><tr><td class="confluenceTd">SEARCHNET-563</td><td class="confluenceTd">Implement functionality for storing document text in index</td><td class="confluenceTd">New Feature</td></tr><tr><td class="confluenceTd">SEARCHNET-575</td><td class="confluenceTd">Add DocumentFilter property to IndexingSetting for filtering files</td><td class="confluenceTd">New Feature</td></tr><tr><td class="confluenceTd">SEARCHNET-1150</td><td class="confluenceTd">Implement automatic encoding detection for text documents</td><td class="confluenceTd">New Feature</td></tr><tr><td class="confluenceTd">SEARCHNET-1159</td><td class="confluenceTd">Implement support of CHM files</td><td class="confluenceTd">New Feature</td></tr><tr><td class="confluenceTd">SEARCHNET-1161</td><td class="confluenceTd">Implement feature 'Only best results range' for fuzzy search</td><td class="confluenceTd">New Feature</td></tr><tr><td class="confluenceTd">SEARCHNET-1162</td><td class="confluenceTd">Implement feature 'Only best results range' for spelling corrector</td><td class="confluenceTd">New Feature</td></tr><tr><td class="confluenceTd">SEARCHNET-1196</td><td class="confluenceTd">Implement option for fuzzy search to consider transposition as a single mistake or not</td><td class="confluenceTd">New Feature</td></tr><tr><td class="confluenceTd">SEARCHNET-1197</td><td class="confluenceTd">Implement option for spelling corrector to consider transposition as a single mistake or not</td><td class="confluenceTd">New Feature</td></tr></tbody></table>
+| Key | Summary | Category |
+| --- | --- | --- |
+| SEARCHNET-1087 | Add public constants with field names | Enhancement |
+| SEARCHNET-1191 | Remove obsolete properties from IndexingSettings | Enhancement |
+| SEARCHNET-563 | Implement functionality for storing document text in index | New Feature |
+| SEARCHNET-575 | Add DocumentFilter property to IndexingSetting for filtering files | New Feature |
+| SEARCHNET-1150 | Implement automatic encoding detection for text documents | New Feature |
+| SEARCHNET-1159 | Implement support of CHM files | New Feature |
+| SEARCHNET-1161 | Implement feature 'Only best results range' for fuzzy search | New Feature |
+| SEARCHNET-1162 | Implement feature 'Only best results range' for spelling corrector | New Feature |
+| SEARCHNET-1196 | Implement option for fuzzy search to consider transposition as a single mistake or not | New Feature |
+| SEARCHNET-1197 | Implement option for spelling corrector to consider transposition as a single mistake or not | New Feature |
 
 ##   
 Public API and Backward Incompatible Changes

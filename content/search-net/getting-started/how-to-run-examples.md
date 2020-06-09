@@ -12,7 +12,7 @@ hideChildren: False
 
 *   Open Visual Studio and go to **File** -> **New **\->** Project**.
 *   Select appropriate project type - Console App, ASP.NET Web Application etc.
-*   Install **GroupDocs.Search for .NET **from Nuget or official GroupDocs website following this [guide](Installation.html).
+*   Install **GroupDocs.Search for .NET **from Nuget or official GroupDocs website following this [guide]({{< ref "search-net/getting-started/installation.md" >}}).
 *   Code your first application with **GroupDocs.Search for .NET **like this:
     
 
@@ -50,7 +50,7 @@ In extracted files and folders, you can find the following solution file:
 
 The project is created in **Microsoft Visual Studio 2012**. The **Data** folder contains all the sample document files used in the examples.
 
-To run the examples, open the solution file in Visual Studio and build the project. To add missing references for **GroupDocs.Search** see [How to Run](How%2Bto%2BRun%2BExamples.html) [Examples](https://docs.groupdocs.com/display/watermarknet/How+to+Run+Examples). All the functions are called from **Program.cs**. Un-comment the function you want to run and comment the rest.
+To run the examples, open the solution file in Visual Studio and build the project. To add missing references for **GroupDocs.Search** see [How to Run]({{< ref "search-net/getting-started/how-to-run-examples.md" >}}) [Examples](https://docs.groupdocs.com/display/watermarknet/How+to+Run+Examples). All the functions are called from **Program.cs**. Un-comment the function you want to run and comment the rest.
 
 ![](search-net/images/how-to-run-examples_1.jpg)
 

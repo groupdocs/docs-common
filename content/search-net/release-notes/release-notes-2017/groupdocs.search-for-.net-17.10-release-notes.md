@@ -20,7 +20,11 @@ SEARCHNET-1211 Implement calling ProgressChanged event for skipped and filtered 
 
 ## All Changes
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd">Key</td><td class="confluenceTd">Summary</td><td class="confluenceTd">Category</td></tr><tr><td class="confluenceTd">SEARCHNET-1188</td><td class="confluenceTd">Implement option to cache document texts with high compression level</td><td class="confluenceTd">Enhancement</td></tr><tr><td class="confluenceTd">SEARCHNET-1195</td><td class="confluenceTd">Implement safe updating of index files to increase reliability</td><td class="confluenceTd">Enhancement</td></tr><tr><td class="confluenceTd">SEARCHNET-1211</td><td class="confluenceTd">Implement calling ProgressChanged event for skipped and filtered documents</td><td class="confluenceTd">Enhancement</td></tr></tbody></table>
+| Key | Summary | Category |
+| --- | --- | --- |
+| SEARCHNET-1188 | Implement option to cache document texts with high compression level | Enhancement |
+| SEARCHNET-1195 | Implement safe updating of index files to increase reliability | Enhancement |
+| SEARCHNET-1211 | Implement calling ProgressChanged event for skipped and filtered documents | Enhancement |
 
 ## Public API and Backward Incompatible Changes
 

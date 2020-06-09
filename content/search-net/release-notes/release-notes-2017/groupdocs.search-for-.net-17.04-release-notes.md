@@ -19,7 +19,10 @@ There are 2 features bug fixes and enhancements in this regular monthly release.
 
 ## All Changes
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd"><p>Key</p></td><td class="confluenceTd"><p>Summary</p></td><td class="confluenceTd"><p>Category</p></td></tr><tr><td class="confluenceTd"><p>SEARCHNET-457</p></td><td class="confluenceTd"><p>Implement using Dates Ranges in search</p></td><td class="confluenceTd"><p>New Feature</p></td></tr><tr><td class="confluenceTd"><p>SEARCHNET-905</p></td><td class="confluenceTd"><p>Implement definition of TableDiscreteFunction class as step function</p></td><td class="confluenceTd"><p>New Feature</p></td></tr></tbody></table>
+| Key | Summary | Category |
+| --- | --- | --- |
+| SEARCHNET-457 | Implement using Dates Ranges in search | New Feature |
+| SEARCHNET-905 | Implement definition of TableDiscreteFunction class as step function | New Feature |
 
 ##   
 Public API and Backward Incompatible Changes

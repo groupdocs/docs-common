@@ -8,7 +8,7 @@ keywords:
 productName: GroupDocs.Search for .NET
 hideChildren: False
 ---
-This page contains a list of supported features. For detailed information on a particular feature, refer to the corresponding pages in the [Advanced Usage](Advanced%2BUsage.html) section.
+This page contains a list of supported features. For detailed information on a particular feature, refer to the corresponding pages in the [Advanced Usage]({{< ref "search-net/developer-guide/advanced-usage/_index.md" >}}) section.
 
 ## Indexing
 

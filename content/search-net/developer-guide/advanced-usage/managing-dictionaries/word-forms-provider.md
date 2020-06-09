@@ -8,7 +8,7 @@ keywords:
 productName: GroupDocs.Search for .NET
 hideChildren: False
 ---
-The [IWordFormsProvider](https://apireference.groupdocs.com/net/search/groupdocs.search.dictionaries/iwordformsprovider) interface is designed to implement a word forms provider for searching by word forms. For information on searching by word forms, see [Word forms provider](Word%2Bforms%2Bprovider.html) page.
+The [IWordFormsProvider](https://apireference.groupdocs.com/net/search/groupdocs.search.dictionaries/iwordformsprovider) interface is designed to implement a word forms provider for searching by word forms. For information on searching by word forms, see [Word forms provider]({{< ref "search-net/developer-guide/advanced-usage/managing-dictionaries/word-forms-provider.md" >}}) page.
 
 The [IWordFormsProvider](https://apireference.groupdocs.com/net/search/groupdocs.search.dictionaries/iwordformsprovider) interface contains only one [GetWordForms](https://apireference.groupdocs.com/net/search/groupdocs.search.dictionaries/iwordformsprovider/methods/getwordforms) method, which returns various forms for the word passed as an argument. An example implementation of a simple provider of word forms is presented below.
 

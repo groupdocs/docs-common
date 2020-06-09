@@ -21,7 +21,12 @@ There are 4 enhancements in this regular monthly release. The most notable are:
 
 ## All Changes
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd">Key</td><td class="confluenceTd">Summary</td><td class="confluenceTd">Category</td></tr><tr><td class="confluenceTd">SEARCHNET-1294</td><td class="confluenceTd">Improve representation of results of exact phrase search</td><td class="confluenceTd">Enhancement</td></tr><tr><td class="confluenceTd">SEARCHNET-1295</td><td class="confluenceTd">Improve calculation of relevance of search results</td><td class="confluenceTd">Enhancement</td></tr><tr><td class="confluenceTd">SEARCHNET-1296</td><td class="confluenceTd">Improve search query syntax</td><td class="confluenceTd">Enhancement</td></tr><tr><td class="confluenceTd">SEARCHNET-1275</td><td class="confluenceTd">Implement highlighting of results of exact phrase search in text</td><td class="confluenceTd">Enhancement&nbsp;</td></tr></tbody></table>
+| Key | Summary | Category |
+| --- | --- | --- |
+| SEARCHNET-1294 | Improve representation of results of exact phrase search | Enhancement |
+| SEARCHNET-1295 | Improve calculation of relevance of search results | Enhancement |
+| SEARCHNET-1296 | Improve search query syntax | Enhancement |
+| SEARCHNET-1275 | Implement highlighting of results of exact phrase search in text | Enhancement  |
 
 ## Public API and Backward Incompatible Changes
 
@@ -185,11 +190,98 @@ In this enhancement, the syntax of the search query language has been redesigned
 
 #### Search operations (since v.17.12)
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd"><strong>Operation</strong></td><td class="confluenceTd"><strong>Syntax</strong></td><td class="confluenceTd"><strong>Description</strong></td><td class="confluenceTd"><strong>Examples</strong></td></tr><tr><td class="confluenceTd">Parentheses</td><td class="confluenceTd">(&nbsp;<em>inner-query</em>&nbsp;)</td><td class="confluenceTd">Parentheses are used to specify order of operations.</td><td class="confluenceTd"><ul><li>term1 I (term2 &amp; term3)&nbsp;</li><li>("total expenses" | "total costs") &amp; (82000 ~~ 83000 | 92000 ~~ 93000)</li></ul></td></tr><tr><td class="confluenceTd">Field specifier</td><td class="confluenceTd"><em>field-name</em>&nbsp;:&nbsp;<em>inner-query</em></td><td class="confluenceTd">Field specifier is used to specify field name.</td><td class="confluenceTd"><ul><li>content : term&nbsp;</li><li>creationdate : (2010 ~~ 2013)&nbsp;</li><li>filename&nbsp;: report&nbsp;&amp; creationdate: 2009</li></ul></td></tr><tr><td class="confluenceTd">Exact phrase query specifier</td><td class="confluenceTd">"&nbsp;<em>exact-phrase-query</em>&nbsp;"</td><td class="confluenceTd">Exact phrase query specifier is used to specify phrase for phrase search.</td><td class="confluenceTd"><ul><li>"term1 term2 term3"&nbsp;</li><li>"computational complexity theory"&nbsp;</li><li>"formal language" AND harrison</li></ul></td></tr><tr><td class="confluenceTd">And operation</td><td class="confluenceTd"><em>left-query</em>&nbsp;&amp;&nbsp;<em>right-query</em>&nbsp;<br class="atl-forced-newline"><em>left-query</em>&nbsp;AND&nbsp;<em>right-query</em></td><td class="confluenceTd">And operation is used to find documents which contain both left query and right query.</td><td class="confluenceTd"><ul><li>term1 &amp; term2&nbsp;</li><li>term1 AND term2&nbsp;</li><li>computational &amp; complexity</li></ul></td></tr><tr><td class="confluenceTd">Or operation</td><td class="confluenceTd"><em>left-query</em>&nbsp;|&nbsp;<em>right-query</em>&nbsp;<br class="atl-forced-newline"><em>left-query</em>&nbsp;||&nbsp;<em>right-query</em>&nbsp;<br class="atl-forced-newline"><em>left-query</em>&nbsp;OR&nbsp;<em>right-query</em></td><td class="confluenceTd">Or operation is used to find documents which contain left query, or right query, or both.</td><td class="confluenceTd"><ul><li>term1 | term2&nbsp;</li><li>term1 || term2&nbsp;</li><li>term1 OR term2</li><li>"cumulative distribution function" OR "cumulative density function"</li></ul></td></tr><tr><td class="confluenceTd">Not operation</td><td class="confluenceTd">!&nbsp;<em>inner-query</em>&nbsp;<br class="atl-forced-newline">NOT&nbsp;<em>inner-query</em></td><td class="confluenceTd">Not operation is used to find all documents which do not contain inner query.</td><td class="confluenceTd"><ul><li>! term&nbsp;</li><li>NOT term&nbsp;</li><li>author : (Cardano AND NOT Gerolamo)</li></ul></td></tr><tr><td class="confluenceTd">Macro name specifier</td><td class="confluenceTd">@<em>macro-name</em></td><td class="confluenceTd">Macro name specifier is used to specify name of macro within search query that will be replaces with the body of the macro before parsing the query.</td><td class="confluenceTd"><ul><li>@query_macro&nbsp;</li><li>@macro1 &amp; @macro2</li></ul></td></tr><tr><td class="confluenceTd">Regular expression specifier</td><td class="confluenceTd">^<em>regular-expression</em></td><td class="confluenceTd">Regular expression specifier is used to specify query that is regular expression.</td><td class="confluenceTd"><ul><li>^^[0-9]{1,5}$</li></ul></td></tr><tr><td class="confluenceTd">Numeric range specifier</td><td class="confluenceTd"><em>start-number</em>&nbsp;~~&nbsp;<em>end-number</em></td><td class="confluenceTd">Numeric range specifier is used to specify range for numeric range search.</td><td class="confluenceTd"><ul><li>13 ~~ 42&nbsp;</li><li>10000000000 ~~ 100000000000</li></ul></td></tr><tr><td class="confluenceTd">Date range specifier</td><td class="confluenceTd">daterange(&nbsp;<em>start-date</em>&nbsp;~~&nbsp;<em>end-date&nbsp;</em>)</td><td class="confluenceTd">Date range specifier is used to specify range for date range search.</td><td class="confluenceTd"><ul><li>daterange(09.28.2017~~11.11.2017)</li></ul></td></tr></tbody></table>
+| Operation | Syntax | Description | Examples |
+| --- | --- | --- | --- |
+| Parentheses | ( *inner-query* ) | Parentheses are used to specify order of operations. | 
+*   term1 I (term2 & term3) 
+*   ("total expenses" | "total costs") & (82000 ~~ 83000 | 92000 ~~ 93000)
+
+ |
+| Field specifier | *field-name* : *inner-query* | Field specifier is used to specify field name. | 
+
+*   content : term 
+*   creationdate : (2010 ~~ 2013) 
+*   filename : report & creationdate: 2009
+
+ |
+| Exact phrase query specifier | " *exact-phrase-query* " | Exact phrase query specifier is used to specify phrase for phrase search. | 
+
+*   "term1 term2 term3" 
+*   "computational complexity theory" 
+*   "formal language" AND harrison
+
+ |
+| And operation | *left-query* & *right-query*   
+*left-query* AND *right-query* | And operation is used to find documents which contain both left query and right query. | 
+
+*   term1 & term2 
+*   term1 AND term2 
+*   computational & complexity
+
+ |
+| Or operation | *left-query* | *right-query*   
+*left-query* || *right-query*   
+*left-query* OR *right-query* | Or operation is used to find documents which contain left query, or right query, or both. | 
+
+*   term1 | term2 
+*   term1 || term2 
+*   term1 OR term2
+*   "cumulative distribution function" OR "cumulative density function"
+
+ |
+| Not operation | ! *inner-query*   
+NOT *inner-query* | Not operation is used to find all documents which do not contain inner query. | 
+
+*   ! term 
+*   NOT term 
+*   author : (Cardano AND NOT Gerolamo)
+
+ |
+| Macro name specifier | @*macro-name* | Macro name specifier is used to specify name of macro within search query that will be replaces with the body of the macro before parsing the query. | 
+
+*   @query\_macro 
+*   @macro1 & @macro2
+
+ |
+| Regular expression specifier | ^*regular-expression* | Regular expression specifier is used to specify query that is regular expression. | 
+
+*   ^^\[0-9\]{1,5}$
+
+ |
+| Numeric range specifier | *start-number* ~~ *end-number* | Numeric range specifier is used to specify range for numeric range search. | 
+
+*   13 ~~ 42 
+*   10000000000 ~~ 100000000000
+
+ |
+| Date range specifier | daterange( *start-date* ~~ *end-date *) | Date range specifier is used to specify range for date range search. | 
+
+*   daterange(09.28.2017~~11.11.2017)
+
+ |
 
 #### Search flow (since v.17.12)
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd"><strong>Operation</strong></td><td class="confluenceTd"><strong>Search flow</strong></td></tr><tr><td class="confluenceTd">Simple term search (case insensitive)</td><td class="confluenceTd">Keyboard layout correction&nbsp;<br class="atl-forced-newline">Spelling correction&nbsp;<br class="atl-forced-newline">Homophone search&nbsp;<br class="atl-forced-newline">Synonym search&nbsp;<br class="atl-forced-newline">Fuzzy search&nbsp;<br class="atl-forced-newline">Retrieving results</td></tr><tr><td class="confluenceTd">Simple term search (case sensitive)</td><td class="confluenceTd">Retrieving results</td></tr><tr><td class="confluenceTd">Date range search</td><td class="confluenceTd">Retrieving results</td></tr><tr><td class="confluenceTd">Numeric range search</td><td class="confluenceTd">Retrieving results</td></tr><tr><td class="confluenceTd">Exact phrase search</td><td class="confluenceTd">Retrieving results for each term of the phrase&nbsp;<br class="atl-forced-newline">Joining sets of results</td></tr><tr><td class="confluenceTd">Regex search</td><td class="confluenceTd">Regex search&nbsp;<br class="atl-forced-newline">Fuzzy search&nbsp;<br class="atl-forced-newline">Retrieving results</td></tr><tr><td class="confluenceTd">And, Or</td><td class="confluenceTd">Retrieving results for each operand<br class="atl-forced-newline">Combining sets of results</td></tr><tr><td class="confluenceTd">Not</td><td class="confluenceTd">Retrieving results&nbsp;for operand<br class="atl-forced-newline">Inverting set of results</td></tr></tbody></table>
+| Operation | Search flow |
+| --- | --- |
+| Simple term search (case insensitive) | Keyboard layout correction   
+Spelling correction   
+Homophone search   
+Synonym search   
+Fuzzy search   
+Retrieving results |
+| Simple term search (case sensitive) | Retrieving results |
+| Date range search | Retrieving results |
+| Numeric range search | Retrieving results |
+| Exact phrase search | Retrieving results for each term of the phrase   
+Joining sets of results |
+| Regex search | Regex search   
+Fuzzy search   
+Retrieving results |
+| And, Or | Retrieving results for each operand  
+Combining sets of results |
+| Not | Retrieving results for operand  
+Inverting set of results |
 
 #### Query language specification (since v.17.12)
 

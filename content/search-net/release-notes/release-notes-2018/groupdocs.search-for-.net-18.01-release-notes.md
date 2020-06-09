@@ -22,7 +22,13 @@ There are 5 enhancements in this regular monthly release. The most notable are::
 
 ## All Changes
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd">Key</td><td class="confluenceTd">Summary</td><td class="confluenceTd">Category</td></tr><tr><td class="confluenceTd"><span>SEARCHNET-1100</span></td><td class="confluenceTd"><span>Implement breaking of search process</span></td><td class="confluenceTd">Enhancement</td></tr><tr><td class="confluenceTd"><span>SEARCHNET-1204</span></td><td class="confluenceTd"><span>Implement search method with query in the form of an object tree as a parameter</span></td><td class="confluenceTd">Enhancement</td></tr><tr><td class="confluenceTd"><span>SEARCHNET-1319</span></td><td class="confluenceTd"><span>Implement ability to set a collection of date formats for date range search</span></td><td class="confluenceTd">Enhancement</td></tr><tr><td class="confluenceTd"><span>SEARCHNET-1320</span></td><td class="confluenceTd"><span>Change date format in date range search query in accordance with ISO 8601</span></td><td class="confluenceTd">Enhancement&nbsp;</td></tr><tr><td colspan="1" class="confluenceTd"><span>SEARCHNET-1299</span></td><td colspan="1" class="confluenceTd"><span>Implement use of wildcards in phrase search</span></td><td colspan="1" class="confluenceTd"><span>Enhancement</span></td></tr></tbody></table>
+| Key | Summary | Category |
+| --- | --- | --- |
+| SEARCHNET-1100 | Implement breaking of search process | Enhancement |
+| SEARCHNET-1204 | Implement search method with query in the form of an object tree as a parameter | Enhancement |
+| SEARCHNET-1319 | Implement ability to set a collection of date formats for date range search | Enhancement |
+| SEARCHNET-1320 | Change date format in date range search query in accordance with ISO 8601 | Enhancement  |
+| SEARCHNET-1299 | Implement use of wildcards in phrase search | Enhancement |
 
 ## Public API and Backward Incompatible Changes
 

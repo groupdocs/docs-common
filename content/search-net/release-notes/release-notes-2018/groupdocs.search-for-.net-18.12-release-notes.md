@@ -19,7 +19,10 @@ There are 2 new features in this regular monthly release:
 
 ## All Changes
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd"><p>Key</p></td><td class="confluenceTd"><p>Summary</p></td><td class="confluenceTd"><p>Category</p></td></tr><tr><td class="confluenceTd"><p>SEARCHNET-803</p></td><td class="confluenceTd"><p>Implement blended characters</p></td><td class="confluenceTd"><p>New Feature</p></td></tr><tr><td colspan="1" class="confluenceTd">SEARCHNET-1781</td><td colspan="1" class="confluenceTd">Implement wildcard search</td><td colspan="1" class="confluenceTd">New Feature</td></tr></tbody></table>
+| Key | Summary | Category |
+| --- | --- | --- |
+| SEARCHNET-803 | Implement blended characters | New Feature |
+| SEARCHNET-1781 | Implement wildcard search | New Feature |
 
 ## Public API and Backward Incompatible Changes
 

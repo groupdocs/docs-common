@@ -8,7 +8,7 @@ keywords:
 productName: GroupDocs.Search for .NET
 hideChildren: False
 ---
-The [HomophoneDictionary](https://apireference.groupdocs.com/net/search/groupdocs.search.dictionaries/homophonedictionary) class is designed to store homophones in an index. For information on searching using homophones, see the [Homophone dictionary](Homophone%2Bdictionary.html) page.
+The [HomophoneDictionary](https://apireference.groupdocs.com/net/search/groupdocs.search.dictionaries/homophonedictionary) class is designed to store homophones in an index. For information on searching using homophones, see the [Homophone dictionary]({{< ref "search-net/developer-guide/advanced-usage/managing-dictionaries/homophone-dictionary.md" >}}) page.
 
 To get the number of homophones in the dictionary, use the [Count](https://apireference.groupdocs.com/net/search/groupdocs.search.dictionaries/homophonedictionary/properties/count) property.
 

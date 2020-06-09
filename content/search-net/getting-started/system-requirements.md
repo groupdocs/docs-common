@@ -10,7 +10,7 @@ hideChildren: False
 ---
 ## Overview
 
-GroupDocs.Search for .NET does not require any external software or third party tool to be installed. Just follow one of the way as described on the [Installation](Installation.html) page.
+GroupDocs.Search for .NET does not require any external software or third party tool to be installed. Just follow one of the way as described on the [Installation]({{< ref "search-net/getting-started/installation.md" >}}) page.
 
 ## Supported Operating Systems
 

@@ -25,7 +25,16 @@ There are 8 features and enhancements in this regular monthly release. The most 
 
 ## All Changes
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd"><p>Key</p></td><td class="confluenceTd"><p>Summary</p></td><td class="confluenceTd"><p>Category</p></td></tr><tr><td class="confluenceTd"><p>SEARCHNET-1004</p></td><td class="confluenceTd"><p>Implement optimization of simple search and fuzzy search</p></td><td class="confluenceTd"><p>Enhancement</p></td></tr><tr><td class="confluenceTd"><p>SEARCHNET-1005</p></td><td class="confluenceTd"><p>Implement optimization of index data on hard disc</p></td><td class="confluenceTd"><p>Enhancement</p></td></tr><tr><td class="confluenceTd"><p>SEARCHNET-1007</p></td><td class="confluenceTd"><p>Remove LoadSynonyms(string fileName) obsolete method</p></td><td class="confluenceTd"><p>Enhancement</p></td></tr><tr><td class="confluenceTd"><p>SEARCHNET-1008</p></td><td class="confluenceTd"><p>Remove SearchParameters.UseFuzzySearch obsolete parameter</p></td><td class="confluenceTd"><p>Enhancement</p></td></tr><tr><td class="confluenceTd"><p>SEARCHNET-1009</p></td><td class="confluenceTd"><p>Implement support of OneNote documents</p></td><td class="confluenceTd"><p>New Feature</p></td></tr><tr><td class="confluenceTd"><p>SEARCHNET-1010</p></td><td class="confluenceTd"><p>Implement support of Electronic Publications (epub)</p></td><td class="confluenceTd"><p>New Feature</p></td></tr><tr><td class="confluenceTd"><p>SEARCHNET-1011</p></td><td class="confluenceTd"><p>Implement support of new Presentations formats (pptm and ppsm)</p></td><td class="confluenceTd"><p>New Feature</p></td></tr><tr><td class="confluenceTd"><p>SEARCHNET-1012</p></td><td class="confluenceTd"><p>Implement support of OpenDocument presentation format (odp)</p></td><td class="confluenceTd"><p>New Feature</p></td></tr></tbody></table>
+| Key | Summary | Category |
+| --- | --- | --- |
+| SEARCHNET-1004 | Implement optimization of simple search and fuzzy search | Enhancement |
+| SEARCHNET-1005 | Implement optimization of index data on hard disc | Enhancement |
+| SEARCHNET-1007 | Remove LoadSynonyms(string fileName) obsolete method | Enhancement |
+| SEARCHNET-1008 | Remove SearchParameters.UseFuzzySearch obsolete parameter | Enhancement |
+| SEARCHNET-1009 | Implement support of OneNote documents | New Feature |
+| SEARCHNET-1010 | Implement support of Electronic Publications (epub) | New Feature |
+| SEARCHNET-1011 | Implement support of new Presentations formats (pptm and ppsm) | New Feature |
+| SEARCHNET-1012 | Implement support of OpenDocument presentation format (odp) | New Feature |
 
 ## Public API and Backward Incompatible Changes
 

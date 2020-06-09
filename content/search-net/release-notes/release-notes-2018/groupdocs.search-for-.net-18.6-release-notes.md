@@ -19,7 +19,11 @@ There are 3 enhancements in this regular monthly release. The most notable are:
 
 ## All Changes
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd">Key</td><td class="confluenceTd">Summary</td><td class="confluenceTd">Category</td></tr><tr><td class="confluenceTd"><span>SEARCHNET-1564</span></td><td class="confluenceTd"><span>Remove obsolete Relevance property from DetailedResultInfo</span></td><td class="confluenceTd"><span>Breaking Changes</span></td></tr><tr><td colspan="1" class="confluenceTd"><span>SEARCHNET-957</span></td><td colspan="1" class="confluenceTd"><span>Implement possibility to break indexing operation manually</span></td><td colspan="1" class="confluenceTd">Enhancement</td></tr><tr><td colspan="1" class="confluenceTd"><span>SEARCHNET-1551</span></td><td colspan="1" class="confluenceTd">Add ImportDictionary and ExportDictionary methods to index dictionaries</td><td colspan="1" class="confluenceTd">Enhancement</td></tr></tbody></table>
+| Key | Summary | Category |
+| --- | --- | --- |
+| SEARCHNET-1564 | Remove obsolete Relevance property from DetailedResultInfo | Breaking Changes |
+| SEARCHNET-957 | Implement possibility to break indexing operation manually | Enhancement |
+| SEARCHNET-1551 | Add ImportDictionary and ExportDictionary methods to index dictionaries | Enhancement |
 
 ## Public API and Backward Incompatible Changes
 

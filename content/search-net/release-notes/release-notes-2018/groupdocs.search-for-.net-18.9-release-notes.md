@@ -20,7 +20,11 @@ There are 3 enhancements in this regular monthly release.
 
 ## All Changes
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd"><p>Key</p></td><td class="confluenceTd"><p>Summary</p></td><td class="confluenceTd"><p>Category</p></td></tr><tr><td class="confluenceTd"><p>SEARCHNET-1673</p></td><td class="confluenceTd"><p>Implement ability to extract the list of indexed documents</p></td><td class="confluenceTd"><p>Enhancement</p></td></tr><tr><td colspan="1" class="confluenceTd">SEARCHNET-1672</td><td colspan="1" class="confluenceTd">Implement ability to extract document text</td><td colspan="1" class="confluenceTd">Enhancement</td></tr><tr><td colspan="1" class="confluenceTd">SEARCHNET-1653</td><td colspan="1" class="confluenceTd">Implement functionality of saving encodings</td><td colspan="1" class="confluenceTd">Enhancement</td></tr></tbody></table>
+| Key | Summary | Category |
+| --- | --- | --- |
+| SEARCHNET-1673 | Implement ability to extract the list of indexed documents | Enhancement |
+| SEARCHNET-1672 | Implement ability to extract document text | Enhancement |
+| SEARCHNET-1653 | Implement functionality of saving encodings | Enhancement |
 
 ## Public API and Backward Incompatible Changes
 

@@ -20,7 +20,11 @@ There are 3 enhancements and features in this regular monthly release. The most 
 
 ## All Changes
 
-<table class="confluenceTable"><tbody><tr><td class="confluenceTd">Key</td><td class="confluenceTd">Summary</td><td class="confluenceTd">Category</td></tr><tr><td class="confluenceTd">SEARCHNET-1238</td><td class="confluenceTd">Implement support of MSG, EML, EMLX file formats</td><td class="confluenceTd">Enhancement</td></tr><tr><td colspan="1" class="confluenceTd">SEARCHNET-1257</td><td colspan="1" class="confluenceTd">Improve indexing performance for Pdf documents</td><td colspan="1" class="confluenceTd">Enhancement</td></tr><tr><td class="confluenceTd">SEARCHNET-248</td><td class="confluenceTd">Implement Metadata Index feature</td><td class="confluenceTd">New Feature</td></tr></tbody></table>
+| Key | Summary | Category |
+| --- | --- | --- |
+| SEARCHNET-1238 | Implement support of MSG, EML, EMLX file formats | Enhancement |
+| SEARCHNET-1257 | Improve indexing performance for Pdf documents | Enhancement |
+| SEARCHNET-248 | Implement Metadata Index feature | New Feature |
 
 ## Public API and Backward Incompatible Changes
 

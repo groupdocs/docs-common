@@ -43,9 +43,9 @@ for (int i = 0; i < documents.Length; i++)
 
 ## Getting text of indexed documents
 
-The text of the indexed document can also be extracted from an index if the option to save the text of documents in the index has been enabled. If this option was not enabled when creating an index, then when the [GetDocumentText](https://apireference.groupdocs.com/net/search/groupdocs.search/index/methods/getdocumenttext/index) method of the [Index](https://apireference.groupdocs.com/net/search/groupdocs.search/index) class is called, the text of the document will be retrieved again. Details about saving the text of documents in an index can be found on the page [Getting indexed documents](Getting%2Bindexed%2Bdocuments.html).
+The text of the indexed document can also be extracted from an index if the option to save the text of documents in the index has been enabled. If this option was not enabled when creating an index, then when the [GetDocumentText](https://apireference.groupdocs.com/net/search/groupdocs.search/index/methods/getdocumenttext/index) method of the [Index](https://apireference.groupdocs.com/net/search/groupdocs.search/index) class is called, the text of the document will be retrieved again. Details about saving the text of documents in an index can be found on the page [Getting indexed documents]({{< ref "search-net/developer-guide/advanced-usage/searching/getting-indexed-documents.md" >}}).
 
-The generated text of the document is passed to an object of a class derived from the abstract class [OutputAdapter](https://apireference.groupdocs.com/net/search/groupdocs.search.common/outputadapter) to its constructor. Details on the output adapters are presented on the page [Getting indexed documents](Getting%2Bindexed%2Bdocuments.html).
+The generated text of the document is passed to an object of a class derived from the abstract class [OutputAdapter](https://apireference.groupdocs.com/net/search/groupdocs.search.common/outputadapter) to its constructor. Details on the output adapters are presented on the page [Getting indexed documents]({{< ref "search-net/developer-guide/advanced-usage/searching/getting-indexed-documents.md" >}}).
 
 After generating the text of a document into a file, this file can be opened by an Internet browser. The following example shows how to extract document text from an index.
 

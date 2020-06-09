@@ -8,7 +8,7 @@ keywords:
 productName: GroupDocs.Search for .NET
 hideChildren: False
 ---
-The [SpellingCorrector](https://apireference.groupdocs.com/net/search/groupdocs.search.dictionaries/spellingcorrector) class is designed to correct spelling errors in search queries, as well as to store words with correct spelling. You can learn about spelling correction in search queries on the [Spelling corrector](Spelling%2Bcorrector.html) page.
+The [SpellingCorrector](https://apireference.groupdocs.com/net/search/groupdocs.search.dictionaries/spellingcorrector) class is designed to correct spelling errors in search queries, as well as to store words with correct spelling. You can learn about spelling correction in search queries on the [Spelling corrector]({{< ref "search-net/developer-guide/advanced-usage/managing-dictionaries/spelling-corrector.md" >}}) page.
 
 To get the number of words in the spelling corrector dictionary, use the [Count](https://apireference.groupdocs.com/net/search/groupdocs.search.dictionaries/spellingcorrector/properties/count) property.
 

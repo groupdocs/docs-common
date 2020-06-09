@@ -24,12 +24,12 @@
             <div class="pf-docs-item-name">Getting Started</div>
             <div class="pf-docs-item-desc">Start quickly with our getting started documentation</div>     
             <ul class="fa-ul">
-                {{ $sectionPath := (printf "%s\\%s\\" .product.Key "getting-started")}} 
+                {{ $sectionPath := (printf "%s\\%s\\%s\\" .product.Family .product.Platform "getting-started")}} 
+               
                 {{ if ne (getenv "OS") "Windows_NT" }}
-                    {{ $sectionPath = (printf "%s/%s/" .product.Key "getting-started")}} 
+                    {{ $sectionPath = (printf "%s/%s/%s/" .product.Family .product.Platform "getting-started")}} 
                 {{ end }}
-
-                {{ range first 4 (where (where .ctx.Site.RegularPages "Section" .product.Key) ".File.Dir" "==" $sectionPath) }}                               
+                {{ range first 4 (where (where .ctx.Site.RegularPages "Section" .product.Family) ".File.Dir" "==" $sectionPath) }}                               
                     <li><span class="fa-li">
                         <i class="far fa-file-alt"></i></span>
                         <a href="{{ .Permalink }}">{{ .Params.title | humanize | title }}</a>
@@ -44,13 +44,13 @@
             <div class="pf-docs-item-name">Developer Guide</div>
             <div class="pf-docs-item-desc">Articles and guidelines for basic and advanced development</div>                              
             <ul class="fa-ul">            
-                {{ $devGuidePath := (printf "%s\\%s\\_index.md" .product.Key "developer-guide")}}     
+                {{ $devGuidePath := (printf "%s\\%s\\%s\\_index.md" .product.Family .product.Platform "developer-guide")}}     
                 {{ if ne (getenv "OS") "Windows_NT" }}
-                {{ $devGuidePath = (printf "%s/%s/_index.md" .product.Key "developer-guide")}}     
+                {{ $devGuidePath = (printf "%s/%s/_index.md" .product.Family .product.Platform "developer-guide")}}     
                 {{ end }}         
                
                 {{ $.ctx.Scratch.Set "counter" 0 }}                
-                {{ range (where (where .ctx.Site.Pages "Section" .product.Key) ".Kind" "==" "section") }}                
+                {{ range (where (where .ctx.Site.Pages "Section" .product.Family) ".Kind" "==" "section") }}                
                     
                     {{ if (eq .Parent.File.Path $devGuidePath) }}                
                     {{ if (lt ($.ctx.Scratch.Get "counter") 3) }}                    
